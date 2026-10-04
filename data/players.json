@@ -1,0 +1,7 @@
+[
+  { "name": "Erling Haaland", "club": "Manchester City", "position": "FW", "age": 26, "value": 220000000 },
+  { "name": "Bruno Fernandes", "club": "Manchester United", "position": "MF", "age": 32, "value": 35000000 },
+  { "name": "Virgil Van Dijk", "club": "Liverpool", "position": "DF", "age": 35, "value": 15000000 },
+  { "name": "Senne Lammens", "club": "Manchester United", "position": "GK", "age": 24, "value": 35000000 },
+  { "name": "Cole Palmer", "club": "Chelsea", "position": "MF", "age": 24, "value": 100000000 }
+]

@@ -1,0 +1,6 @@
+[
+  { "position": 1, "club": "Club A", "played": 10, "won": 8, "drawn": 1, "lost": 1, "gd": 15, "points": 25 },
+  { "position": 2, "club": "Club B", "played": 10, "won": 7, "drawn": 2, "lost": 1, "gd": 11, "points": 23 },
+  { "position": 3, "club": "Club C", "played": 10, "won": 6, "drawn": 2, "lost": 2, "gd": 7, "points": 20 }
+]
+    
