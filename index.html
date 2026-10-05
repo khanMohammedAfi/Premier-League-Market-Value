@@ -26,22 +26,46 @@
      
     </tbody>
   </table>
+  
+  
+  <h2>Market Movers</h2>
+  <p id="market-movers">The agent's weekly summary will appear here.</p>
 
 <h2>Player Market Values</h2>
   <table>
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Club</th>
-        <th>Position</th>
-        <th>Age</th>
-       <th id="value-header">Market Value ⇅</th>
+       <th>Photo</th>
+<th>Name</th>
+<th>Club</th>
+<th>Position</th>
+<th>Age</th>
+<th>Apps</th>
+<th>Goals</th>
+<th>Assists</th>
+<th id="value-header">Market Value ⇅</th>
       </tr>
     </thead>
     <tbody id="players-body">
     </tbody>
   </table>
 
+<section id="player-dashboard" hidden>
+  <button id="close-dashboard">Close</button>
+  <div class="dash-layout">
+    <img id="dash-photo" class="dash-photo" alt="">
+    <div class="dash-details">
+      <h2 id="dash-name"></h2>
+      <p id="dash-info"></p>
+      <ul id="dash-stats"></ul>
+      <h3>Latest events</h3>
+      <ul id="dash-latest"></ul>
+    </div>
+  </div>
+</section>
+
+
+<p><small>Player photos from Wikipedia/Wikimedia Commons; see each image's page for its license.</small></p>
   <script src="app.js"></script>
 </body>
 </html>

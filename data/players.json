@@ -1,7 +1,10 @@
 [
-  { "name": "Erling Haaland", "club": "Manchester City", "position": "FW", "age": 26, "value": 220000000 },
-  { "name": "Bruno Fernandes", "club": "Manchester United", "position": "MF", "age": 32, "value": 35000000 },
-  { "name": "Virgil Van Dijk", "club": "Liverpool", "position": "DF", "age": 35, "value": 15000000 },
-  { "name": "Senne Lammens", "club": "Manchester United", "position": "GK", "age": 24, "value": 35000000 },
-  { "name": "Cole Palmer", "club": "Chelsea", "position": "MF", "age": 24, "value": 100000000 }
+  { "name": "Erling Haaland", "club": "Manchester City", "position": "FW", "age": 26, "value": 220000000 ,"Appearances": 30, "Goals": 25, "Assists": 10},
+  { "name": "Mohamed Salah", "club": "Liverpool", "position": "FW", "age": 31, "value": 120000000 ,"Appearances": 28, "Goals": 20, "Assists": 12},
+  { "name": "Kevin De Bruyne", "club": "Manchester City", "position": "MF", "age": 32, "value": 100000000 ,"Appearances": 27, "Goals": 8, "Assists": 15},
+  { "name": "Harry Kane", "club": "Tottenham Hotspur", "position": "FW", "age": 30, "value": 90000000 ,"Appearances": 29, "Goals": 22, "Assists": 7},
+  { "name": "Bruno Fernandes", "club": "Manchester United", "position": "MF", "age": 32, "value": 35000000 ,"Appearances": 26, "Goals": 10, "Assists": 14},
+  { "name": "Virgil Van Dijk", "club": "Liverpool", "position": "DF", "age": 35, "value": 15000000 ,"Appearances": 25, "Goals": 2, "Assists": 1},
+  { "name": "Senne Lammens", "club": "Manchester United", "position": "GK", "age": 24, "value": 35000000 ,"Appearances": 30, "Goals Conceded": 20, "Clean Sheets": 12},
+  { "name": "Cole Palmer", "club": "Chelsea", "position": "MF", "age": 24, "value": 100000000 ,"Appearances": 28, "Goals": 5, "Assists": 8}
 ]
