@@ -60,9 +60,9 @@ function renderPlayers(list) {
       <td>${player.club}</td>
       <td>${player.position}</td>
       <td>${player.age}</td>
-      <td>${player.appearances}</td>
-      <td>${player.goals}</td>
-      <td>${player.assists}</td>
+            <td>${player.appearances ?? "-"}</td>
+      <td>${player.goals ?? "-"}</td>
+      <td>${player.assists ?? "-"}</td>
       <td>${euro.format(player.value)}</td>
     `;
     playersBody.appendChild(row);
@@ -101,9 +101,9 @@ function showDashboard(player, photoUrl) {
     `${player.club} | ${player.position} | Age ${player.age} | ${euro.format(player.value)}`;
 
   document.getElementById("dash-stats").innerHTML = `
-    <li>Appearances: ${player.appearances}</li>
-    <li>Goals: ${player.goals}</li>
-    <li>Assists: ${player.assists}</li>
+      <li>Appearances: ${player.appearances ?? "-"}</li>
+    <li>Goals: ${player.goals ?? "-"}</li>
+    <li>Assists: ${player.assists ?? "-"}</li>
   `;
 
   document.getElementById("dash-latest").textContent =
