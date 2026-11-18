@@ -1,0 +1,546 @@
+3189 Kepa Arrizabalaga | Arsenal
+4832 David Raya | Arsenal
+74831 Illan Meslier | Arsenal
+6154 Ben White | Arsenal
+6317 Ezri Konsa | Arsenal
+23128 Gabriel Magalhães | Arsenal
+80171 William Saliba | Arsenal
+98816 Jurrien Timber | Arsenal
+125674 Piero Hincapié | Arsenal
+133512 Riccardo Calafiori | Arsenal
+172839 Cristhian Mosquera | Arsenal
+1684 Bruno Guimarães | Arsenal
+4032 Eberechi Eze | Arsenal
+7427 Martin Ødegaard | Arsenal
+7935 Mikel Merino | Arsenal
+8215 Declan Rice | Arsenal
+115035 Martín Zubimendi | Arsenal
+244120 Myles Lewis-Skelly | Arsenal
+171 Kai Havertz | Arsenal
+8279 Viktor Gyökeres | Arsenal
+99813 Bukayo Saka | Arsenal
+144434 Christos Tzolis | Arsenal
+167720 Noni Madueke | Arsenal
+285128 Max Dowman | Arsenal
+302255 Maalik Hashi | Arsenal
+7675 Marco Bizot | Aston Villa
+118920 Zion Suzuki | Aston Villa
+204460 James Wright | Aston Villa
+3492 Victor Nilsson-Lindelöf | Aston Villa
+8158 Aaron Wan-Bissaka | Aston Villa
+8235 Tyrone Mings | Aston Villa
+11644 Matty Cash | Aston Villa
+33109 Pau Torres | Aston Villa
+131035 Taylor Harwood-Bellis | Aston Villa
+131120 Ian Maatsen | Aston Villa
+151241 Matteo Ruggeri | Aston Villa
+276000 Modou Keba Cisse | Aston Villa
+3181 Leon Goretzka | Aston Villa
+7817 Ross Barkley | Aston Villa
+8346 Boubacar Kamara | Aston Villa
+31941 Emiliano Buendía | Aston Villa
+34646 John McGinn | Aston Villa
+114024 Amadou Onana | Aston Villa
+138034 João Gomes | Aston Villa
+172899 Lamare Bogarde | Aston Villa
+212309 Johan Manzambi | Aston Villa
+7985 Tammy Abraham | Aston Villa
+152515 Nicolas Jackson | Aston Villa
+181901 Alejandro Garnacho | Aston Villa
+260718 Alysson | Aston Villa
+265040 Ibrahim M'Baye | Aston Villa
+280446 Brian Madjo | Aston Villa
+289528 George Hemmings | Aston Villa
+3141 Emiliano Martínez | Chelsea
+137544 Gabriel Slonina | Chelsea
+175910 Teddy Sharman-Lowe | Chelsea
+191068 Mike Penders | Chelsea
+8545 Wesley Fofana | Chelsea
+56628 Reece James | Chelsea
+82351 Maxence Lacroix | Chelsea
+151251 Pep Chavarría | Chelsea
+152498 Malo Gusto | Chelsea
+170440 Levi Colwill | Chelsea
+189477 Jorrel Hato | Chelsea
+206136 Marco Palestra | Chelsea
+209148 Aaron Anselmino | Chelsea
+249320 Josh Acheampong | Chelsea
+3320 Jordan Henderson | Chelsea
+82140 Morgan Rogers | Chelsea
+121103 Moisés Caicedo | Chelsea
+144892 Cole Palmer | Chelsea
+170261 Valentin Barco | Chelsea
+172738 Romeo Lavia | Chelsea
+301113 Mahdi Nicoll-Jazuli | Chelsea
+2074 Pedro Neto | Chelsea
+3328 Danny Welbeck | Chelsea
+103125 João Pedro | Chelsea
+150599 Emanuel Emegha | Chelsea
+179460 Jamie Bynoe-Gittens | Chelsea
+229421 Geovany Quenda | Chelsea
+244778 Estevao | Chelsea
+3309 Jordan Pickford | Everton
+6180 Thomas King | Everton
+82135 Mark Travers | Everton
+3316 James Tarkowski | Everton
+7792 Ainsley Maitland-Niles | Everton
+7829 Michael Keane | Everton
+16165 Vitalii Mykolenko | Everton
+114120 Jarrad Branthwaite | Everton
+131569 Jake O'Brien | Everton
+24102 Christian Nørgaard | Everton
+101076 James Garner | Everton
+136284 Hayden Hackney | Everton
+140194 Kiernan Dewsbury Hall | Everton
+140269 Carlos Alcaraz | Everton
+156552 Merlin Röhl | Everton
+264281 Harrison Armstrong | Everton
+3895 Jack Grealish | Everton
+124694 Brennan Johnson | Everton
+171995 Thierno Barry | Everton
+218525 Tyler Dibling | Everton
+244747 Briaden Graham | Everton
+250436 Tyrique George | Everton
+3174 Bernd Leno | Fulham
+8366 Benjamin Lecomte | Fulham
+300279 Alex Borto | Fulham
+1836 Timothy Castagne | Fulham
+2253 Joachim Andersen | Fulham
+3927 Antonee Robinson | Fulham
+3959 Ryan Sessegnon | Fulham
+8460 Kenny Tete | Fulham
+98750 Jorge Cuenca | Fulham
+123212 David Affengruber | Fulham
+146154 Calvin Bassey | Fulham
+3392 Alex Iwobi | Fulham
+3965 Tom Cairney | Fulham
+3995 Harrison Reed | Fulham
+8973 Sander Berge | Fulham
+85570 Emile Smith Rowe | Fulham
+180563 Hugo Larsson | Fulham
+192108 Shea Charles | Fulham
+246418 Joshua King | Fulham
+290848 César Palacios | Fulham
+291727 Manuel Angel | Fulham
+138036 Rodrigo Muniz | Fulham
+179122 Kevin Santos | Fulham
+179716 Oscar Bobb | Fulham
+217577 Jonah Kusi-Asare | Fulham
+217658 Gonzalo García | Fulham
+1795 Alisson Becker | Liverpool
+11629 Freddie Woodman | Liverpool
+84506 Giorgi Mamardashvili | Liverpool
+152579 Vítězslav Jaroš | Liverpool
+165154 Harvey Davies | Liverpool
+7383 Kostas Tsimikas | Liverpool
+7862 Joe Gomez | Liverpool
+7869 Virgil van Dijk | Liverpool
+28292 Ronald Araújo | Liverpool
+128954 Jeremie Frimpong | Liverpool
+171141 Milos Kerkez | Liverpool
+175865 Conor Bradley | Liverpool
+192563 Giovanni Leoni | Liverpool
+206127 Jeremy Jacquet | Liverpool
+3269 Wataru Endō | Liverpool
+16347 Dominik Szoboszlai | Liverpool
+19334 Florian Wirtz | Liverpool
+45681 Alexis Mac Allister | Liverpool
+81793 Ryan Gravenberch | Liverpool
+214502 James McConnell | Liverpool
+230517 Trey Nyoni | Liverpool
+1780 Federico Chiesa | Liverpool
+6486 Alexander Isak | Liverpool
+7459 Cody Gakpo | Liverpool
+152454 Hugo Ekitike | Liverpool
+172762 Bradley Barcola | Liverpool
+244989 Lewis Koumas | Liverpool
+273423 Víctor Muñoz | Liverpool
+273453 Rio Ngumoha | Liverpool
+302268 Joshua Sonni-Lambie | Liverpool
+6 Géronimo Rulli | Man City
+1731 Gianluigi Donnarumma | Man City
+3953 Marcus Bettinelli | Man City
+8642 Rayan Aït Nouri | Man City
+10183 Rúben Dias | Man City
+91512 Matheus Nunes | Man City
+118489 Marc Guéhi | Man City
+122266 Joško Gvardiol | Man City
+187202 Rico Lewis | Man City
+206743 Nico O'Reilly | Man City
+212868 Abdukodir Khusanov | Man City
+249196 Vitor Reis | Man City
+65 Mateo Kovačić | Man City
+7888 Phil Foden | Man City
+102603 Enzo Fernández | Man City
+107330 Elliot Anderson | Man City
+133242 Rayan Cherki | Man City
+221819 Ayyoub Bouaddi | Man City
+4417 Antoine Semenyo | Man City
+38101 Erling Haaland | Man City
+94091 Iliman Ndiaye | Man City
+99775 Jeremy Doku | Man City
+274216 Allan | Man City
+286950 Ryan McAidoo | Man City
+7913 Karl Darlow | Man United
+8035 Tom Heaton | Man United
+129946 Senne Lammens | Man United
+210730 Dermot Mee | Man United
+3326 Harry Maguire | Man United
+7549 Matthijs de Ligt | Man United
+7553 Noussair Mazraoui | Man United
+7898 Luke Shaw | Man United
+15905 Diogo Dalot | Man United
+46451 Lisandro Martínez | Man United
+181933 Leny Yoro | Man United
+210150 Harry Amass | Man United
+247644 Ayden Heaven | Man United
+3257 Bruno Fernandes | Man United
+3658 Youri Tielemans | Man United
+7599 Mason Mount | Man United
+28549 Manuel Ugarte | Man United
+166366 Andrey Santos | Man United
+178604 Carlos Baleba | Man United
+190797 Kobbie Mainoo | Man United
+290139 Tyler Fletcher | Man United
+3331 Marcus Rashford | Man United
+8626 Bryan Mbeumo | Man United
+30842 Matheus Cunha | Man United
+99731 Joshua Zirkzee | Man United
+124244 Benjamin Šeško | Man United
+133584 Amad Diallo | Man United
+211559 Patrick Dorgu | Man United
+289557 Shea Lacey | Man United
+302252 Daniel Armer | Man United
+3310 Nick Pope | Newcastle
+5048 Mark Gillespie | Newcastle
+146753 Lukáš Horníček | Newcastle
+191388 Ewen Jaouen | Newcastle
+88 Fabian Schär | Newcastle
+4870 Dan Burn | Newcastle
+81082 Sven Botman | Newcastle
+81816 Amar Dedić | Newcastle
+142732 Malick Thiaw | Newcastle
+168712 Valentino Livramento | Newcastle
+191140 Lewis Hall | Newcastle
+7798 Joe Willock | Newcastle
+10653 Joelinton | Newcastle
+111437 Jacob Ramsey | Newcastle
+171986 Nico Gonzalez | Newcastle
+191939 Lewis Miley | Newcastle
+251265 Sean Steur | Newcastle
+272943 Aladji Bamba | Newcastle
+612 Yoane Wissa | Newcastle
+7934 Jacob Murphy | Newcastle
+8076 Harvey Barnes | Newcastle
+166376 Anthony Elanga | Newcastle
+169324 William Osula | Newcastle
+213511 Matias Fernandez-Pardo | Newcastle
+249312 Bazoumana Touré | Newcastle
+4292 Simon Moore | Sunderland
+137691 Robin Roefs | Sunderland
+150893 Melker Ellborg | Sunderland
+3650 Thomas Meunier | Sunderland
+6259 Luke O'Nien | Sunderland
+6655 Kevin Danso | Sunderland
+8371 Nordi Mukiele | Sunderland
+37094 Reinildo | Sunderland
+46491 Omar Alderete | Sunderland
+117687 Trai Hume | Sunderland
+121109 Daniel Ballard | Sunderland
+161270 Aji Alese | Sunderland
+264401 Dayann Methalie | Sunderland
+3477 Granit Xhaka | Sunderland
+11362 Alan Browne | Sunderland
+99664 Enzo Le Fée | Sunderland
+171876 Habib Diarra | Sunderland
+182273 Noah Sadiki | Sunderland
+190817 Chris Rigg | Sunderland
+286011 Jules Ahoka | Sunderland
+83599 Wilson Isidor | Sunderland
+97535 Brian Brobbey | Sunderland
+165311 Abdoullah Ba | Sunderland
+172275 Romaine Mundle | Sunderland
+187065 Malick Fofana | Sunderland
+187375 Nilson Angulo | Sunderland
+192313 Chemsdine Talbi | Sunderland
+290809 Jocelin Bi | Sunderland
+7914 Martin Dúbravka | Tottenham
+133229 Brandon Austin | Tottenham
+255239 Antonín Kinský | Tottenham
+7868 Andrew Robertson | Tottenham
+7880 Tosin Adarabioyo | Tottenham
+7994 Ben Davies | Tottenham
+46046 Marcos Senesi | Tottenham
+81037 Pedro Porro | Tottenham
+98566 Jan Paul van Hecke | Tottenham
+131177 Mickey van de Ven | Tottenham
+170378 Destiny Udogie | Tottenham
+177040 Archie Gray | Tottenham
+1859 Dejan Kulusevski | Tottenham
+2041 Rodrigo Bentancur | Tottenham
+2563 Sandro Tonali | Tottenham
+3992 James Maddison | Tottenham
+119265 Conor Gallagher | Tottenham
+148289 Xavi Simons | Tottenham
+187216 Mateus Fernandes | Tottenham
+193622 Lucas Bergvall | Tottenham
+7878 Dominic Solanke | Tottenham
+8133 Richarlison | Tottenham
+66896 Omar Marmoush | Tottenham
+77399 Mohammed Kudus | Tottenham
+98978 Mykhailo Mudryk | Tottenham
+146352 Sávio | Tottenham
+171977 Mathys Tel | Tottenham
+184999 Wilson Odobert | Tottenham
+3308 Jack Butland | Hull City
+6300 Dillon Phillips | Hull City
+170812 Konstantinos Tzolakis | Hull City
+3962 Matt Targett | Hull City
+4058 Paddy McNair | Hull City
+4425 John Egan | Hull City
+5322 Lewie Coyle | Hull City
+6451 Semi Ajayi | Hull City
+82148 Ryan John Giles | Hull City
+177169 Brooke Norton-Cuffy | Hull City
+189278 Charlie Hughes | Hull City
+190558 Nobel Mendy | Hull City
+270733 Lucas Herrington | Hull City
+4309 Regan Slater | Hull City
+11306 Kieran Dowell | Hull City
+49092 Hidemasa Morita | Hull City
+147914 Eliot Matazo | Hull City
+169326 Tim Iroegbunam | Hull City
+179603 Lucas Gourna-Douath | Hull City
+184963 Darko Gyabi | Hull City
+193627 Jens Hjertö-Dahl | Hull City
+230388 Óscar Zambrano | Hull City
+264301 Christos Mouzakitis | Hull City
+4359 Oliver McBurnie | Hull City
+26444 Sorba Thomas | Hull City
+30298 Abdülkadir Ömür | Hull City
+80761 Joe Gelhardt | Hull City
+149129 Mohamed Ali Cho | Hull City
+192811 Elliot Stroud | Hull City
+211740 Ilyas Ansah | Hull City
+213033 Robinio Vaz | Hull City
+213072 Mohamed Belloumi | Hull City
+5315 Alex Cairns | Leeds United
+9438 Michael Zetterer | Leeds United
+153874 James Trafford | Leeds United
+3475 Nico Elvedi | Leeds United
+4184 Jayden Bogle | Leeds United
+5613 James Justin | Leeds United
+5714 Joe Rodon | Leeds United
+31531 Gabriel Gudmundsson | Leeds United
+74688 Jaka Bijol | Leeds United
+136721 Melvin Bard | Leeds United
+189153 Tarik Muharemović | Leeds United
+4955 Sean Longstaff | Leeds United
+7815 Ethan Ampadu | Leeds United
+49105 Ao Tanaka | Leeds United
+65843 Anton Stach | Leeds United
+75284 Ilia Gruev | Leeds United
+113262 Brenden Aaronson | Leeds United
+7839 Dominic Calvert-Lewin | Leeds United
+7892 Lukas Nmecha | Leeds United
+7974 Daniel James | Leeds United
+11777 Harry Wilson | Leeds United
+16058 Noah Okafor | Leeds United
+185178 Mateo Fernandez | Leeds United
+185882 Jean Bahoya | Leeds United
+3954 David Button | Ipswich Town
+4867 Christian Walton | Ipswich Town
+8011 Alex Palmer | Ipswich Town
+9814 Kjell Scherpen | Ipswich Town
+4017 Darnell Furlong | Ipswich Town
+8296 Issa Diop | Ipswich Town
+25650 Dara O'Shea | Ipswich Town
+34871 Cédric Kipré | Ipswich Town
+99120 Leif Davis | Ipswich Town
+125651 Jacob Greaves | Ipswich Town
+270889 Abdoul Ouattara | Ipswich Town
+5999 Jack Taylor | Ipswich Town
+7566 Azor Matusiwa | Ipswich Town
+11720 Exequiel Palacios | Ipswich Town
+32938 Saša Lukić | Ipswich Town
+37560 Florentino | Ipswich Town
+140245 Marcelino Núñez | Ipswich Town
+152437 Anis Mehmeti | Ipswich Town
+168949 Julio Enciso | Ipswich Town
+4158 Jack Clarke | Ipswich Town
+9053 Chuba Akpom | Ipswich Town
+44017 Daizen Maeda | Ipswich Town
+67893 Zian Flemming | Ipswich Town
+172632 Jaden Philogene-Bidace | Ipswich Town
+176628 Emersonn | Ipswich Town
+176777 Kasey McAteer | Ipswich Town
+187162 Abdul Issahaku | Ipswich Town
+230057 Sindre Egeli | Ipswich Town
+1299 John | Nottingham
+3643 Matz Sels | Nottingham
+81055 Steven Benda | Nottingham
+1775 Nikola Milenković | Nottingham
+3386 Ola Aina | Nottingham
+22010 Daniel Muñoz | Nottingham
+133765 Neco Williams | Nottingham
+144361 Luca Netz | Nottingham
+179782 Jair Paula | Nottingham
+191730 Nicolò Savona | Nottingham
+192637 Murillo | Nottingham
+4091 Morgan Gibbs-White | Nottingham
+5435 Ryan Yates | Nottingham
+8307 Ibrahim Sangaré | Nottingham
+16344 Xaver Schlager | Nottingham
+46346 Nicolás Domínguez | Nottingham
+172956 James McAtee | Nottingham
+7816 Callum Hudson-Odoi | Nottingham
+8057 Chris Wood | Nottingham
+77641 Dan Ndoye | Nottingham
+130668 Arnaud Kalimuendo | Nottingham
+151095 Liam Delap | Nottingham
+256339 Igor Jesus | Nottingham
+5457 Dean Henderson | Crystal Palace
+6413 Remi Matthews | Crystal Palace
+8420 Walter Benítez | Crystal Palace
+813 Axel Disasi | Crystal Palace
+8065 Ben Chilwell | Crystal Palace
+9034 Takehiro Tomiyasu | Crystal Palace
+99856 Chris Richards | Crystal Palace
+137068 Tyrick Mitchell | Crystal Palace
+146986 Óscar Mingueza | Crystal Palace
+150948 Chadi Riad | Crystal Palace
+213425 Anan Khalaili | Crystal Palace
+260271 Jaydee Canvot | Crystal Palace
+263661 Honest Ahanor | Crystal Palace
+3737 Jefferson Lerma | Crystal Palace
+6716 Daichi Kamada | Crystal Palace
+8124 Will Hughes | Crystal Palace
+74677 Cheick Doucouré | Crystal Palace
+97536 Quinten Timber | Crystal Palace
+191396 Adam Wharton | Crystal Palace
+303053 Nathanael Kalembo | Crystal Palace
+641 Jean-Philippe Mateta | Crystal Palace
+3638 Ismaïla Sarr | Crystal Palace
+7800 Eddie Nketiah | Crystal Palace
+11623 Dwight McNeil | Crystal Palace
+128710 Evann Guessand | Crystal Palace
+152505 Yeremi Pino | Crystal Palace
+179319 Darío Osorio | Crystal Palace
+213269 Jørgen Strand Larsen | Crystal Palace
+224618 Zavier Gozo | Crystal Palace
+4040 Jason Steele | Brighton Hove
+126870 Bart Verbruggen | Brighton Hove
+140203 Thomas McGill | Brighton Hove
+846 Olivier Boscagli | Brighton Hove
+4146 Pascal Struijk | Brighton Hove
+8259 Lewis Dunk | Brighton Hove
+9869 Ferdi Kadıoğlu | Brighton Hove
+61968 Michael Svoboda | Brighton Hove
+97505 Mats Wieffer | Brighton Hove
+142075 Maxim De Cuyper | Brighton Hove
+147891 Jaouen Hadjam | Brighton Hove
+185116 Costinha | Brighton Hove
+216835 Luka Vušković | Brighton Hove
+3974 Matt O'Riley | Brighton Hove
+8273 Pascal Groß | Brighton Hove
+145613 Yasin Ayari | Brighton Hove
+178951 Diego Gómez | Brighton Hove
+190851 Jack Hinshelwood | Brighton Hove
+246670 Malick Yalcouyé | Brighton Hove
+270273 Chema Andrés | Brighton Hove
+29319 Femi Azeez | Brighton Hove
+81189 Georginio Rutter | Brighton Hove
+130809 Evan Ferguson | Brighton Hove
+132707 Kaoru Mitoma | Brighton Hove
+187482 Yankubah Minteh | Brighton Hove
+205531 Ibrahim Osman | Brighton Hove
+209504 Stefanos Tzimas | Brighton Hove
+260992 Promise Akinpelu | Brighton Hove
+264300 Charalampos Kostoulas | Brighton Hove
+279784 Zadok Yohanna | Brighton Hove
+4419 Ellery Balcombe | Brentford
+102046 Caoimhin Kelleher | Brentford
+144530 Hákon Rafn Valdimarsson | Brentford
+4426 Rico Henry | Brentford
+7720 Sepp van den Berg | Brentford
+16068 Kristoffer Ajer | Brentford
+101111 Aaron Hickey | Brentford
+101910 Keane Lewis-Potter | Brentford
+115642 Nathan Collins | Brentford
+193633 El Hadji Malick Diouf | Brentford
+204348 Michael Kayode | Brentford
+221783 Ji-soo Kim | Brentford
+227064 Jannik Schuster | Brentford
+245364 Benjamin Fredrick | Brentford
+7796 Josh Dasilva | Brentford
+10000 Vitaly Janelt | Brentford
+10194 Mathias Jensen | Brentford
+24238 Mikkel Damsgaard | Brentford
+150964 Mamadou Sangare | Brentford
+151119 Fabio Carvalho | Brentford
+171965 Antoni Milambo | Brentford
+204421 Yegor Yarmolyuk | Brentford
+8251 Callum Wilson | Brentford
+123286 Kevin Schade | Brentford
+138230 Thiago | Brentford
+150778 Jaidon Anthony | Brentford
+177305 Dango Ouattara | Brentford
+213296 Gustavo Gomes | Brentford
+213518 Kaye Furo | Brentford
+8079 Fraser Forster | Bournemouth
+41381 Michele Di Gregorio | Bournemouth
+121765 Đorđe Petrović | Bournemouth
+8231 Adam Smith | Bournemouth
+80765 Max Aarons | Bournemouth
+82145 James Hill | Bournemouth
+98745 Bafodé Diakité | Bournemouth
+113335 Julian Araujo | Bournemouth
+135482 Adrien Truffert | Bournemouth
+180038 Juanlu | Bournemouth
+183583 Julio Soler | Bournemouth
+185610 Antonio Silva | Bournemouth
+227046 Veljko Milosavljević | Bournemouth
+3327 Lewis Cook | Bournemouth
+7561 Justin Kluivert | Bournemouth
+34495 Ryan Christie | Bournemouth
+77596 Tyler Adams | Bournemouth
+161088 Alex Scott | Bournemouth
+192316 Alex Toth | Bournemouth
+4321 David Brooks | Bournemouth
+6396 Marcus Tavernier | Bournemouth
+131260 Evanilson | Bournemouth
+137047 Amine Adli | Bournemouth
+169191 Daniel Jebbison | Bournemouth
+176789 Ben Doak | Bournemouth
+189369 Alvaro Rodriguez | Bournemouth
+203356 Rayan | Bournemouth
+204241 Eli Kroupi | Bournemouth
+4418 Daniel Bentley | Coventry City
+5347 Ben Wilson | Coventry City
+171498 Carl Rushworth | Coventry City
+4015 Jake Bidwell | Coventry City
+4235 Luke Woolfenden | Coventry City
+4334 Ethan Pinnock | Coventry City
+6308 Jay Dasilva | Coventry City
+55048 Milan van Ewijk | Coventry City
+130044 Joel Latibeaudiere | Coventry City
+144782 Bobby Thomas | Coventry City
+169297 Aurele Amenda | Coventry City
+171509 Kaine Kesler | Coventry City
+286320 Stephen Mfuni | Coventry City
+6358 Matt Grimes | Coventry City
+9623 Gustavo Hamer | Coventry City
+24207 Victor Torp | Coventry City
+24210 Frank Onyeka | Coventry City
+83372 Josh Eccles | Coventry City
+114123 Jack Rudoni | Coventry City
+262187 Caleb Yirenkyi | Coventry City
+6009 Ephron Mason-Clark | Coventry City
+6389 Brandon Thomas-Asante | Coventry City
+9218 Taiwo Awoniyi | Coventry City
+10076 Haji Wright | Coventry City
+80175 Yann Gboho | Coventry City
+113632 Tatsuhiro Sakamoto | Coventry City
+146122 Ellis Simms | Coventry City
+170394 Loum Tchaouna | Coventry City
+213712 Sidiki Cherif | Coventry City
