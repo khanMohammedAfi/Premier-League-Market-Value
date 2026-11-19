@@ -62,7 +62,6 @@ function renderPlayers(list) {
       <td>${player.age}</td>
             <td>${player.appearances ?? "-"}</td>
       <td>${player.goals ?? "-"}</td>
-      <td>${player.assists ?? "-"}</td>
       <td>${euro.format(player.value)}</td>
     `;
     playersBody.appendChild(row);
@@ -103,7 +102,7 @@ function showDashboard(player, photoUrl) {
   document.getElementById("dash-stats").innerHTML = `
       <li>Appearances: ${player.appearances ?? "-"}</li>
     <li>Goals: ${player.goals ?? "-"}</li>
-    <li>Assists: ${player.assists ?? "-"}</li>
+  
   `;
 
   document.getElementById("dash-latest").textContent =
@@ -117,3 +116,12 @@ function showDashboard(player, photoUrl) {
 document.getElementById("close-dashboard").addEventListener("click", () => {
   document.getElementById("player-dashboard").hidden = true;
 });
+
+fetch("data/movers.json")
+  .then(response => response.json())
+  .then(movers => {
+    const list = movers.items.map(item => `<li>${item}</li>`).join("");
+    document.getElementById("market-movers").innerHTML =
+      `<ul>${list}</ul><small>Updated ${new Date(movers.updated).toLocaleString()}</small>`;
+  })
+  .catch(error => console.error("Could not load market movers:", error));
