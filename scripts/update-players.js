@@ -41,8 +41,8 @@ async function main() {
       continue;
     }
 
-    player.Appearances = entry.playedMatches;
-    player.Goals = entry.goals;
+    player.appearances = entry.playedMatches;
+    player.goals = entry.goals;
     player.age = ageFrom(entry.player.dateOfBirth);
     console.log("Updated", player.name);
   }

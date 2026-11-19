@@ -6,9 +6,9 @@
     "position": "FW",
     "age": 26,
     "value": 220000000,
-    "Appearances": 10,
-    "Goals": 9,
-    "Assists": 10
+    "appearances": 10,
+    "goals": 9,
+    "assists": 10
   },
   {
     "apiId": 6486,
@@ -16,10 +16,10 @@
     "club": "Liverpool",
     "position": "FW",
     "age": 27,
-    "value": 0,
-    "Appearances": 9,
-    "Goals": 7,
-    "Assists": 0
+    "value": 99000000,
+    "appearances": 9,
+    "goals": 7,
+    "assists": 0
   },
   {
     "apiId": 133242,
@@ -27,10 +27,10 @@
     "club": "Manchester City",
     "position": "MF",
     "age": 23,
-    "value": 0,
-    "Appearances": 10,
-    "Goals": 5,
-    "Assists": 0
+    "value": 75000000,
+    "appearances": 10,
+    "goals": 5,
+    "assists": 0
   },
   {
     "apiId": 99813,
@@ -38,10 +38,10 @@
     "club": "Arsenal",
     "position": "FW",
     "age": 25,
-    "value": 0,
-    "Appearances": 7,
-    "Goals": 3,
-    "Assists": 0
+    "value": 130000000,
+    "appearances": 7,
+    "goals": 3,
+    "assists": 0
   },
   {
     "apiId": 3257,
@@ -50,9 +50,9 @@
     "position": "MF",
     "age": 32,
     "value": 35000000,
-    "Appearances": 10,
-    "Goals": 4,
-    "Assists": 14
+    "appearances": 10,
+    "goals": 4,
+    "assists": 14
   },
   {
     "apiId": 7869,
@@ -61,9 +61,9 @@
     "position": "DF",
     "age": 35,
     "value": 15000000,
-    "Appearances": 25,
-    "Goals": 2,
-    "Assists": 1
+    "appearances": 25,
+    "goals": 2,
+    "assists": 1
   },
   {
     "apiId": 129946,
@@ -72,8 +72,8 @@
     "position": "GK",
     "age": 24,
     "value": 35000000,
-    "Appearances": 30,
-    "Goals Conceded": 20,
+    "appearances": 30,
+    "goals Conceded": 20,
     "Clean Sheets": 12
   },
   {
@@ -83,8 +83,8 @@
     "position": "MF",
     "age": 24,
     "value": 100000000,
-    "Appearances": 10,
-    "Goals": 3,
-    "Assists": 8
+    "appearances": 10,
+    "goals": 3,
+    "assists": 8
   }
 ]

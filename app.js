@@ -120,8 +120,25 @@ document.getElementById("close-dashboard").addEventListener("click", () => {
 fetch("data/movers.json")
   .then(response => response.json())
   .then(movers => {
-    const list = movers.items.map(item => `<li>${item}</li>`).join("");
-    document.getElementById("market-movers").innerHTML =
-      `<ul>${list}</ul><small>Updated ${new Date(movers.updated).toLocaleString()}</small>`;
+    const box = document.getElementById("market-movers");
+    box.innerHTML = "";
+
+    if (movers.summary) {
+      const paragraph = document.createElement("p");
+      paragraph.textContent = movers.summary;
+      box.appendChild(paragraph);
+    }
+
+    const list = document.createElement("ul");
+    movers.items.forEach(item => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      list.appendChild(li);
+    });
+    box.appendChild(list);
+
+    const stamp = document.createElement("small");
+    stamp.textContent = "Updated " + new Date(movers.updated).toLocaleString();
+    box.appendChild(stamp);
   })
   .catch(error => console.error("Could not load market movers:", error));
