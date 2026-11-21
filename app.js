@@ -314,7 +314,16 @@ fetch("data/fixtures.json")
       return;
     }
 
-    fixtures.forEach(f => {
+        const upcoming = fixtures.filter(f => new Date(f.date) > new Date());
+
+    if (upcoming.length === 0) {
+      const empty = document.createElement("li");
+      empty.textContent = "No upcoming fixtures right now.";
+      list.appendChild(empty);
+      return;
+    }
+
+    upcoming.forEach(f => {
       const li = document.createElement("li");
 
       const when = document.createElement("small");
