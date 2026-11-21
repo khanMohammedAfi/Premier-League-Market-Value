@@ -52,6 +52,9 @@ async function main() {
   // 2. Refresh the data
   execSync("node scripts/update-table.js", { stdio: "inherit" });
   execSync("node scripts/update-players.js", { stdio: "inherit" });
+  execSync("node scripts/update-leaders.js", { stdio: "inherit" });
+  execSync("node scripts/update-news.js", { stdio: "inherit" });
+execSync("node scripts/update-awards.js", { stdio: "inherit" });
 
   // 3. Compare before and after
   const newTable = readJson("data/table.json");
