@@ -18,6 +18,7 @@ async function main() {
   const rows = table.map(row => ({
     position: row.position,
     club: row.team.shortName,
+     crest: row.team.crest,
     played: row.playedGames,
     won: row.won,
     drawn: row.draw,

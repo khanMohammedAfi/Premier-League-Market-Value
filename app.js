@@ -8,7 +8,7 @@ fetch("data/table.json")
       const row = document.createElement("tr");
       row.innerHTML = `
         <td>${club.position}</td>
-        <td>${club.club}</td>
+                <td>${club.crest && club.crest.startsWith("https://") ? `<img class="team-crest" src="${club.crest}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}${club.club}</td>
         <td>${club.played}</td>
         <td>${club.won}</td>
         <td>${club.drawn}</td>

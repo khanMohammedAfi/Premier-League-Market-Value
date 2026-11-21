@@ -145,3 +145,11 @@ small {
   opacity: 0.7;
   font-size: 0.85em;
 }
+
+.team-crest {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 8px;
+}
