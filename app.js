@@ -184,3 +184,61 @@ fetch("data/news.json")
     });
   })
   .catch(error => console.error("Could not load news:", error));
+
+  // Top scorers
+function fillLeaders(listId, period) {
+  const list = document.getElementById(listId);
+
+  if (!period.leaders || period.leaders.length === 0) {
+    const empty = document.createElement("li");
+    empty.textContent = "Nothing yet since " + period.since + ", check back after more matches.";
+    list.appendChild(empty);
+    return;
+  }
+
+  period.leaders.forEach(p => {
+    const li = document.createElement("li");
+    li.textContent = `${p.name} (${p.team}) - ${p.goals} ${p.goals === 1 ? "goal" : "goals"}`;
+    list.appendChild(li);
+  });
+}
+
+fetch("data/leaders.json")
+  .then(response => response.json())
+  .then(data => {
+    fillLeaders("leaders-week", data.week);
+    fillLeaders("leaders-month", data.month);
+  })
+  .catch(error => console.error("Could not load leaders:", error));
+
+
+  // Awards (form-based nominees)
+function fillAwards(listId, items, makeText) {
+  const list = document.getElementById(listId);
+
+  if (!items || items.length === 0) {
+    const empty = document.createElement("li");
+    empty.textContent = "No nominees yet, check back after more matches.";
+    list.appendChild(empty);
+    return;
+  }
+
+  items.forEach(item => {
+    const li = document.createElement("li");
+    li.textContent = makeText(item);
+    list.appendChild(li);
+  });
+}
+
+fetch("data/awards.json")
+  .then(response => response.json())
+  .then(data => {
+    fillAwards("awards-player", data.playerNominees,
+      p => `${p.name} (${p.team}) - ${p.goals} ${p.goals === 1 ? "goal" : "goals"}`);
+
+    fillAwards("awards-manager", data.managerNominees,
+      m => `${m.manager} (${m.team}) - ${m.won} wins from ${m.played}, ${m.points} points`);
+
+    document.getElementById("awards-note").textContent = data.note;
+  })
+  .catch(error => console.error("Could not load awards:", error));

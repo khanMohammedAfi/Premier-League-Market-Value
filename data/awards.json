@@ -1,7 +1,23 @@
 {
-  "updated": "2026-11-21T10:13:34.162Z",
+  "updated": "2026-11-21T18:34:54.437Z",
   "note": "Form-based picks from the last 30 days, not the official awards",
-  "playerNominees": [],
+  "playerNominees": [
+    {
+      "name": "Noah Okafor",
+      "team": "Leeds United",
+      "goals": 2
+    },
+    {
+      "name": "Evanilson",
+      "team": "Bournemouth",
+      "goals": 1
+    },
+    {
+      "name": "Dominic Calvert-Lewin",
+      "team": "Leeds United",
+      "goals": 1
+    }
+  ],
   "managerNominees": [
     {
       "team": "Arsenal FC",

@@ -1,11 +1,113 @@
 {
-  "updated": "2026-11-21T10:13:31.632Z",
+  "updated": "2026-11-21T18:26:04.847Z",
   "week": {
     "since": "2026-11-20",
-    "leaders": []
+    "leaders": [
+      {
+        "name": "Noah Okafor",
+        "team": "Leeds United",
+        "goals": 2
+      },
+      {
+        "name": "Evanilson",
+        "team": "Bournemouth",
+        "goals": 1
+      },
+      {
+        "name": "Dominic Calvert-Lewin",
+        "team": "Leeds United",
+        "goals": 1
+      },
+      {
+        "name": "Jørgen Strand Larsen",
+        "team": "Crystal Palace",
+        "goals": 1
+      },
+      {
+        "name": "Justin Kluivert",
+        "team": "Bournemouth",
+        "goals": 1
+      },
+      {
+        "name": "Dominic Solanke",
+        "team": "Tottenham",
+        "goals": 1
+      },
+      {
+        "name": "Yeremi Pino",
+        "team": "Crystal Palace",
+        "goals": 1
+      },
+      {
+        "name": "Tatsuhiro Sakamoto",
+        "team": "Coventry City",
+        "goals": 1
+      },
+      {
+        "name": "Taiwo Awoniyi",
+        "team": "Coventry City",
+        "goals": 1
+      },
+      {
+        "name": "Rodrigo Muniz",
+        "team": "Fulham",
+        "goals": 1
+      }
+    ]
   },
   "month": {
     "since": "2026-11-20",
-    "leaders": []
+    "leaders": [
+      {
+        "name": "Noah Okafor",
+        "team": "Leeds United",
+        "goals": 2
+      },
+      {
+        "name": "Evanilson",
+        "team": "Bournemouth",
+        "goals": 1
+      },
+      {
+        "name": "Dominic Calvert-Lewin",
+        "team": "Leeds United",
+        "goals": 1
+      },
+      {
+        "name": "Jørgen Strand Larsen",
+        "team": "Crystal Palace",
+        "goals": 1
+      },
+      {
+        "name": "Justin Kluivert",
+        "team": "Bournemouth",
+        "goals": 1
+      },
+      {
+        "name": "Dominic Solanke",
+        "team": "Tottenham",
+        "goals": 1
+      },
+      {
+        "name": "Yeremi Pino",
+        "team": "Crystal Palace",
+        "goals": 1
+      },
+      {
+        "name": "Tatsuhiro Sakamoto",
+        "team": "Coventry City",
+        "goals": 1
+      },
+      {
+        "name": "Taiwo Awoniyi",
+        "team": "Coventry City",
+        "goals": 1
+      },
+      {
+        "name": "Rodrigo Muniz",
+        "team": "Fulham",
+        "goals": 1
+      }
+    ]
   }
 }
