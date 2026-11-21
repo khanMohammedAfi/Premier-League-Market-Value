@@ -155,6 +155,19 @@ fetch("data/news.json")
 
       const item = document.createElement("li");
 
+      if (story.image && story.image.startsWith("https://")) {
+        const img = document.createElement("img");
+        img.src = story.image;
+        img.alt = "";
+        img.className = "news-thumb";
+        img.loading = "lazy";
+        img.referrerPolicy = "no-referrer";
+        img.onerror = () => img.remove();
+        item.appendChild(img);
+      }
+
+      const text = document.createElement("div");
+
       const link = document.createElement("a");
       link.href = story.link;
       link.textContent = story.title;
@@ -162,10 +175,11 @@ fetch("data/news.json")
       link.rel = "noopener";
 
       const source = document.createElement("span");
-      source.textContent = " (" + story.source + ")";
+      source.textContent = story.source;
 
-      item.appendChild(link);
-      item.appendChild(source);
+      text.appendChild(link);
+      text.appendChild(source);
+      item.appendChild(text);
       newsList.appendChild(item);
     });
   })
