@@ -329,7 +329,8 @@ fetch("data/fixtures.json")
       const when = document.createElement("small");
       when.textContent = new Date(f.date).toLocaleString("en-GB", {
         weekday: "short", day: "numeric", month: "short",
-        hour: "2-digit", minute: "2-digit"
+        hour: "2-digit", minute: "2-digit",
+        timeZoneName: "short"
       }) + " | Matchday " + f.matchday;
 
       const match = document.createElement("div");
