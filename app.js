@@ -288,3 +288,51 @@ fetch("data/awards.json")
     document.getElementById("awards-note").textContent = data.note;
   })
   .catch(error => console.error("Could not load awards:", error));
+
+  // Upcoming fixtures
+function crestImg(url) {
+  if (!url || !url.startsWith("https://")) return null;
+  const img = document.createElement("img");
+  img.src = url;
+  img.alt = "";
+  img.className = "team-crest";
+  img.loading = "lazy";
+  img.referrerPolicy = "no-referrer";
+  img.onerror = () => img.remove();
+  return img;
+}
+
+fetch("data/fixtures.json")
+  .then(response => response.json())
+  .then(fixtures => {
+    const list = document.getElementById("fixtures-list");
+
+    if (fixtures.length === 0) {
+      const empty = document.createElement("li");
+      empty.textContent = "No upcoming fixtures right now.";
+      list.appendChild(empty);
+      return;
+    }
+
+    fixtures.forEach(f => {
+      const li = document.createElement("li");
+
+      const when = document.createElement("small");
+      when.textContent = new Date(f.date).toLocaleString("en-GB", {
+        weekday: "short", day: "numeric", month: "short",
+        hour: "2-digit", minute: "2-digit"
+      }) + " | Matchday " + f.matchday;
+
+      const match = document.createElement("div");
+      const homeImg = crestImg(f.homeCrest);
+      const awayImg = crestImg(f.awayCrest);
+      if (homeImg) match.appendChild(homeImg);
+      match.appendChild(document.createTextNode(f.home + " v " + f.away + " "));
+      if (awayImg) match.appendChild(awayImg);
+
+      li.appendChild(when);
+      li.appendChild(match);
+      list.appendChild(li);
+    });
+  })
+  .catch(error => console.error("Could not load fixtures:", error));
