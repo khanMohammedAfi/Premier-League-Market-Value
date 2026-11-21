@@ -142,3 +142,31 @@ fetch("data/movers.json")
     box.appendChild(stamp);
   })
   .catch(error => console.error("Could not load market movers:", error));
+
+
+  // Latest news
+const newsList = document.getElementById("news-list");
+
+fetch("data/news.json")
+  .then(response => response.json())
+  .then(data => {
+    data.news.forEach(story => {
+      if (!story.link.startsWith("https://")) return;
+
+      const item = document.createElement("li");
+
+      const link = document.createElement("a");
+      link.href = story.link;
+      link.textContent = story.title;
+      link.target = "_blank";
+      link.rel = "noopener";
+
+      const source = document.createElement("span");
+      source.textContent = " (" + story.source + ")";
+
+      item.appendChild(link);
+      item.appendChild(source);
+      newsList.appendChild(item);
+    });
+  })
+  .catch(error => console.error("Could not load news:", error));
