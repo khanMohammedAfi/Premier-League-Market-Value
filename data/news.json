@@ -1,6 +1,69 @@
 {
-  "updated": "2026-11-21T17:45:52.408Z",
+  "updated": "2026-11-21T19:15:33.228Z",
   "news": [
+    {
+      "title": "Newcastle United v Arsenal: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2026/nov/21/newcastle-united-v-arsenal-premier-league-live",
+      "date": "2026-11-21T19:09:30.000Z",
+      "source": "The Guardian",
+      "image": "https://i.guim.co.uk/img/media/edd96d5cb6de7e2e9abf1a4b638e8f8655d0f2e4/329_461_3012_2409/master/3012.jpg?width=700&quality=85&auto=format&fit=max&s=febdb2a95bfb4286c0adb148af214de7"
+    },
+    {
+      "title": "'Fragile' and 'miles off it' - Alonso's Chelsea honeymoon is over",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwe8944d004yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T19:04:09.000Z",
+      "source": "BBC Sport",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a7a/live/8ad75db0-e5d9-11f1-9ab8-8737221634d6.jpg"
+    },
+    {
+      "title": "Keating stars as Liverpool hold high-flying Chelsea to goalless draw",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cmde1ll6pgj3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T18:34:55.000Z",
+      "source": "BBC Sport",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b74/live/92725440-e5ba-11f1-99b6-a35a62fa4264.jpg"
+    },
+    {
+      "title": "Williams-Barnett's talent bigger than performance - De Zerbi",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c6wy4gg24vlno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T18:32:27.000Z",
+      "source": "BBC Sport",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/501c/live/0f0616f0-e5d8-11f1-a094-5fdc692f3e33.jpg"
+    },
+    {
+      "title": "'Officials can't use common sense' - was Rogers handball correct?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c50md981n277o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T18:30:22.000Z",
+      "source": "BBC Sport",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11ac/live/6985e260-e5d6-11f1-9ab8-8737221634d6.jpg"
+    },
+    {
+      "title": "'It's a deserved defeat' - Glasner on  Bournemouth loss",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c63dg88zdzxko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T18:16:48.000Z",
+      "source": "BBC Sport",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13d5/live/c31d7b40-e5d5-11f1-a094-5fdc692f3e33.jpg"
+    },
+    {
+      "title": "Scottish Premiership roundup: Celtic sweep St Mirren aside to strengthen grip at top",
+      "link": "https://www.theguardian.com/football/2026/nov/21/scottish-premiership-roundup-celtic-sweep-st-mirren-aside-to-strengthen-grip-at-top",
+      "date": "2026-11-21T18:11:49.000Z",
+      "source": "The Guardian",
+      "image": "https://i.guim.co.uk/img/media/7a55b83ea67044a5e2f9c8da693d95d73cd1dda2/500_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=151e7c01c73b7ad56f6a0d4b702fbc26"
+    },
+    {
+      "title": "European football: Noslin’s double helps Lazio extend Serie A lead; Nmecha sends Dortmund top",
+      "link": "https://www.theguardian.com/football/2026/nov/21/european-football-borussia-dortmund-psg-real-madrid",
+      "date": "2026-11-21T17:47:21.000Z",
+      "source": "The Guardian",
+      "image": "https://i.guim.co.uk/img/media/e1dee2dda944f89ccd3d5bbd666d29c8151f135b/404_0_4037_3230/master/4037.jpg?width=700&quality=85&auto=format&fit=max&s=111c94cb56260bf19c2bbbb5eaf05161"
+    },
+    {
+      "title": "Fifpro criticises Bayern Munich for Musiala comments",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9x2evr1rg85o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T17:43:44.000Z",
+      "source": "BBC Sport",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4348/live/f6872900-e5cf-11f1-a738-4787e1a18cce.jpg"
+    },
     {
       "title": "Leeds 'created piece of history' in Chelsea win - Farke",
       "link": "https://www.bbc.co.uk/sport/football/videos/cmwy5ddwnygqo?at_medium=RSS&at_campaign=rss",
@@ -9,14 +72,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c186/live/18b230e0-e5d2-11f1-99a1-253766e7ad8b.jpg"
     },
     {
-      "title": "Newcastle United v Arsenal: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2026/nov/21/newcastle-united-v-arsenal-premier-league-live",
-      "date": "2026-11-21T17:40:00.000Z",
-      "source": "The Guardian",
-      "image": "https://i.guim.co.uk/img/media/134d9069135567411420c741eeba909b0570c00a/251_0_4040_3232/master/4040.jpg?width=700&quality=85&auto=format&fit=max&s=d7c8ca24c7667da169468a8e3cd95934"
-    },
-    {
-      "title": "Championship roundup: Middlesbrough hit top spot; 10-man Stoke go second",
+      "title": "Championship roundup: Strelec sends Middlesbrough top; 10-man Stoke go second",
       "link": "https://www.theguardian.com/football/2026/nov/21/championship-roundup-southampton-birmingham-middlesbrough-swansea",
       "date": "2026-11-21T17:37:09.000Z",
       "source": "The Guardian",
@@ -37,7 +93,7 @@
       "image": "https://i.guim.co.uk/img/media/0671343c3cf539d0fa4d9b7314a9e14107aec25a/222_0_2220_1776/master/2220.jpg?width=700&quality=85&auto=format&fit=max&s=db3552c8ed22e4b007c14acb5e78a4b8"
     },
     {
-      "title": "Bournemouth’s Evanilson and Kluivert sink Forest to make it eight wins in a row",
+      "title": "Bournemouth’s Evanilson and Kluivert sink Forest to make it nine wins in a row",
       "link": "https://www.theguardian.com/football/2026/nov/21/bournemouth-nottingham-forest-premier-league-match-report",
       "date": "2026-11-21T17:10:24.000Z",
       "source": "The Guardian",
@@ -49,62 +105,6 @@
       "date": "2026-11-21T17:09:02.000Z",
       "source": "The Guardian",
       "image": "https://i.guim.co.uk/img/media/05c36b6bd3b047d922297d9139c4b0ca978f9b2e/501_0_2783_2226/master/2783.jpg?width=700&quality=85&auto=format&fit=max&s=cce93ee1656cc848edad622e64fe1cce"
-    },
-    {
-      "title": "Teenage ace Williams-Barnett puts Tottenham on path to win over Ipswich",
-      "link": "https://www.theguardian.com/football/2026/nov/21/tottenham-ipswich-premier-league-match-report",
-      "date": "2026-11-21T16:58:31.000Z",
-      "source": "The Guardian",
-      "image": "https://i.guim.co.uk/img/media/53f1dc6f7ac06615f3cf6886146797ae9a2bd896/423_0_4232_3385/master/4232.jpg?width=700&quality=85&auto=format&fit=max&s=3e8b3d68ecb320d205cc6e787bfe5da7"
-    },
-    {
-      "title": "Fernandez dropped, Anderson scores - Man City's £327m midfield dilemma",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cxe8944j188yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T16:07:19.000Z",
-      "source": "BBC Sport",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2997/live/fc265c50-e5c0-11f1-a188-ff49e70cc466.jpg"
-    },
-    {
-      "title": "'It's quite clear' - Maresca believes Haaland goal should have stood",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c9e85mmr3z8vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T15:34:35.000Z",
-      "source": "BBC Sport",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4933/live/61e22920-e5bc-11f1-99a1-253766e7ad8b.jpg"
-    },
-    {
-      "title": "Liverpool keeper Keating holds leaders Chelsea at bay in scoreless WSL draw",
-      "link": "https://www.theguardian.com/football/2026/nov/21/liverpool-chelsea-london-city-lionesses-crystal-palace-wsl",
-      "date": "2026-11-21T15:03:50.000Z",
-      "source": "The Guardian",
-      "image": "https://i.guim.co.uk/img/media/f9fdedef7f806355de107b35c4546feeb0038014/286_0_4382_3505/master/4382.jpg?width=700&quality=85&auto=format&fit=max&s=4a8c30a740b5f3d2dbabec8e455eb7dd"
-    },
-    {
-      "title": "Elliot Anderson halts Manchester City’s losing run but boos greet Fulham draw",
-      "link": "https://www.theguardian.com/football/2026/nov/21/manchester-city-fulham-premier-league-match-report",
-      "date": "2026-11-21T14:34:03.000Z",
-      "source": "The Guardian",
-      "image": "https://i.guim.co.uk/img/media/3989c1110ecef0e36dd587b4ee9ee264cb1a02ac/673_0_3873_3098/master/3873.jpg?width=700&quality=85&auto=format&fit=max&s=32a650a1e5d4caae1a2ceb221dc91b4d"
-    },
-    {
-      "title": "Anderson steps up, Berge impresses - player ratings for Man City v Fulham",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqwy06p44g3no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T14:21:31.000Z",
-      "source": "BBC Sport",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71ea/live/83478520-e5c0-11f1-a094-5fdc692f3e33.jpg"
-    },
-    {
-      "title": "Elon Musk’s lawyer joining Tom Brady in buying Chelsea stake",
-      "link": "https://www.theguardian.com/football/2026/nov/21/elon-musk-lawyer-tom-brady-nfl-chelsea-stake",
-      "date": "2026-11-21T14:20:05.000Z",
-      "source": "The Guardian",
-      "image": "https://i.guim.co.uk/img/media/4a6d9a0c629b1a654f5e4b5d8f3b83c83a8c2a6c/0_524_3849_3080/master/3849.jpg?width=700&quality=85&auto=format&fit=max&s=0de2ba999f13c90cbd67cf8b8356787c"
-    },
-    {
-      "title": "Bayern draw with Cologne as Kane picks up ankle injury",
-      "link": "https://www.bbc.co.uk/sport/football/videos/ck7v2nz0lp32o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T13:29:40.000Z",
-      "source": "BBC Sport",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d89/live/9aee2530-e5ac-11f1-99a1-253766e7ad8b.jpg"
     }
   ],
   "rumours": [

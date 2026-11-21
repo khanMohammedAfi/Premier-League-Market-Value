@@ -37,6 +37,12 @@ const euro = new Intl.NumberFormat("en-GB", {
 
 let playersData = [];
 let descending = true;
+let playerNews = {};
+
+fetch("data/news.json")
+  .then(response => response.json())
+  .then(data => { playerNews = data.playerNews || {}; })
+  .catch(error => console.error("Could not load player news:", error));
 
 function loadPhoto(player, img) {
   const title = encodeURIComponent(player.name.replace(/ /g, "_"));
@@ -105,8 +111,48 @@ function showDashboard(player, photoUrl) {
   
   `;
 
-  document.getElementById("dash-latest").textContent =
-    player.latest || "No recent news added yet.";
+    const latest = document.getElementById("dash-latest");
+  latest.innerHTML = "";
+  const stories = playerNews[player.name] || [];
+
+  if (stories.length === 0) {
+    const none = document.createElement("li");
+    none.textContent = "No recent headlines mention this player.";
+    latest.appendChild(none);
+  } else {
+        stories.forEach(story => {
+      if (!story.link.startsWith("https://")) return;
+
+      const li = document.createElement("li");
+
+      if (story.image && story.image.startsWith("https://")) {
+        const img = document.createElement("img");
+        img.src = story.image;
+        img.alt = "";
+        img.className = "news-thumb";
+        img.loading = "lazy";
+        img.referrerPolicy = "no-referrer";
+        img.onerror = () => img.remove();
+        li.appendChild(img);
+      }
+
+      const text = document.createElement("div");
+
+      const link = document.createElement("a");
+      link.href = story.link;
+      link.textContent = story.title;
+      link.target = "_blank";
+      link.rel = "noopener";
+
+      const source = document.createElement("span");
+      source.textContent = story.source;
+
+      text.appendChild(link);
+      text.appendChild(source);
+      li.appendChild(text);
+      latest.appendChild(li);
+    });
+  }
 
   const dashboard = document.getElementById("player-dashboard");
   dashboard.hidden = false;

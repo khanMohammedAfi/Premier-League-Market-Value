@@ -110,12 +110,14 @@ small {
   }
 }
 
-#news-list {
+#news-list,
+#dash-latest {
   list-style: none;
   padding: 0;
 }
 
-#news-list li {
+#news-list li,
+#dash-latest li {
   display: flex;
   gap: 14px;
   align-items: center;
@@ -131,16 +133,19 @@ small {
   flex-shrink: 0;
 }
 
-#news-list a {
+#news-list a, 
+#dash-latest a {
   color: #00ff85;
   text-decoration: none;
 }
 
-#news-list a:hover {
+#news-list a:hover, 
+#dash-latest a:hover {
   text-decoration: underline;
 }
 
-#news-list span {
+#news-list span,
+#dash-latest span {
   display: block;
   opacity: 0.7;
   font-size: 0.85em;
