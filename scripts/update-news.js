@@ -6,9 +6,8 @@ const FEEDS = [
 ];
 
 // Headlines matching TRANSFER_WORDS (and not NOT_TRANSFER) count as transfer stories
-const TRANSFER_WORDS = /(transfer|january window|release clause|swoop|linked with|move for|bid for|signing)/i;
-const NOT_TRANSFER = /(women|mls|world cup|netflix|summer 202|verdict|done deals|deadline day|all deals|quiz)/i;
-
+const TRANSFER_WORDS = /(transfer|window|gossip|release clause|swoop|linked with|move for|bid for|signing)/i;
+const NOT_TRANSFER = /(women|mls|world cup|netflix|quiz)/i;
 function decode(s) {
   return s
     .replace(/&quot;/g, '"')
@@ -25,6 +24,17 @@ function tag(block, name) {
   return m[1].replace(/^\s*<!\[CDATA\[/, "").replace(/\]\]>\s*$/, "").trim();
 }
 
+// Find the thumbnail URL in an RSS item (BBC and Guardian both include one)
+function findImage(block) {
+  const matches = [...block.matchAll(/<media:(?:thumbnail|content)[^>]*\burl="([^"]+)"/g)];
+  if (matches.length === 0) return null;
+  const url = decode(matches[matches.length - 1][1]);
+  return url.startsWith("https://") ? url : null;
+}
+
+
+
+
 function parseItems(xml, source) {
   const blocks = xml.match(/<item>[\s\S]*?<\/item>/g) || [];
   return blocks.map((block) => {
@@ -34,6 +44,7 @@ function parseItems(xml, source) {
       link: decode(tag(block, "link")),
       date: isNaN(d) ? null : d.toISOString(),
       source,
+       image: findImage(block)
     };
   });
 }
