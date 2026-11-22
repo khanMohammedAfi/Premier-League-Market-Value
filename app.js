@@ -68,26 +68,46 @@ function renderPlayers(list) {
       <td>${player.age}</td>
             <td>${player.appearances ?? "-"}</td>
       <td>${player.goals ?? "-"}</td>
-      <td>${euro.format(player.value)}</td>
+            <td>${player.value != null ? euro.format(player.value) : "-"}</td>
     `;
     playersBody.appendChild(row);
-    loadPhoto(player, row.querySelector(".player-photo"));
+        if (player.value != null) {
+      loadPhoto(player, row.querySelector(".player-photo"));
+    }
         row.addEventListener("click", () => {
       showDashboard(player, row.querySelector(".player-photo").src);
     });
   });
 }
 
-fetch("data/players.json")
-  .then(response => response.json())
-  .then(players => {
-    playersData = players;
+Promise.all([
+  fetch("data/squads.json").then(r => r.json()),
+  fetch("data/players.json").then(r => r.json())
+])
+  .then(([squads, curated]) => {
+    const byId = {};
+    curated.forEach(p => { byId[p.apiId] = p; });
+
+    playersData = squads.map(s => {
+      const c = byId[s.apiId] || {};
+      return {
+        ...s,
+        value: c.value ?? null,
+        appearances: c.appearances ?? null,
+        goals: c.goals ?? null,
+        assists: c.assists ?? null
+      };
+    });
+
+    playersData.sort((a, b) => (b.value ?? -1) - (a.value ?? -1));
     renderPlayers(playersData);
   })
   .catch(error => console.error("Could not load player data:", error));
 
 valueHeader.addEventListener("click", () => {
-  playersData.sort((a, b) => descending ? b.value - a.value : a.value - b.value);
+   playersData.sort((a, b) => descending
+    ? (b.value ?? -1) - (a.value ?? -1)
+    : (a.value ?? Infinity) - (b.value ?? Infinity));
   descending = !descending;
   renderPlayers(playersData);
 });
@@ -256,6 +276,31 @@ fetch("data/leaders.json")
     fillLeaders("leaders-month", data.month);
   })
   .catch(error => console.error("Could not load leaders:", error));
+
+Promise.all([
+  fetch("data/squads.json").then(r => r.json()),
+  fetch("data/players.json").then(r => r.json())
+])
+  .then(([squads, curated]) => {
+    const byId = {};
+    curated.forEach(p => { byId[p.apiId] = p; });
+
+    playersData = squads.map(s => {
+      const c = byId[s.apiId] || {};
+      return {
+        ...s,
+        value: c.value ?? null,
+        appearances: c.appearances ?? null,
+        goals: c.goals ?? null,
+        assists: c.assists ?? null
+      };
+    });
+
+    // players with a market value first, biggest first
+    playersData.sort((a, b) => (b.value ?? -1) - (a.value ?? -1));
+    renderPlayers(playersData);
+  })
+  .catch(error => console.error("Could not load player data:", error));
 
 
   // Awards (form-based nominees)
