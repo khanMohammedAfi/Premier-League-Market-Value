@@ -56,6 +56,16 @@ async function main() {
     return;
   }
 
+    // Keep values/photos from the previous file, so a failed values download never blanks them
+  let old = [];
+  try { old = JSON.parse(fs.readFileSync("data/squads.json", "utf8")); } catch (e) {}
+  const oldById = new Map(old.map(o => [o.apiId, o]));
+  for (const p of players) {
+    const o = oldById.get(p.apiId);
+    if (o && o.value !== undefined) p.value = o.value;
+    if (o && o.photo) p.photo = o.photo;
+  }
+  
   fs.writeFileSync("data/squads.json", JSON.stringify(players, null, 2));
   console.log("Saved", players.length, "players from", data.teams.length, "clubs");
 }

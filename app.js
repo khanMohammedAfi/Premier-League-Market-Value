@@ -92,7 +92,7 @@ Promise.all([
       const c = byId[s.apiId] || {};
       return {
         ...s,
-        value: c.value ?? null,
+        value: c.value ?? s.value ?? null,
         appearances: c.appearances ?? null,
         goals: c.goals ?? null,
         assists: c.assists ?? null

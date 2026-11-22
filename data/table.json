@@ -14,12 +14,12 @@
     "position": 2,
     "club": "Brighton Hove",
     "crest": "https://crests.football-data.org/397.png",
-    "played": 10,
+    "played": 11,
     "won": 7,
-    "drawn": 1,
+    "drawn": 2,
     "lost": 2,
     "gd": 19,
-    "points": 22
+    "points": 23
   },
   {
     "position": 3,
@@ -133,6 +133,17 @@
   },
   {
     "position": 13,
+    "club": "Hull City",
+    "crest": "https://crests.football-data.org/322.png",
+    "played": 11,
+    "won": 2,
+    "drawn": 6,
+    "lost": 3,
+    "gd": 0,
+    "points": 12
+  },
+  {
+    "position": 14,
     "club": "Coventry City",
     "crest": "https://crests.football-data.org/1076.png",
     "played": 11,
@@ -141,17 +152,6 @@
     "lost": 7,
     "gd": -8,
     "points": 12
-  },
-  {
-    "position": 14,
-    "club": "Hull City",
-    "crest": "https://crests.football-data.org/322.png",
-    "played": 10,
-    "won": 2,
-    "drawn": 5,
-    "lost": 3,
-    "gd": 0,
-    "points": 11
   },
   {
     "position": 15,
