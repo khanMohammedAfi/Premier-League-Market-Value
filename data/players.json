@@ -5,7 +5,7 @@
     "club": "Manchester City",
     "position": "FW",
     "age": 26,
-    "value": 220000000,
+    "value": 200000000,
     "appearances": 11,
     "goals": 9,
     "assists": 10
@@ -16,7 +16,7 @@
     "club": "Liverpool",
     "position": "FW",
     "age": 27,
-    "value": 99000000,
+    "value": 85000000,
     "appearances": 9,
     "goals": 7,
     "assists": 0
@@ -27,7 +27,7 @@
     "club": "Manchester City",
     "position": "MF",
     "age": 23,
-    "value": 75000000,
+    "value": 90000000,
     "appearances": 11,
     "goals": 5,
     "assists": 0
@@ -38,7 +38,7 @@
     "club": "Arsenal",
     "position": "FW",
     "age": 25,
-    "value": 130000000,
+    "value": 110000000,
     "appearances": 7,
     "goals": 3,
     "assists": 0

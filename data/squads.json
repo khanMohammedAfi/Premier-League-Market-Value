@@ -6,7 +6,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "GK",
     "age": 32,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 5000000
   },
   {
     "apiId": 4832,
@@ -15,7 +16,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "GK",
     "age": 31,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 30000000
   },
   {
     "apiId": 74831,
@@ -24,7 +26,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "GK",
     "age": 26,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 8000000
   },
   {
     "apiId": 6154,
@@ -33,7 +36,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "DF",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 30000000
   },
   {
     "apiId": 6317,
@@ -42,7 +46,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "DF",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 40000000
   },
   {
     "apiId": 23128,
@@ -51,7 +56,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "DF",
     "age": 28,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 75000000
   },
   {
     "apiId": 80171,
@@ -60,7 +66,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "DF",
     "age": 25,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 100000000
   },
   {
     "apiId": 98816,
@@ -69,7 +76,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "DF",
     "age": 25,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 70000000
   },
   {
     "apiId": 125674,
@@ -78,7 +86,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "DF",
     "age": 24,
-    "nationality": "Ecuador"
+    "nationality": "Ecuador",
+    "value": 50000000
   },
   {
     "apiId": 133512,
@@ -87,7 +96,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "DF",
     "age": 24,
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "value": 55000000
   },
   {
     "apiId": 172839,
@@ -96,7 +106,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "DF",
     "age": 22,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 40000000
   },
   {
     "apiId": 1684,
@@ -105,7 +116,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "MF",
     "age": 29,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 70000000
   },
   {
     "apiId": 4032,
@@ -114,7 +126,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "MF",
     "age": 28,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 65000000
   },
   {
     "apiId": 7427,
@@ -123,7 +136,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "MF",
     "age": 27,
-    "nationality": "Norway"
+    "nationality": "Norway",
+    "value": 65000000
   },
   {
     "apiId": 7935,
@@ -132,7 +146,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "MF",
     "age": 30,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 25000000
   },
   {
     "apiId": 8215,
@@ -141,7 +156,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "MF",
     "age": 27,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 120000000
   },
   {
     "apiId": 115035,
@@ -150,7 +166,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "MF",
     "age": 27,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 75000000
   },
   {
     "apiId": 244120,
@@ -159,7 +176,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "MF",
     "age": 20,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 45000000
   },
   {
     "apiId": 171,
@@ -168,7 +186,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "FW",
     "age": 27,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 55000000
   },
   {
     "apiId": 8279,
@@ -177,7 +196,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "FW",
     "age": 28,
-    "nationality": "Sweden"
+    "nationality": "Sweden",
+    "value": 65000000
   },
   {
     "apiId": 99813,
@@ -186,7 +206,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "FW",
     "age": 25,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 110000000
   },
   {
     "apiId": 144434,
@@ -195,7 +216,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "FW",
     "age": 24,
-    "nationality": "Greece"
+    "nationality": "Greece",
+    "value": 40000000
   },
   {
     "apiId": 167720,
@@ -204,7 +226,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "FW",
     "age": 24,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 50000000
   },
   {
     "apiId": 285128,
@@ -213,7 +236,8 @@
     "crest": "https://crests.football-data.org/57.png",
     "position": "FW",
     "age": 16,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 30000000
   },
   {
     "apiId": 302255,
@@ -231,7 +255,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "GK",
     "age": 35,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 1500000
   },
   {
     "apiId": 118920,
@@ -240,7 +265,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "GK",
     "age": 24,
-    "nationality": "Japan"
+    "nationality": "Japan",
+    "value": 20000000
   },
   {
     "apiId": 204460,
@@ -249,7 +275,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "GK",
     "age": 21,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 200000
   },
   {
     "apiId": 3492,
@@ -267,7 +294,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "DF",
     "age": 28,
-    "nationality": "Congo DR"
+    "nationality": "Congo DR",
+    "value": 15000000
   },
   {
     "apiId": 8235,
@@ -276,7 +304,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "DF",
     "age": 33,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 3000000
   },
   {
     "apiId": 11644,
@@ -285,7 +314,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "DF",
     "age": 29,
-    "nationality": "Poland"
+    "nationality": "Poland",
+    "value": 22000000
   },
   {
     "apiId": 33109,
@@ -294,7 +324,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "DF",
     "age": 29,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 20000000
   },
   {
     "apiId": 131035,
@@ -303,7 +334,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "DF",
     "age": 24,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 20000000
   },
   {
     "apiId": 131120,
@@ -312,7 +344,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "DF",
     "age": 24,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 30000000
   },
   {
     "apiId": 151241,
@@ -321,7 +354,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "DF",
     "age": 24,
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "value": 28000000
   },
   {
     "apiId": 276000,
@@ -330,7 +364,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "DF",
     "age": 21,
-    "nationality": "Senegal"
+    "nationality": "Senegal",
+    "value": 6000000
   },
   {
     "apiId": 3181,
@@ -339,7 +374,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "MF",
     "age": 31,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 12000000
   },
   {
     "apiId": 7817,
@@ -348,7 +384,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "MF",
     "age": 32,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 4000000
   },
   {
     "apiId": 8346,
@@ -357,7 +394,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "MF",
     "age": 26,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 40000000
   },
   {
     "apiId": 31941,
@@ -366,7 +404,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "MF",
     "age": 29,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 16000000
   },
   {
     "apiId": 34646,
@@ -375,7 +414,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "MF",
     "age": 32,
-    "nationality": "Scotland"
+    "nationality": "Scotland",
+    "value": 13000000
   },
   {
     "apiId": 114024,
@@ -384,7 +424,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "MF",
     "age": 25,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 45000000
   },
   {
     "apiId": 138034,
@@ -393,7 +434,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "MF",
     "age": 25,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 40000000
   },
   {
     "apiId": 172899,
@@ -402,7 +444,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "MF",
     "age": 22,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 18000000
   },
   {
     "apiId": 212309,
@@ -411,7 +454,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "MF",
     "age": 21,
-    "nationality": "Switzerland"
+    "nationality": "Switzerland",
+    "value": 50000000
   },
   {
     "apiId": 7985,
@@ -420,7 +464,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "FW",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 18000000
   },
   {
     "apiId": 152515,
@@ -429,7 +474,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "FW",
     "age": 25,
-    "nationality": "Senegal"
+    "nationality": "Senegal",
+    "value": 40000000
   },
   {
     "apiId": 181901,
@@ -438,7 +484,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "FW",
     "age": 22,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 28000000
   },
   {
     "apiId": 260718,
@@ -447,7 +494,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "FW",
     "age": 20,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 10000000
   },
   {
     "apiId": 265040,
@@ -456,7 +504,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "FW",
     "age": 18,
-    "nationality": "Senegal"
+    "nationality": "Senegal",
+    "value": 30000000
   },
   {
     "apiId": 280446,
@@ -465,7 +514,8 @@
     "crest": "https://crests.football-data.org/58.png",
     "position": "FW",
     "age": 17,
-    "nationality": "Luxembourg"
+    "nationality": "Luxembourg",
+    "value": 12000000
   },
   {
     "apiId": 289528,
@@ -483,7 +533,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "GK",
     "age": 34,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 12000000
   },
   {
     "apiId": 137544,
@@ -492,7 +543,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "GK",
     "age": 22,
-    "nationality": "USA"
+    "nationality": "USA",
+    "value": 3000000
   },
   {
     "apiId": 175910,
@@ -501,7 +553,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "GK",
     "age": 23,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 500000
   },
   {
     "apiId": 191068,
@@ -510,7 +563,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "GK",
     "age": 21,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 25000000
   },
   {
     "apiId": 8545,
@@ -519,7 +573,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "DF",
     "age": 25,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 28000000
   },
   {
     "apiId": 56628,
@@ -528,7 +583,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "DF",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 60000000
   },
   {
     "apiId": 82351,
@@ -537,7 +593,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "DF",
     "age": 26,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 50000000
   },
   {
     "apiId": 151251,
@@ -546,7 +603,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "DF",
     "age": 28,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 10000000
   },
   {
     "apiId": 152498,
@@ -555,7 +613,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "DF",
     "age": 23,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 35000000
   },
   {
     "apiId": 170440,
@@ -564,7 +623,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "DF",
     "age": 23,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 50000000
   },
   {
     "apiId": 189477,
@@ -573,7 +633,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "DF",
     "age": 20,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 40000000
   },
   {
     "apiId": 206136,
@@ -582,7 +643,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "DF",
     "age": 21,
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "value": 35000000
   },
   {
     "apiId": 209148,
@@ -591,7 +653,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "DF",
     "age": 21,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 10000000
   },
   {
     "apiId": 249320,
@@ -600,7 +663,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "DF",
     "age": 20,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 25000000
   },
   {
     "apiId": 3320,
@@ -609,7 +673,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "MF",
     "age": 36,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 1200000
   },
   {
     "apiId": 82140,
@@ -618,7 +683,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "MF",
     "age": 24,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 90000000
   },
   {
     "apiId": 121103,
@@ -627,7 +693,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "MF",
     "age": 25,
-    "nationality": "Ecuador"
+    "nationality": "Ecuador",
+    "value": 100000000
   },
   {
     "apiId": 144892,
@@ -636,7 +703,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "MF",
     "age": 24,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 100000000
   },
   {
     "apiId": 170261,
@@ -645,7 +713,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "MF",
     "age": 22,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 40000000
   },
   {
     "apiId": 172738,
@@ -654,7 +723,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "MF",
     "age": 22,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 22000000
   },
   {
     "apiId": 301113,
@@ -672,7 +742,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "FW",
     "age": 26,
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "value": 60000000
   },
   {
     "apiId": 3328,
@@ -681,7 +752,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "FW",
     "age": 35,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 3000000
   },
   {
     "apiId": 103125,
@@ -690,7 +762,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "FW",
     "age": 25,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 80000000
   },
   {
     "apiId": 150599,
@@ -699,7 +772,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "FW",
     "age": 23,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 25000000
   },
   {
     "apiId": 179460,
@@ -717,7 +791,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "FW",
     "age": 19,
-    "nationality": "Guinea-Bissau"
+    "nationality": "Guinea-Bissau",
+    "value": 42000000
   },
   {
     "apiId": 244778,
@@ -726,7 +801,8 @@
     "crest": "https://crests.football-data.org/61.png",
     "position": "FW",
     "age": 19,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 80000000
   },
   {
     "apiId": 3309,
@@ -735,7 +811,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "GK",
     "age": 32,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 13000000
   },
   {
     "apiId": 6180,
@@ -753,7 +830,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "GK",
     "age": 27,
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "value": 3000000
   },
   {
     "apiId": 3316,
@@ -762,7 +840,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "DF",
     "age": 34,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 5000000
   },
   {
     "apiId": 7792,
@@ -771,7 +850,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "DF",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 10000000
   },
   {
     "apiId": 7829,
@@ -780,7 +860,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "DF",
     "age": 33,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 3000000
   },
   {
     "apiId": 16165,
@@ -789,7 +870,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Ukraine"
+    "nationality": "Ukraine",
+    "value": 25000000
   },
   {
     "apiId": 114120,
@@ -798,7 +880,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "DF",
     "age": 24,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 40000000
   },
   {
     "apiId": 131569,
@@ -807,7 +890,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "DF",
     "age": 25,
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "value": 18000000
   },
   {
     "apiId": 24102,
@@ -816,7 +900,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "MF",
     "age": 32,
-    "nationality": "Denmark"
+    "nationality": "Denmark",
+    "value": 5000000
   },
   {
     "apiId": 101076,
@@ -825,7 +910,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "MF",
     "age": 25,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 45000000
   },
   {
     "apiId": 136284,
@@ -843,7 +929,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "MF",
     "age": 28,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 35000000
   },
   {
     "apiId": 140269,
@@ -852,7 +939,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "MF",
     "age": 23,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 15000000
   },
   {
     "apiId": 156552,
@@ -861,7 +949,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "MF",
     "age": 24,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 16000000
   },
   {
     "apiId": 264281,
@@ -870,7 +959,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "MF",
     "age": 19,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 12000000
   },
   {
     "apiId": 3895,
@@ -879,7 +969,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "FW",
     "age": 31,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 20000000
   },
   {
     "apiId": 124694,
@@ -888,7 +979,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "FW",
     "age": 25,
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "value": 30000000
   },
   {
     "apiId": 171995,
@@ -897,7 +989,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "FW",
     "age": 26,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 30000000
   },
   {
     "apiId": 218525,
@@ -906,7 +999,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "FW",
     "age": 20,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 17000000
   },
   {
     "apiId": 244747,
@@ -915,7 +1009,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "FW",
     "age": 19,
-    "nationality": "Northern Ireland"
+    "nationality": "Northern Ireland",
+    "value": 25000
   },
   {
     "apiId": 250436,
@@ -924,7 +1019,8 @@
     "crest": "https://crests.football-data.org/62.png",
     "position": "FW",
     "age": 20,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 20000000
   },
   {
     "apiId": 3174,
@@ -933,7 +1029,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "GK",
     "age": 34,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 6000000
   },
   {
     "apiId": 8366,
@@ -942,7 +1039,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "GK",
     "age": 35,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 800000
   },
   {
     "apiId": 300279,
@@ -960,7 +1058,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "DF",
     "age": 30,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 8000000
   },
   {
     "apiId": 2253,
@@ -969,7 +1068,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "DF",
     "age": 30,
-    "nationality": "Denmark"
+    "nationality": "Denmark",
+    "value": 20000000
   },
   {
     "apiId": 3927,
@@ -978,7 +1078,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "DF",
     "age": 29,
-    "nationality": "USA"
+    "nationality": "USA",
+    "value": 22000000
   },
   {
     "apiId": 3959,
@@ -987,7 +1088,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "DF",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 22000000
   },
   {
     "apiId": 8460,
@@ -996,7 +1098,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "DF",
     "age": 31,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 8000000
   },
   {
     "apiId": 98750,
@@ -1005,7 +1108,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 8000000
   },
   {
     "apiId": 123212,
@@ -1014,7 +1118,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "DF",
     "age": 25,
-    "nationality": "Austria"
+    "nationality": "Austria",
+    "value": 20000000
   },
   {
     "apiId": 146154,
@@ -1023,7 +1128,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "DF",
     "age": 26,
-    "nationality": "Nigeria"
+    "nationality": "Nigeria",
+    "value": 28000000
   },
   {
     "apiId": 3392,
@@ -1032,7 +1138,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "MF",
     "age": 30,
-    "nationality": "Nigeria"
+    "nationality": "Nigeria",
+    "value": 20000000
   },
   {
     "apiId": 3965,
@@ -1041,7 +1148,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "MF",
     "age": 35,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 500000
   },
   {
     "apiId": 3995,
@@ -1050,7 +1158,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "MF",
     "age": 31,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 2000000
   },
   {
     "apiId": 8973,
@@ -1059,7 +1168,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "MF",
     "age": 28,
-    "nationality": "Norway"
+    "nationality": "Norway",
+    "value": 25000000
   },
   {
     "apiId": 85570,
@@ -1068,7 +1178,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "MF",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 20000000
   },
   {
     "apiId": 180563,
@@ -1077,7 +1188,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "MF",
     "age": 22,
-    "nationality": "Sweden"
+    "nationality": "Sweden",
+    "value": 28000000
   },
   {
     "apiId": 192108,
@@ -1086,7 +1198,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "MF",
     "age": 23,
-    "nationality": "Northern Ireland"
+    "nationality": "Northern Ireland",
+    "value": 15000000
   },
   {
     "apiId": 246418,
@@ -1095,7 +1208,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "MF",
     "age": 19,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 1200000
   },
   {
     "apiId": 290848,
@@ -1104,7 +1218,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "MF",
     "age": 22,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 7500000
   },
   {
     "apiId": 291727,
@@ -1113,7 +1228,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "MF",
     "age": 22,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 5000000
   },
   {
     "apiId": 138036,
@@ -1122,7 +1238,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "FW",
     "age": 25,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 20000000
   },
   {
     "apiId": 179122,
@@ -1140,7 +1257,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "FW",
     "age": 23,
-    "nationality": "Norway"
+    "nationality": "Norway",
+    "value": 28000000
   },
   {
     "apiId": 217577,
@@ -1149,7 +1267,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "FW",
     "age": 19,
-    "nationality": "Sweden"
+    "nationality": "Sweden",
+    "value": 3000000
   },
   {
     "apiId": 217658,
@@ -1158,7 +1277,8 @@
     "crest": "https://crests.football-data.org/63.png",
     "position": "FW",
     "age": 22,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 30000000
   },
   {
     "apiId": 304210,
@@ -1176,7 +1296,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "GK",
     "age": 34,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 15000000
   },
   {
     "apiId": 11629,
@@ -1185,7 +1306,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "GK",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 3000000
   },
   {
     "apiId": 84506,
@@ -1194,7 +1316,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "GK",
     "age": 26,
-    "nationality": "Georgia"
+    "nationality": "Georgia",
+    "value": 28000000
   },
   {
     "apiId": 152579,
@@ -1203,7 +1326,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "GK",
     "age": 25,
-    "nationality": "Czech Republic"
+    "nationality": "Czech Republic",
+    "value": 5000000
   },
   {
     "apiId": 165154,
@@ -1212,7 +1336,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "GK",
     "age": 23,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 500000
   },
   {
     "apiId": 7383,
@@ -1230,7 +1355,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "DF",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 13000000
   },
   {
     "apiId": 7869,
@@ -1239,7 +1365,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "DF",
     "age": 35,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 15000000
   },
   {
     "apiId": 28292,
@@ -1248,7 +1375,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Uruguay"
+    "nationality": "Uruguay",
+    "value": 20000000
   },
   {
     "apiId": 128954,
@@ -1257,7 +1385,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "DF",
     "age": 25,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 35000000
   },
   {
     "apiId": 171141,
@@ -1266,7 +1395,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "DF",
     "age": 23,
-    "nationality": "Hungary"
+    "nationality": "Hungary",
+    "value": 35000000
   },
   {
     "apiId": 175865,
@@ -1275,7 +1405,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "DF",
     "age": 23,
-    "nationality": "Northern Ireland"
+    "nationality": "Northern Ireland",
+    "value": 25000000
   },
   {
     "apiId": 192563,
@@ -1284,7 +1415,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "DF",
     "age": 19,
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "value": 25000000
   },
   {
     "apiId": 206127,
@@ -1293,7 +1425,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "DF",
     "age": 21,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 55000000
   },
   {
     "apiId": 3269,
@@ -1302,7 +1435,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "MF",
     "age": 33,
-    "nationality": "Japan"
+    "nationality": "Japan",
+    "value": 4000000
   },
   {
     "apiId": 16347,
@@ -1311,7 +1445,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "MF",
     "age": 26,
-    "nationality": "Hungary"
+    "nationality": "Hungary",
+    "value": 100000000
   },
   {
     "apiId": 19334,
@@ -1320,7 +1455,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "MF",
     "age": 23,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 100000000
   },
   {
     "apiId": 45681,
@@ -1329,7 +1465,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "MF",
     "age": 27,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 70000000
   },
   {
     "apiId": 81793,
@@ -1338,7 +1475,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "MF",
     "age": 24,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 80000000
   },
   {
     "apiId": 214502,
@@ -1347,7 +1485,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "MF",
     "age": 22,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 2000000
   },
   {
     "apiId": 230517,
@@ -1356,7 +1495,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "MF",
     "age": 19,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 8000000
   },
   {
     "apiId": 1780,
@@ -1365,7 +1505,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "FW",
     "age": 29,
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "value": 13000000
   },
   {
     "apiId": 6486,
@@ -1374,7 +1515,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "FW",
     "age": 27,
-    "nationality": "Sweden"
+    "nationality": "Sweden",
+    "value": 85000000
   },
   {
     "apiId": 7459,
@@ -1383,7 +1525,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "FW",
     "age": 27,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 60000000
   },
   {
     "apiId": 152454,
@@ -1392,7 +1535,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "FW",
     "age": 24,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 80000000
   },
   {
     "apiId": 172762,
@@ -1401,7 +1545,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "FW",
     "age": 24,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 70000000
   },
   {
     "apiId": 244989,
@@ -1410,7 +1555,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "FW",
     "age": 21,
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "value": 4000000
   },
   {
     "apiId": 273423,
@@ -1419,7 +1565,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "FW",
     "age": 23,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 30000000
   },
   {
     "apiId": 273453,
@@ -1428,7 +1575,8 @@
     "crest": "https://crests.football-data.org/64.png",
     "position": "FW",
     "age": 18,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 30000000
   },
   {
     "apiId": 302268,
@@ -1446,7 +1594,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "GK",
     "age": 34,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 6000000
   },
   {
     "apiId": 1731,
@@ -1455,7 +1604,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "GK",
     "age": 27,
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "value": 45000000
   },
   {
     "apiId": 3953,
@@ -1464,7 +1614,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "GK",
     "age": 34,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 300000
   },
   {
     "apiId": 8642,
@@ -1473,7 +1624,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "DF",
     "age": 25,
-    "nationality": "Algeria"
+    "nationality": "Algeria",
+    "value": 40000000
   },
   {
     "apiId": 10183,
@@ -1482,7 +1634,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "DF",
     "age": 29,
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "value": 55000000
   },
   {
     "apiId": 91512,
@@ -1491,7 +1644,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "DF",
     "age": 28,
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "value": 50000000
   },
   {
     "apiId": 118489,
@@ -1500,7 +1654,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "DF",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 70000000
   },
   {
     "apiId": 122266,
@@ -1509,7 +1664,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "DF",
     "age": 24,
-    "nationality": "Croatia"
+    "nationality": "Croatia",
+    "value": 70000000
   },
   {
     "apiId": 187202,
@@ -1518,7 +1674,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "DF",
     "age": 22,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 28000000
   },
   {
     "apiId": 206743,
@@ -1527,7 +1684,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "DF",
     "age": 21,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 70000000
   },
   {
     "apiId": 212868,
@@ -1536,7 +1694,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "DF",
     "age": 22,
-    "nationality": "Uzbekistan"
+    "nationality": "Uzbekistan",
+    "value": 50000000
   },
   {
     "apiId": 249196,
@@ -1545,7 +1704,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "DF",
     "age": 20,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 30000000
   },
   {
     "apiId": 65,
@@ -1554,7 +1714,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "MF",
     "age": 32,
-    "nationality": "Croatia"
+    "nationality": "Croatia",
+    "value": 10000000
   },
   {
     "apiId": 7888,
@@ -1563,7 +1724,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "MF",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 70000000
   },
   {
     "apiId": 102603,
@@ -1572,7 +1734,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "MF",
     "age": 25,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 90000000
   },
   {
     "apiId": 107330,
@@ -1581,7 +1744,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "MF",
     "age": 24,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 75000000
   },
   {
     "apiId": 133242,
@@ -1590,7 +1754,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "MF",
     "age": 23,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 90000000
   },
   {
     "apiId": 221819,
@@ -1599,7 +1764,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "MF",
     "age": 19,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 50000000
   },
   {
     "apiId": 4417,
@@ -1608,7 +1774,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "FW",
     "age": 26,
-    "nationality": "Ghana"
+    "nationality": "Ghana",
+    "value": 80000000
   },
   {
     "apiId": 38101,
@@ -1617,7 +1784,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "FW",
     "age": 26,
-    "nationality": "Norway"
+    "nationality": "Norway",
+    "value": 200000000
   },
   {
     "apiId": 94091,
@@ -1626,7 +1794,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "FW",
     "age": 26,
-    "nationality": "Senegal"
+    "nationality": "Senegal",
+    "value": 55000000
   },
   {
     "apiId": 99775,
@@ -1635,7 +1804,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "FW",
     "age": 24,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 75000000
   },
   {
     "apiId": 274216,
@@ -1644,7 +1814,8 @@
     "crest": "https://crests.football-data.org/65.png",
     "position": "FW",
     "age": 22,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 20000000
   },
   {
     "apiId": 286950,
@@ -1662,7 +1833,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "GK",
     "age": 36,
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "value": 200000
   },
   {
     "apiId": 8035,
@@ -1671,7 +1843,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "GK",
     "age": 40,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 100000
   },
   {
     "apiId": 129946,
@@ -1680,7 +1853,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "GK",
     "age": 24,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 35000000
   },
   {
     "apiId": 210730,
@@ -1689,7 +1863,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "GK",
     "age": 24,
-    "nationality": "Northern Ireland"
+    "nationality": "Northern Ireland",
+    "value": 200000
   },
   {
     "apiId": 3326,
@@ -1698,7 +1873,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "DF",
     "age": 33,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 8000000
   },
   {
     "apiId": 7549,
@@ -1707,7 +1883,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 30000000
   },
   {
     "apiId": 7553,
@@ -1716,7 +1893,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "DF",
     "age": 29,
-    "nationality": "Morocco"
+    "nationality": "Morocco",
+    "value": 18000000
   },
   {
     "apiId": 7898,
@@ -1725,7 +1903,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "DF",
     "age": 31,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 8000000
   },
   {
     "apiId": 15905,
@@ -1734,7 +1913,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "value": 30000000
   },
   {
     "apiId": 46451,
@@ -1743,7 +1923,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "DF",
     "age": 28,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 40000000
   },
   {
     "apiId": 181933,
@@ -1752,7 +1933,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "DF",
     "age": 21,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 50000000
   },
   {
     "apiId": 210150,
@@ -1761,7 +1943,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "DF",
     "age": 19,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 5000000
   },
   {
     "apiId": 247644,
@@ -1770,7 +1953,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "DF",
     "age": 20,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 30000000
   },
   {
     "apiId": 3257,
@@ -1779,7 +1963,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "MF",
     "age": 32,
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "value": 35000000
   },
   {
     "apiId": 3658,
@@ -1788,7 +1973,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "MF",
     "age": 29,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 30000000
   },
   {
     "apiId": 7599,
@@ -1797,7 +1983,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "MF",
     "age": 27,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 25000000
   },
   {
     "apiId": 28549,
@@ -1806,7 +1993,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "MF",
     "age": 25,
-    "nationality": "Uruguay"
+    "nationality": "Uruguay",
+    "value": 25000000
   },
   {
     "apiId": 166366,
@@ -1815,7 +2003,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "MF",
     "age": 22,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 40000000
   },
   {
     "apiId": 178604,
@@ -1824,7 +2013,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "MF",
     "age": 22,
-    "nationality": "Cameroon"
+    "nationality": "Cameroon",
+    "value": 55000000
   },
   {
     "apiId": 190797,
@@ -1833,7 +2023,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "MF",
     "age": 21,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 70000000
   },
   {
     "apiId": 290139,
@@ -1851,7 +2042,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "FW",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 40000000
   },
   {
     "apiId": 8626,
@@ -1860,7 +2052,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "FW",
     "age": 27,
-    "nationality": "Cameroon"
+    "nationality": "Cameroon",
+    "value": 75000000
   },
   {
     "apiId": 30842,
@@ -1869,7 +2062,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "FW",
     "age": 27,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 75000000
   },
   {
     "apiId": 99731,
@@ -1878,7 +2072,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "FW",
     "age": 25,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 20000000
   },
   {
     "apiId": 124244,
@@ -1887,7 +2082,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "FW",
     "age": 23,
-    "nationality": "Slovenia"
+    "nationality": "Slovenia",
+    "value": 75000000
   },
   {
     "apiId": 133584,
@@ -1896,7 +2092,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "FW",
     "age": 24,
-    "nationality": "Ivory Coast"
+    "nationality": "Ivory Coast",
+    "value": 45000000
   },
   {
     "apiId": 211559,
@@ -1905,7 +2102,8 @@
     "crest": "https://crests.football-data.org/66.png",
     "position": "FW",
     "age": 22,
-    "nationality": "Denmark"
+    "nationality": "Denmark",
+    "value": 35000000
   },
   {
     "apiId": 289557,
@@ -1932,7 +2130,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "GK",
     "age": 34,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 5000000
   },
   {
     "apiId": 5048,
@@ -1941,7 +2140,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "GK",
     "age": 34,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 100000
   },
   {
     "apiId": 146753,
@@ -1950,7 +2150,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "GK",
     "age": 24,
-    "nationality": "Czech Republic"
+    "nationality": "Czech Republic",
+    "value": 18000000
   },
   {
     "apiId": 191388,
@@ -1968,7 +2169,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "DF",
     "age": 34,
-    "nationality": "Switzerland"
+    "nationality": "Switzerland",
+    "value": 4000000
   },
   {
     "apiId": 4870,
@@ -1977,7 +2179,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "DF",
     "age": 34,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 4000000
   },
   {
     "apiId": 81082,
@@ -1986,7 +2189,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "DF",
     "age": 26,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 35000000
   },
   {
     "apiId": 81816,
@@ -1995,7 +2199,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "DF",
     "age": 24,
-    "nationality": "Austria"
+    "nationality": "Austria",
+    "value": 16000000
   },
   {
     "apiId": 142732,
@@ -2004,7 +2209,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "DF",
     "age": 25,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 45000000
   },
   {
     "apiId": 168712,
@@ -2013,7 +2219,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "DF",
     "age": 24,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 45000000
   },
   {
     "apiId": 191140,
@@ -2022,7 +2229,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "DF",
     "age": 22,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 40000000
   },
   {
     "apiId": 7798,
@@ -2031,7 +2239,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "MF",
     "age": 27,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 14000000
   },
   {
     "apiId": 10653,
@@ -2040,7 +2249,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "MF",
     "age": 30,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 25000000
   },
   {
     "apiId": 111437,
@@ -2049,7 +2259,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "MF",
     "age": 25,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 35000000
   },
   {
     "apiId": 171986,
@@ -2058,7 +2269,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "MF",
     "age": 24,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 40000000
   },
   {
     "apiId": 191939,
@@ -2067,7 +2279,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "MF",
     "age": 20,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 25000000
   },
   {
     "apiId": 251265,
@@ -2076,7 +2289,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "MF",
     "age": 18,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 7000000
   },
   {
     "apiId": 272943,
@@ -2085,7 +2299,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "MF",
     "age": 20,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 18000000
   },
   {
     "apiId": 612,
@@ -2094,7 +2309,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "FW",
     "age": 30,
-    "nationality": "Congo DR"
+    "nationality": "Congo DR",
+    "value": 25000000
   },
   {
     "apiId": 7934,
@@ -2103,7 +2319,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "FW",
     "age": 31,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 12000000
   },
   {
     "apiId": 8076,
@@ -2112,7 +2329,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "FW",
     "age": 28,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 32000000
   },
   {
     "apiId": 166376,
@@ -2121,7 +2339,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "FW",
     "age": 24,
-    "nationality": "Sweden"
+    "nationality": "Sweden",
+    "value": 32000000
   },
   {
     "apiId": 169324,
@@ -2130,7 +2349,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "FW",
     "age": 23,
-    "nationality": "Denmark"
+    "nationality": "Denmark",
+    "value": 28000000
   },
   {
     "apiId": 213511,
@@ -2139,7 +2359,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "FW",
     "age": 21,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 35000000
   },
   {
     "apiId": 249312,
@@ -2148,7 +2369,8 @@
     "crest": "https://crests.football-data.org/67.png",
     "position": "FW",
     "age": 20,
-    "nationality": "Ivory Coast"
+    "nationality": "Ivory Coast",
+    "value": 40000000
   },
   {
     "apiId": 4292,
@@ -2157,7 +2379,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "GK",
     "age": 36,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 75000
   },
   {
     "apiId": 137691,
@@ -2166,7 +2389,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "GK",
     "age": 23,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 28000000
   },
   {
     "apiId": 150893,
@@ -2175,7 +2399,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "GK",
     "age": 23,
-    "nationality": "Sweden"
+    "nationality": "Sweden",
+    "value": 3000000
   },
   {
     "apiId": 3650,
@@ -2184,7 +2409,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "DF",
     "age": 35,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 1500000
   },
   {
     "apiId": 6259,
@@ -2193,7 +2419,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "DF",
     "age": 32,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 700000
   },
   {
     "apiId": 6655,
@@ -2202,7 +2429,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "DF",
     "age": 28,
-    "nationality": "Austria"
+    "nationality": "Austria",
+    "value": 20000000
   },
   {
     "apiId": 8371,
@@ -2211,7 +2439,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "DF",
     "age": 29,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 16000000
   },
   {
     "apiId": 37094,
@@ -2220,7 +2449,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "DF",
     "age": 32,
-    "nationality": "Mozambique"
+    "nationality": "Mozambique",
+    "value": 4000000
   },
   {
     "apiId": 46491,
@@ -2229,7 +2459,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "DF",
     "age": 29,
-    "nationality": "Paraguay"
+    "nationality": "Paraguay",
+    "value": 13000000
   },
   {
     "apiId": 117687,
@@ -2238,7 +2469,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "DF",
     "age": 24,
-    "nationality": "Northern Ireland"
+    "nationality": "Northern Ireland",
+    "value": 22000000
   },
   {
     "apiId": 121109,
@@ -2256,7 +2488,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "DF",
     "age": 25,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 1200000
   },
   {
     "apiId": 264401,
@@ -2265,7 +2498,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "DF",
     "age": 20,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 18000000
   },
   {
     "apiId": 3477,
@@ -2274,7 +2508,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "MF",
     "age": 34,
-    "nationality": "Switzerland"
+    "nationality": "Switzerland",
+    "value": 8000000
   },
   {
     "apiId": 11362,
@@ -2292,7 +2527,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "MF",
     "age": 26,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 28000000
   },
   {
     "apiId": 171876,
@@ -2301,7 +2537,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "MF",
     "age": 22,
-    "nationality": "Senegal"
+    "nationality": "Senegal",
+    "value": 35000000
   },
   {
     "apiId": 182273,
@@ -2310,7 +2547,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "MF",
     "age": 21,
-    "nationality": "Congo DR"
+    "nationality": "Congo DR",
+    "value": 35000000
   },
   {
     "apiId": 190817,
@@ -2319,7 +2557,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "MF",
     "age": 19,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 25000000
   },
   {
     "apiId": 286011,
@@ -2328,7 +2567,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "MF",
     "age": 20,
-    "nationality": "DR Congo"
+    "nationality": "DR Congo",
+    "value": 300000
   },
   {
     "apiId": 83599,
@@ -2337,7 +2577,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "FW",
     "age": 26,
-    "nationality": "Haiti"
+    "nationality": "Haiti",
+    "value": 18000000
   },
   {
     "apiId": 97535,
@@ -2346,7 +2587,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "FW",
     "age": 24,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 30000000
   },
   {
     "apiId": 165311,
@@ -2355,7 +2597,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "FW",
     "age": 23,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 1500000
   },
   {
     "apiId": 172275,
@@ -2364,7 +2607,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "FW",
     "age": 23,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 7000000
   },
   {
     "apiId": 187065,
@@ -2373,7 +2617,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "FW",
     "age": 21,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 30000000
   },
   {
     "apiId": 187375,
@@ -2382,7 +2627,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "FW",
     "age": 23,
-    "nationality": "Ecuador"
+    "nationality": "Ecuador",
+    "value": 17000000
   },
   {
     "apiId": 192313,
@@ -2391,7 +2637,8 @@
     "crest": "https://crests.football-data.org/71.png",
     "position": "FW",
     "age": 21,
-    "nationality": "Morocco"
+    "nationality": "Morocco",
+    "value": 25000000
   },
   {
     "apiId": 290809,
@@ -2409,7 +2656,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "GK",
     "age": 37,
-    "nationality": "Slovakia"
+    "nationality": "Slovakia",
+    "value": 500000
   },
   {
     "apiId": 133229,
@@ -2418,7 +2666,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "GK",
     "age": 27,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 500000
   },
   {
     "apiId": 255239,
@@ -2427,7 +2676,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "GK",
     "age": 23,
-    "nationality": "Czech Republic"
+    "nationality": "Czech Republic",
+    "value": 15000000
   },
   {
     "apiId": 7868,
@@ -2436,7 +2686,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "DF",
     "age": 32,
-    "nationality": "Scotland"
+    "nationality": "Scotland",
+    "value": 7000000
   },
   {
     "apiId": 7880,
@@ -2445,7 +2696,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "DF",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 16000000
   },
   {
     "apiId": 7994,
@@ -2454,7 +2706,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "DF",
     "age": 33,
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "value": 3000000
   },
   {
     "apiId": 46046,
@@ -2463,7 +2716,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "DF",
     "age": 29,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 25000000
   },
   {
     "apiId": 81037,
@@ -2472,7 +2726,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 35000000
   },
   {
     "apiId": 98566,
@@ -2481,7 +2736,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "DF",
     "age": 26,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 45000000
   },
   {
     "apiId": 131177,
@@ -2490,7 +2746,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "DF",
     "age": 25,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 50000000
   },
   {
     "apiId": 170378,
@@ -2499,7 +2756,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "DF",
     "age": 23,
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "value": 30000000
   },
   {
     "apiId": 177040,
@@ -2508,7 +2766,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "DF",
     "age": 20,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 35000000
   },
   {
     "apiId": 1859,
@@ -2517,7 +2776,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "MF",
     "age": 26,
-    "nationality": "Sweden"
+    "nationality": "Sweden",
+    "value": 17000000
   },
   {
     "apiId": 2041,
@@ -2526,7 +2786,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "MF",
     "age": 29,
-    "nationality": "Uruguay"
+    "nationality": "Uruguay",
+    "value": 20000000
   },
   {
     "apiId": 2563,
@@ -2535,7 +2796,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "MF",
     "age": 26,
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "value": 80000000
   },
   {
     "apiId": 3992,
@@ -2544,7 +2806,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "MF",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 20000000
   },
   {
     "apiId": 119265,
@@ -2553,7 +2816,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "MF",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 32000000
   },
   {
     "apiId": 148289,
@@ -2562,7 +2826,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "MF",
     "age": 23,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 40000000
   },
   {
     "apiId": 187216,
@@ -2571,7 +2836,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "MF",
     "age": 22,
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "value": 50000000
   },
   {
     "apiId": 193622,
@@ -2580,7 +2846,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "MF",
     "age": 20,
-    "nationality": "Sweden"
+    "nationality": "Sweden",
+    "value": 35000000
   },
   {
     "apiId": 7878,
@@ -2589,7 +2856,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "FW",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 28000000
   },
   {
     "apiId": 8133,
@@ -2598,7 +2866,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "FW",
     "age": 29,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 25000000
   },
   {
     "apiId": 66896,
@@ -2607,7 +2876,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "FW",
     "age": 27,
-    "nationality": "Egypt"
+    "nationality": "Egypt",
+    "value": 50000000
   },
   {
     "apiId": 77399,
@@ -2616,7 +2886,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "FW",
     "age": 26,
-    "nationality": "Ghana"
+    "nationality": "Ghana",
+    "value": 50000000
   },
   {
     "apiId": 98978,
@@ -2625,7 +2896,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "FW",
     "age": 25,
-    "nationality": "Ukraine"
+    "nationality": "Ukraine",
+    "value": 18000000
   },
   {
     "apiId": 146352,
@@ -2634,7 +2906,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "FW",
     "age": 22,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 200000
   },
   {
     "apiId": 171977,
@@ -2643,7 +2916,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "FW",
     "age": 21,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 22000000
   },
   {
     "apiId": 184999,
@@ -2652,7 +2926,8 @@
     "crest": "https://crests.football-data.org/73.png",
     "position": "FW",
     "age": 21,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 18000000
   },
   {
     "apiId": 3308,
@@ -2661,7 +2936,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "GK",
     "age": 33,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 1500000
   },
   {
     "apiId": 6300,
@@ -2670,7 +2946,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "GK",
     "age": 31,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 450000
   },
   {
     "apiId": 170812,
@@ -2679,7 +2956,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "GK",
     "age": 24,
-    "nationality": "Greece"
+    "nationality": "Greece",
+    "value": 18000000
   },
   {
     "apiId": 3962,
@@ -2688,7 +2966,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "DF",
     "age": 31,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 3000000
   },
   {
     "apiId": 4058,
@@ -2697,7 +2976,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "DF",
     "age": 31,
-    "nationality": "Northern Ireland"
+    "nationality": "Northern Ireland",
+    "value": 1500000
   },
   {
     "apiId": 4425,
@@ -2706,7 +2986,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "DF",
     "age": 34,
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "value": 1000000
   },
   {
     "apiId": 5322,
@@ -2724,7 +3005,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "DF",
     "age": 33,
-    "nationality": "Nigeria"
+    "nationality": "Nigeria",
+    "value": 700000
   },
   {
     "apiId": 82148,
@@ -2742,7 +3024,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "DF",
     "age": 22,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 15000000
   },
   {
     "apiId": 189278,
@@ -2760,7 +3043,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "DF",
     "age": 22,
-    "nationality": "Senegal"
+    "nationality": "Senegal",
+    "value": 7500000
   },
   {
     "apiId": 270733,
@@ -2769,7 +3053,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "DF",
     "age": 19,
-    "nationality": "Australia"
+    "nationality": "Australia",
+    "value": 4500000
   },
   {
     "apiId": 4309,
@@ -2778,7 +3063,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "MF",
     "age": 27,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 3500000
   },
   {
     "apiId": 11306,
@@ -2787,7 +3073,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "MF",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 1500000
   },
   {
     "apiId": 49092,
@@ -2796,7 +3083,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "MF",
     "age": 31,
-    "nationality": "Japan"
+    "nationality": "Japan",
+    "value": 8000000
   },
   {
     "apiId": 147914,
@@ -2805,7 +3093,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "MF",
     "age": 24,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 2000000
   },
   {
     "apiId": 169326,
@@ -2814,7 +3103,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "MF",
     "age": 24,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 18000000
   },
   {
     "apiId": 179603,
@@ -2823,7 +3113,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "MF",
     "age": 23,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 6000000
   },
   {
     "apiId": 184963,
@@ -2832,7 +3123,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "MF",
     "age": 22,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 2000000
   },
   {
     "apiId": 193627,
@@ -2841,7 +3133,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "MF",
     "age": 21,
-    "nationality": "Norway"
+    "nationality": "Norway",
+    "value": 10000000
   },
   {
     "apiId": 230388,
@@ -2859,7 +3152,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "MF",
     "age": 19,
-    "nationality": "Greece"
+    "nationality": "Greece",
+    "value": 25000000
   },
   {
     "apiId": 4359,
@@ -2877,7 +3171,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "FW",
     "age": 27,
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "value": 14000000
   },
   {
     "apiId": 30298,
@@ -2886,7 +3181,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "FW",
     "age": 27,
-    "nationality": "Turkey"
+    "nationality": "Turkey",
+    "value": 1500000
   },
   {
     "apiId": 80761,
@@ -2895,7 +3191,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "FW",
     "age": 24,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 7000000
   },
   {
     "apiId": 149129,
@@ -2904,7 +3201,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "FW",
     "age": 22,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 15000000
   },
   {
     "apiId": 192811,
@@ -2913,7 +3211,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "FW",
     "age": 24,
-    "nationality": "Sweden"
+    "nationality": "Sweden",
+    "value": 5000000
   },
   {
     "apiId": 211740,
@@ -2922,7 +3221,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "FW",
     "age": 22,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 12000000
   },
   {
     "apiId": 213033,
@@ -2931,7 +3231,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "FW",
     "age": 19,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 18000000
   },
   {
     "apiId": 213072,
@@ -2940,7 +3241,8 @@
     "crest": "https://crests.football-data.org/322.png",
     "position": "FW",
     "age": 24,
-    "nationality": "Algeria"
+    "nationality": "Algeria",
+    "value": 4000000
   },
   {
     "apiId": 5315,
@@ -2949,7 +3251,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "GK",
     "age": 33,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 50000
   },
   {
     "apiId": 9438,
@@ -2958,7 +3261,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "GK",
     "age": 31,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 4000000
   },
   {
     "apiId": 153874,
@@ -2967,7 +3271,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "GK",
     "age": 24,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 25000000
   },
   {
     "apiId": 3475,
@@ -2976,7 +3281,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "DF",
     "age": 30,
-    "nationality": "Switzerland"
+    "nationality": "Switzerland",
+    "value": 8000000
   },
   {
     "apiId": 4184,
@@ -2985,7 +3291,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "DF",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 15000000
   },
   {
     "apiId": 5613,
@@ -2994,7 +3301,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "DF",
     "age": 28,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 12000000
   },
   {
     "apiId": 5714,
@@ -3003,7 +3311,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "DF",
     "age": 29,
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "value": 18000000
   },
   {
     "apiId": 31531,
@@ -3012,7 +3321,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Sweden"
+    "nationality": "Sweden",
+    "value": 20000000
   },
   {
     "apiId": 74688,
@@ -3021,7 +3331,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Slovenia"
+    "nationality": "Slovenia",
+    "value": 20000000
   },
   {
     "apiId": 136721,
@@ -3030,7 +3341,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "DF",
     "age": 26,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 10000000
   },
   {
     "apiId": 189153,
@@ -3039,7 +3351,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "DF",
     "age": 23,
-    "nationality": "Bosnia-Herzegovina"
+    "nationality": "Bosnia-Herzegovina",
+    "value": 25000000
   },
   {
     "apiId": 4955,
@@ -3048,7 +3361,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "MF",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 15000000
   },
   {
     "apiId": 7815,
@@ -3057,7 +3371,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "MF",
     "age": 26,
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "value": 30000000
   },
   {
     "apiId": 49105,
@@ -3066,7 +3381,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "MF",
     "age": 28,
-    "nationality": "Japan"
+    "nationality": "Japan",
+    "value": 13000000
   },
   {
     "apiId": 65843,
@@ -3075,7 +3391,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "MF",
     "age": 28,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 28000000
   },
   {
     "apiId": 75284,
@@ -3084,7 +3401,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "MF",
     "age": 26,
-    "nationality": "Bulgaria"
+    "nationality": "Bulgaria",
+    "value": 12000000
   },
   {
     "apiId": 113262,
@@ -3093,7 +3411,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "MF",
     "age": 26,
-    "nationality": "USA"
+    "nationality": "USA",
+    "value": 22000000
   },
   {
     "apiId": 7839,
@@ -3102,7 +3421,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "FW",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 22000000
   },
   {
     "apiId": 7892,
@@ -3111,7 +3431,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "FW",
     "age": 27,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 10000000
   },
   {
     "apiId": 7974,
@@ -3120,7 +3441,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "FW",
     "age": 29,
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "value": 10000000
   },
   {
     "apiId": 11777,
@@ -3129,7 +3451,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "FW",
     "age": 29,
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "value": 25000000
   },
   {
     "apiId": 16058,
@@ -3138,7 +3461,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "FW",
     "age": 26,
-    "nationality": "Switzerland"
+    "nationality": "Switzerland",
+    "value": 25000000
   },
   {
     "apiId": 185178,
@@ -3147,7 +3471,8 @@
     "crest": "https://crests.football-data.org/341.png",
     "position": "FW",
     "age": 23,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 50000
   },
   {
     "apiId": 185882,
@@ -3165,7 +3490,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "GK",
     "age": 37,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 250000
   },
   {
     "apiId": 4867,
@@ -3174,7 +3500,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "GK",
     "age": 31,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 900000
   },
   {
     "apiId": 8011,
@@ -3183,7 +3510,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "GK",
     "age": 30,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 900000
   },
   {
     "apiId": 9814,
@@ -3192,7 +3520,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "GK",
     "age": 26,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 8000000
   },
   {
     "apiId": 4017,
@@ -3201,7 +3530,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "DF",
     "age": 31,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 3500000
   },
   {
     "apiId": 8296,
@@ -3210,7 +3540,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "DF",
     "age": 29,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 8000000
   },
   {
     "apiId": 25650,
@@ -3219,7 +3550,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "value": 16000000
   },
   {
     "apiId": 34871,
@@ -3228,7 +3560,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "DF",
     "age": 29,
-    "nationality": "Ivory Coast"
+    "nationality": "Ivory Coast",
+    "value": 2200000
   },
   {
     "apiId": 99120,
@@ -3237,7 +3570,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "DF",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 20000000
   },
   {
     "apiId": 125651,
@@ -3246,7 +3580,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "DF",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 16000000
   },
   {
     "apiId": 270889,
@@ -3255,7 +3590,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "DF",
     "age": 21,
-    "nationality": "Ivory Coast"
+    "nationality": "Ivory Coast",
+    "value": 15000000
   },
   {
     "apiId": 5999,
@@ -3264,7 +3600,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "MF",
     "age": 28,
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "value": 3000000
   },
   {
     "apiId": 7566,
@@ -3273,7 +3610,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "MF",
     "age": 28,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 11000000
   },
   {
     "apiId": 11720,
@@ -3282,7 +3620,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "MF",
     "age": 28,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 25000000
   },
   {
     "apiId": 32938,
@@ -3291,7 +3630,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "MF",
     "age": 30,
-    "nationality": "Serbia"
+    "nationality": "Serbia",
+    "value": 10000000
   },
   {
     "apiId": 37560,
@@ -3300,7 +3640,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "MF",
     "age": 27,
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "value": 16000000
   },
   {
     "apiId": 140245,
@@ -3309,7 +3650,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "MF",
     "age": 26,
-    "nationality": "Chile"
+    "nationality": "Chile",
+    "value": 14000000
   },
   {
     "apiId": 152437,
@@ -3327,7 +3669,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "MF",
     "age": 22,
-    "nationality": "Paraguay"
+    "nationality": "Paraguay",
+    "value": 25000000
   },
   {
     "apiId": 4158,
@@ -3336,7 +3679,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "FW",
     "age": 25,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 15000000
   },
   {
     "apiId": 9053,
@@ -3345,7 +3689,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "FW",
     "age": 31,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 6000000
   },
   {
     "apiId": 44017,
@@ -3354,7 +3699,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "FW",
     "age": 29,
-    "nationality": "Japan"
+    "nationality": "Japan",
+    "value": 13000000
   },
   {
     "apiId": 67893,
@@ -3363,7 +3709,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "FW",
     "age": 28,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 12000000
   },
   {
     "apiId": 172632,
@@ -3381,7 +3728,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "FW",
     "age": 22,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 8000000
   },
   {
     "apiId": 176777,
@@ -3390,7 +3738,8 @@
     "crest": "https://crests.football-data.org/349.png",
     "position": "FW",
     "age": 25,
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "value": 10000000
   },
   {
     "apiId": 187162,
@@ -3417,7 +3766,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "GK",
     "age": 30,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 5000000
   },
   {
     "apiId": 3643,
@@ -3426,7 +3776,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "GK",
     "age": 34,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 3500000
   },
   {
     "apiId": 81055,
@@ -3435,7 +3786,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "GK",
     "age": 28,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 1000000
   },
   {
     "apiId": 1775,
@@ -3444,7 +3796,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "DF",
     "age": 29,
-    "nationality": "Serbia"
+    "nationality": "Serbia",
+    "value": 28000000
   },
   {
     "apiId": 3386,
@@ -3453,7 +3806,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "DF",
     "age": 30,
-    "nationality": "Nigeria"
+    "nationality": "Nigeria",
+    "value": 18000000
   },
   {
     "apiId": 22010,
@@ -3462,7 +3816,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "DF",
     "age": 30,
-    "nationality": "Colombia"
+    "nationality": "Colombia",
+    "value": 22000000
   },
   {
     "apiId": 133765,
@@ -3471,7 +3826,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "DF",
     "age": 25,
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "value": 28000000
   },
   {
     "apiId": 144361,
@@ -3480,7 +3836,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "DF",
     "age": 23,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 8000000
   },
   {
     "apiId": 179782,
@@ -3498,7 +3855,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "DF",
     "age": 23,
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "value": 15000000
   },
   {
     "apiId": 192637,
@@ -3507,7 +3865,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "DF",
     "age": 24,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 50000000
   },
   {
     "apiId": 4091,
@@ -3516,7 +3875,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "MF",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 70000000
   },
   {
     "apiId": 5435,
@@ -3525,7 +3885,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "MF",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 7000000
   },
   {
     "apiId": 8307,
@@ -3534,7 +3895,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "MF",
     "age": 28,
-    "nationality": "Ivory Coast"
+    "nationality": "Ivory Coast",
+    "value": 20000000
   },
   {
     "apiId": 16344,
@@ -3543,7 +3905,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "MF",
     "age": 29,
-    "nationality": "Austria"
+    "nationality": "Austria",
+    "value": 10000000
   },
   {
     "apiId": 46346,
@@ -3552,7 +3915,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "MF",
     "age": 28,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 15000000
   },
   {
     "apiId": 172956,
@@ -3561,7 +3925,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "MF",
     "age": 24,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 18000000
   },
   {
     "apiId": 7816,
@@ -3570,7 +3935,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "FW",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 30000000
   },
   {
     "apiId": 8057,
@@ -3579,7 +3945,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "FW",
     "age": 34,
-    "nationality": "New Zealand"
+    "nationality": "New Zealand",
+    "value": 5000000
   },
   {
     "apiId": 77641,
@@ -3588,7 +3955,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "FW",
     "age": 26,
-    "nationality": "Switzerland"
+    "nationality": "Switzerland",
+    "value": 32000000
   },
   {
     "apiId": 130668,
@@ -3597,7 +3965,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "FW",
     "age": 24,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 25000000
   },
   {
     "apiId": 151095,
@@ -3606,7 +3975,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "FW",
     "age": 23,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 28000000
   },
   {
     "apiId": 256339,
@@ -3615,7 +3985,8 @@
     "crest": "https://crests.football-data.org/351.png",
     "position": "FW",
     "age": 25,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 25000000
   },
   {
     "apiId": 5457,
@@ -3624,7 +3995,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "GK",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 28000000
   },
   {
     "apiId": 6413,
@@ -3633,7 +4005,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "GK",
     "age": 32,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 200000
   },
   {
     "apiId": 8420,
@@ -3642,7 +4015,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "GK",
     "age": 33,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 4000000
   },
   {
     "apiId": 813,
@@ -3651,7 +4025,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "DF",
     "age": 28,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 15000000
   },
   {
     "apiId": 8065,
@@ -3660,7 +4035,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "DF",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 10000000
   },
   {
     "apiId": 9034,
@@ -3669,7 +4045,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "DF",
     "age": 28,
-    "nationality": "Japan"
+    "nationality": "Japan",
+    "value": 5000000
   },
   {
     "apiId": 99856,
@@ -3678,7 +4055,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "DF",
     "age": 26,
-    "nationality": "USA"
+    "nationality": "USA",
+    "value": 28000000
   },
   {
     "apiId": 137068,
@@ -3687,7 +4065,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "DF",
     "age": 27,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 25000000
   },
   {
     "apiId": 146986,
@@ -3696,7 +4075,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 18000000
   },
   {
     "apiId": 150948,
@@ -3705,7 +4085,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "DF",
     "age": 23,
-    "nationality": "Morocco"
+    "nationality": "Morocco",
+    "value": 15000000
   },
   {
     "apiId": 213425,
@@ -3714,7 +4095,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "DF",
     "age": 22,
-    "nationality": "Israel"
+    "nationality": "Israel",
+    "value": 23000000
   },
   {
     "apiId": 260271,
@@ -3723,7 +4105,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "DF",
     "age": 20,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 28000000
   },
   {
     "apiId": 263661,
@@ -3732,7 +4115,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "DF",
     "age": 18,
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "value": 30000000
   },
   {
     "apiId": 3737,
@@ -3741,7 +4125,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "MF",
     "age": 32,
-    "nationality": "Colombia"
+    "nationality": "Colombia",
+    "value": 6000000
   },
   {
     "apiId": 6716,
@@ -3750,7 +4135,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "MF",
     "age": 30,
-    "nationality": "Japan"
+    "nationality": "Japan",
+    "value": 10000000
   },
   {
     "apiId": 8124,
@@ -3759,7 +4145,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "MF",
     "age": 31,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 5000000
   },
   {
     "apiId": 74677,
@@ -3768,7 +4155,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "MF",
     "age": 26,
-    "nationality": "Mali"
+    "nationality": "Mali",
+    "value": 10000000
   },
   {
     "apiId": 97536,
@@ -3777,7 +4165,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "MF",
     "age": 25,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 25000000
   },
   {
     "apiId": 191396,
@@ -3786,7 +4175,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "MF",
     "age": 22,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 70000000
   },
   {
     "apiId": 303053,
@@ -3804,7 +4194,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "FW",
     "age": 29,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 30000000
   },
   {
     "apiId": 3638,
@@ -3813,7 +4204,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "FW",
     "age": 28,
-    "nationality": "Senegal"
+    "nationality": "Senegal",
+    "value": 40000000
   },
   {
     "apiId": 7800,
@@ -3822,7 +4214,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "FW",
     "age": 27,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 10000000
   },
   {
     "apiId": 11623,
@@ -3831,7 +4224,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "FW",
     "age": 27,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 18000000
   },
   {
     "apiId": 128710,
@@ -3840,7 +4234,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "FW",
     "age": 25,
-    "nationality": "Ivory Coast"
+    "nationality": "Ivory Coast",
+    "value": 25000000
   },
   {
     "apiId": 152505,
@@ -3849,7 +4244,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "FW",
     "age": 24,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 30000000
   },
   {
     "apiId": 179319,
@@ -3858,7 +4254,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "FW",
     "age": 22,
-    "nationality": "Chile"
+    "nationality": "Chile",
+    "value": 15000000
   },
   {
     "apiId": 213269,
@@ -3867,7 +4264,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "FW",
     "age": 26,
-    "nationality": "Norway"
+    "nationality": "Norway",
+    "value": 40000000
   },
   {
     "apiId": 224618,
@@ -3876,7 +4274,8 @@
     "crest": "https://crests.football-data.org/354.png",
     "position": "FW",
     "age": 19,
-    "nationality": "USA"
+    "nationality": "USA",
+    "value": 6000000
   },
   {
     "apiId": 4040,
@@ -3885,7 +4284,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "GK",
     "age": 36,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 500000
   },
   {
     "apiId": 126870,
@@ -3894,7 +4294,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "GK",
     "age": 24,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 40000000
   },
   {
     "apiId": 140203,
@@ -3912,7 +4313,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "DF",
     "age": 29,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 15000000
   },
   {
     "apiId": 4146,
@@ -3921,7 +4323,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 22000000
   },
   {
     "apiId": 8259,
@@ -3930,7 +4333,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "DF",
     "age": 35,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 3500000
   },
   {
     "apiId": 9869,
@@ -3939,7 +4343,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Turkey"
+    "nationality": "Turkey",
+    "value": 35000000
   },
   {
     "apiId": 61968,
@@ -3948,7 +4353,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "DF",
     "age": 28,
-    "nationality": "Austria"
+    "nationality": "Austria",
+    "value": 900000
   },
   {
     "apiId": 97505,
@@ -3957,7 +4363,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "DF",
     "age": 27,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 25000000
   },
   {
     "apiId": 142075,
@@ -3966,7 +4373,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "DF",
     "age": 25,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 22000000
   },
   {
     "apiId": 147891,
@@ -3975,7 +4383,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "DF",
     "age": 23,
-    "nationality": "Algeria"
+    "nationality": "Algeria",
+    "value": 7000000
   },
   {
     "apiId": 185116,
@@ -3984,7 +4393,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "DF",
     "age": 26,
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "value": 7000000
   },
   {
     "apiId": 216835,
@@ -3993,7 +4403,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "DF",
     "age": 19,
-    "nationality": "Croatia"
+    "nationality": "Croatia",
+    "value": 60000000
   },
   {
     "apiId": 3974,
@@ -4002,7 +4413,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "MF",
     "age": 26,
-    "nationality": "Denmark"
+    "nationality": "Denmark",
+    "value": 18000000
   },
   {
     "apiId": 8273,
@@ -4011,7 +4423,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "MF",
     "age": 35,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 2500000
   },
   {
     "apiId": 145613,
@@ -4020,7 +4433,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "MF",
     "age": 23,
-    "nationality": "Sweden"
+    "nationality": "Sweden",
+    "value": 35000000
   },
   {
     "apiId": 178951,
@@ -4029,7 +4443,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "MF",
     "age": 23,
-    "nationality": "Paraguay"
+    "nationality": "Paraguay",
+    "value": 25000000
   },
   {
     "apiId": 190851,
@@ -4038,7 +4453,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "MF",
     "age": 21,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 28000000
   },
   {
     "apiId": 246670,
@@ -4047,7 +4463,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "MF",
     "age": 21,
-    "nationality": "Mali"
+    "nationality": "Mali",
+    "value": 12000000
   },
   {
     "apiId": 270273,
@@ -4056,7 +4473,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "MF",
     "age": 21,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 20000000
   },
   {
     "apiId": 29319,
@@ -4074,7 +4492,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "FW",
     "age": 24,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 30000000
   },
   {
     "apiId": 130809,
@@ -4083,7 +4502,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "FW",
     "age": 22,
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "value": 20000000
   },
   {
     "apiId": 132707,
@@ -4092,7 +4512,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "FW",
     "age": 29,
-    "nationality": "Japan"
+    "nationality": "Japan",
+    "value": 22000000
   },
   {
     "apiId": 187482,
@@ -4101,7 +4522,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "FW",
     "age": 22,
-    "nationality": "Gambia"
+    "nationality": "Gambia",
+    "value": 45000000
   },
   {
     "apiId": 205531,
@@ -4110,7 +4532,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "FW",
     "age": 21,
-    "nationality": "Ghana"
+    "nationality": "Ghana",
+    "value": 7000000
   },
   {
     "apiId": 209504,
@@ -4119,7 +4542,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "FW",
     "age": 20,
-    "nationality": "Greece"
+    "nationality": "Greece",
+    "value": 18000000
   },
   {
     "apiId": 260992,
@@ -4137,7 +4561,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "FW",
     "age": 19,
-    "nationality": "Greece"
+    "nationality": "Greece",
+    "value": 25000000
   },
   {
     "apiId": 279784,
@@ -4146,7 +4571,8 @@
     "crest": "https://crests.football-data.org/397.png",
     "position": "FW",
     "age": 19,
-    "nationality": "Nigeria"
+    "nationality": "Nigeria",
+    "value": 500000
   },
   {
     "apiId": 4419,
@@ -4155,7 +4581,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "GK",
     "age": 27,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 400000
   },
   {
     "apiId": 102046,
@@ -4164,7 +4591,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "GK",
     "age": 27,
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "value": 28000000
   },
   {
     "apiId": 144530,
@@ -4182,7 +4610,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "DF",
     "age": 29,
-    "nationality": "Jamaica"
+    "nationality": "Jamaica",
+    "value": 13000000
   },
   {
     "apiId": 7720,
@@ -4191,7 +4620,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "DF",
     "age": 24,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 32000000
   },
   {
     "apiId": 16068,
@@ -4200,7 +4630,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "DF",
     "age": 28,
-    "nationality": "Norway"
+    "nationality": "Norway",
+    "value": 18000000
   },
   {
     "apiId": 101111,
@@ -4209,7 +4640,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "DF",
     "age": 24,
-    "nationality": "Scotland"
+    "nationality": "Scotland",
+    "value": 16000000
   },
   {
     "apiId": 101910,
@@ -4218,7 +4650,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "DF",
     "age": 25,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 25000000
   },
   {
     "apiId": 115642,
@@ -4227,7 +4660,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "DF",
     "age": 25,
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "value": 30000000
   },
   {
     "apiId": 193633,
@@ -4236,7 +4670,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "DF",
     "age": 21,
-    "nationality": "Senegal"
+    "nationality": "Senegal",
+    "value": 28000000
   },
   {
     "apiId": 204348,
@@ -4245,7 +4680,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "DF",
     "age": 22,
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "value": 40000000
   },
   {
     "apiId": 221783,
@@ -4254,7 +4690,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "DF",
     "age": 21,
-    "nationality": "South Korea"
+    "nationality": "South Korea",
+    "value": 1800000
   },
   {
     "apiId": 227064,
@@ -4263,7 +4700,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "DF",
     "age": 20,
-    "nationality": "Austria"
+    "nationality": "Austria",
+    "value": 18000000
   },
   {
     "apiId": 245364,
@@ -4272,7 +4710,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "DF",
     "age": 21,
-    "nationality": "Nigeria"
+    "nationality": "Nigeria",
+    "value": 600000
   },
   {
     "apiId": 7796,
@@ -4281,7 +4720,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "MF",
     "age": 28,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 1500000
   },
   {
     "apiId": 10000,
@@ -4290,7 +4730,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "MF",
     "age": 28,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 16000000
   },
   {
     "apiId": 10194,
@@ -4299,7 +4740,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "MF",
     "age": 30,
-    "nationality": "Denmark"
+    "nationality": "Denmark",
+    "value": 10000000
   },
   {
     "apiId": 24238,
@@ -4308,7 +4750,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "MF",
     "age": 26,
-    "nationality": "Denmark"
+    "nationality": "Denmark",
+    "value": 30000000
   },
   {
     "apiId": 150964,
@@ -4317,7 +4760,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "MF",
     "age": 24,
-    "nationality": "Mali"
+    "nationality": "Mali",
+    "value": 40000000
   },
   {
     "apiId": 151119,
@@ -4326,7 +4770,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "MF",
     "age": 24,
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "value": 8000000
   },
   {
     "apiId": 171965,
@@ -4335,7 +4780,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "MF",
     "age": 21,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 15000000
   },
   {
     "apiId": 204421,
@@ -4344,7 +4790,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "MF",
     "age": 22,
-    "nationality": "Ukraine"
+    "nationality": "Ukraine",
+    "value": 32000000
   },
   {
     "apiId": 8251,
@@ -4353,7 +4800,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "FW",
     "age": 34,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 4000000
   },
   {
     "apiId": 123286,
@@ -4362,7 +4810,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "FW",
     "age": 24,
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "value": 35000000
   },
   {
     "apiId": 138230,
@@ -4371,7 +4820,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "FW",
     "age": 25,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 65000000
   },
   {
     "apiId": 150778,
@@ -4380,7 +4830,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "FW",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 20000000
   },
   {
     "apiId": 177305,
@@ -4389,7 +4840,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "FW",
     "age": 24,
-    "nationality": "Burkina Faso"
+    "nationality": "Burkina Faso",
+    "value": 35000000
   },
   {
     "apiId": 213296,
@@ -4407,7 +4859,8 @@
     "crest": "https://crests.football-data.org/402.png",
     "position": "FW",
     "age": 19,
-    "nationality": "Belgium"
+    "nationality": "Belgium",
+    "value": 8000000
   },
   {
     "apiId": 8079,
@@ -4416,7 +4869,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "GK",
     "age": 38,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 400000
   },
   {
     "apiId": 41381,
@@ -4425,7 +4879,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "GK",
     "age": 29,
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "value": 10000000
   },
   {
     "apiId": 121765,
@@ -4443,7 +4898,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "DF",
     "age": 35,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 300000
   },
   {
     "apiId": 80765,
@@ -4452,7 +4908,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "DF",
     "age": 26,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 2500000
   },
   {
     "apiId": 82145,
@@ -4461,7 +4918,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "DF",
     "age": 24,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 23000000
   },
   {
     "apiId": 98745,
@@ -4470,7 +4928,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "DF",
     "age": 25,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 25000000
   },
   {
     "apiId": 113335,
@@ -4479,7 +4938,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "DF",
     "age": 25,
-    "nationality": "USA"
+    "nationality": "USA",
+    "value": 8000000
   },
   {
     "apiId": 135482,
@@ -4488,7 +4948,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "DF",
     "age": 25,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 30000000
   },
   {
     "apiId": 180038,
@@ -4497,7 +4958,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "DF",
     "age": 23,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 300000
   },
   {
     "apiId": 183583,
@@ -4506,7 +4968,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "DF",
     "age": 21,
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "value": 8000000
   },
   {
     "apiId": 185610,
@@ -4515,7 +4978,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "DF",
     "age": 23,
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "value": 25000000
   },
   {
     "apiId": 227046,
@@ -4524,7 +4988,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "DF",
     "age": 19,
-    "nationality": "Serbia"
+    "nationality": "Serbia",
+    "value": 20000000
   },
   {
     "apiId": 3327,
@@ -4533,7 +4998,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "MF",
     "age": 29,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 11000000
   },
   {
     "apiId": 7561,
@@ -4542,7 +5008,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "MF",
     "age": 27,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 25000000
   },
   {
     "apiId": 34495,
@@ -4551,7 +5018,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "MF",
     "age": 31,
-    "nationality": "Scotland"
+    "nationality": "Scotland",
+    "value": 8000000
   },
   {
     "apiId": 77596,
@@ -4560,7 +5028,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "MF",
     "age": 27,
-    "nationality": "USA"
+    "nationality": "USA",
+    "value": 25000000
   },
   {
     "apiId": 161088,
@@ -4569,7 +5038,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "MF",
     "age": 23,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 50000000
   },
   {
     "apiId": 192316,
@@ -4578,7 +5048,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "MF",
     "age": 21,
-    "nationality": "Hungary"
+    "nationality": "Hungary",
+    "value": 12000000
   },
   {
     "apiId": 4321,
@@ -4587,7 +5058,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "FW",
     "age": 29,
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "value": 12000000
   },
   {
     "apiId": 6396,
@@ -4596,7 +5068,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "FW",
     "age": 27,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 25000000
   },
   {
     "apiId": 131260,
@@ -4605,7 +5078,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "FW",
     "age": 27,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 35000000
   },
   {
     "apiId": 137047,
@@ -4614,7 +5088,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "FW",
     "age": 26,
-    "nationality": "Morocco"
+    "nationality": "Morocco",
+    "value": 20000000
   },
   {
     "apiId": 169191,
@@ -4623,7 +5098,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "FW",
     "age": 23,
-    "nationality": "Canada"
+    "nationality": "Canada",
+    "value": 6000000
   },
   {
     "apiId": 176789,
@@ -4641,7 +5117,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "FW",
     "age": 22,
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "value": 10000000
   },
   {
     "apiId": 203356,
@@ -4650,7 +5127,8 @@
     "crest": "https://crests.football-data.org/bournemouth.png",
     "position": "FW",
     "age": 20,
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "value": 60000000
   },
   {
     "apiId": 204241,
@@ -4668,7 +5146,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "GK",
     "age": 33,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 800000
   },
   {
     "apiId": 5347,
@@ -4686,7 +5165,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "GK",
     "age": 25,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 16000000
   },
   {
     "apiId": 4015,
@@ -4704,7 +5184,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "DF",
     "age": 28,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 2000000
   },
   {
     "apiId": 4334,
@@ -4713,7 +5194,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "DF",
     "age": 33,
-    "nationality": "Jamaica"
+    "nationality": "Jamaica",
+    "value": 3000000
   },
   {
     "apiId": 6308,
@@ -4722,7 +5204,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "DF",
     "age": 28,
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "value": 9000000
   },
   {
     "apiId": 55048,
@@ -4731,7 +5214,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "DF",
     "age": 26,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 5000000
   },
   {
     "apiId": 130044,
@@ -4740,7 +5224,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "DF",
     "age": 26,
-    "nationality": "Jamaica"
+    "nationality": "Jamaica",
+    "value": 3000000
   },
   {
     "apiId": 144782,
@@ -4749,7 +5234,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "DF",
     "age": 25,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 2000000
   },
   {
     "apiId": 169297,
@@ -4758,7 +5244,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "DF",
     "age": 23,
-    "nationality": "Switzerland"
+    "nationality": "Switzerland",
+    "value": 10000000
   },
   {
     "apiId": 171509,
@@ -4785,7 +5272,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "MF",
     "age": 31,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 7000000
   },
   {
     "apiId": 9623,
@@ -4794,7 +5282,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "MF",
     "age": 29,
-    "nationality": "Netherlands"
+    "nationality": "Netherlands",
+    "value": 15000000
   },
   {
     "apiId": 24207,
@@ -4803,7 +5292,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "MF",
     "age": 27,
-    "nationality": "Denmark"
+    "nationality": "Denmark",
+    "value": 1200000
   },
   {
     "apiId": 24210,
@@ -4812,7 +5302,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "MF",
     "age": 28,
-    "nationality": "Nigeria"
+    "nationality": "Nigeria",
+    "value": 8000000
   },
   {
     "apiId": 83372,
@@ -4839,7 +5330,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "MF",
     "age": 20,
-    "nationality": "Ghana"
+    "nationality": "Ghana",
+    "value": 10000000
   },
   {
     "apiId": 6009,
@@ -4866,7 +5358,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "FW",
     "age": 29,
-    "nationality": "Nigeria"
+    "nationality": "Nigeria",
+    "value": 8000000
   },
   {
     "apiId": 10076,
@@ -4875,7 +5368,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "FW",
     "age": 28,
-    "nationality": "USA"
+    "nationality": "USA",
+    "value": 16000000
   },
   {
     "apiId": 80175,
@@ -4884,7 +5378,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "FW",
     "age": 25,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 18000000
   },
   {
     "apiId": 113632,
@@ -4893,7 +5388,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "FW",
     "age": 30,
-    "nationality": "Japan"
+    "nationality": "Japan",
+    "value": 1800000
   },
   {
     "apiId": 146122,
@@ -4902,7 +5398,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "FW",
     "age": 25,
-    "nationality": "England"
+    "nationality": "England",
+    "value": 6000000
   },
   {
     "apiId": 170394,
@@ -4911,7 +5408,8 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "FW",
     "age": 23,
-    "nationality": "France"
+    "nationality": "France",
+    "value": 13000000
   },
   {
     "apiId": 213712,
@@ -4920,6 +5418,7 @@
     "crest": "https://crests.football-data.org/1076.png",
     "position": "FW",
     "age": 19,
-    "nationality": "Guinea"
+    "nationality": "Guinea",
+    "value": 18000000
   }
 ]
