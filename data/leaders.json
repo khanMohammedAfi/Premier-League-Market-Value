@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T18:26:04.847Z",
+  "updated": "2026-11-22T11:50:18.825Z",
   "week": {
     "since": "2026-11-20",
     "leaders": [
@@ -16,6 +16,11 @@
       {
         "name": "Dominic Calvert-Lewin",
         "team": "Leeds United",
+        "goals": 1
+      },
+      {
+        "name": "Harvey Barnes",
+        "team": "Newcastle",
         "goals": 1
       },
       {
@@ -39,18 +44,13 @@
         "goals": 1
       },
       {
+        "name": "Noni Madueke",
+        "team": "Arsenal",
+        "goals": 1
+      },
+      {
         "name": "Tatsuhiro Sakamoto",
         "team": "Coventry City",
-        "goals": 1
-      },
-      {
-        "name": "Taiwo Awoniyi",
-        "team": "Coventry City",
-        "goals": 1
-      },
-      {
-        "name": "Rodrigo Muniz",
-        "team": "Fulham",
         "goals": 1
       }
     ]
@@ -74,6 +74,11 @@
         "goals": 1
       },
       {
+        "name": "Harvey Barnes",
+        "team": "Newcastle",
+        "goals": 1
+      },
+      {
         "name": "Jørgen Strand Larsen",
         "team": "Crystal Palace",
         "goals": 1
@@ -94,18 +99,13 @@
         "goals": 1
       },
       {
+        "name": "Noni Madueke",
+        "team": "Arsenal",
+        "goals": 1
+      },
+      {
         "name": "Tatsuhiro Sakamoto",
         "team": "Coventry City",
-        "goals": 1
-      },
-      {
-        "name": "Taiwo Awoniyi",
-        "team": "Coventry City",
-        "goals": 1
-      },
-      {
-        "name": "Rodrigo Muniz",
-        "team": "Fulham",
         "goals": 1
       }
     ]

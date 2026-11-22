@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T18:34:54.437Z",
+  "updated": "2026-11-22T11:50:20.669Z",
   "note": "Form-based picks from the last 30 days, not the official awards",
   "playerNominees": [
     {
@@ -20,25 +20,25 @@
   ],
   "managerNominees": [
     {
-      "team": "Arsenal FC",
-      "played": 3,
-      "won": 3,
-      "points": 9,
-      "manager": "Mikel Arteta"
-    },
-    {
       "team": "AFC Bournemouth",
-      "played": 3,
-      "won": 3,
-      "points": 9,
+      "played": 4,
+      "won": 4,
+      "points": 12,
       "manager": "Marco Rose"
     },
     {
-      "team": "Everton FC",
-      "played": 3,
-      "won": 2,
-      "points": 6,
-      "manager": "David Moyes"
+      "team": "Arsenal FC",
+      "played": 4,
+      "won": 3,
+      "points": 10,
+      "manager": "Mikel Arteta"
+    },
+    {
+      "team": "Tottenham Hotspur FC",
+      "played": 4,
+      "won": 3,
+      "points": 9,
+      "manager": "Roberto De Zerbi"
     }
   ]
 }

@@ -6,7 +6,7 @@
     "position": "FW",
     "age": 26,
     "value": 220000000,
-    "appearances": 10,
+    "appearances": 11,
     "goals": 9,
     "assists": 10
   },
@@ -28,7 +28,7 @@
     "position": "MF",
     "age": 23,
     "value": 75000000,
-    "appearances": 10,
+    "appearances": 11,
     "goals": 5,
     "assists": 0
   },
@@ -83,7 +83,7 @@
     "position": "MF",
     "age": 24,
     "value": 100000000,
-    "appearances": 10,
+    "appearances": 11,
     "goals": 3,
     "assists": 8
   }
