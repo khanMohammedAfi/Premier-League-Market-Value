@@ -61,11 +61,13 @@ async function main() {
   try { old = JSON.parse(fs.readFileSync("data/squads.json", "utf8")); } catch (e) {}
   const oldById = new Map(old.map(o => [o.apiId, o]));
   for (const p of players) {
-    const o = oldById.get(p.apiId);
-    if (o && o.value !== undefined) p.value = o.value;
-    if (o && o.photo) p.photo = o.photo;
+  const o = oldById.get(p.apiId);
+  if (!o) continue;
+  for (const key of ["value", "photo", "appearances", "goals", "assists"]) {
+    if (o[key] !== undefined) p[key] = o[key];
   }
-  
+}
+
   fs.writeFileSync("data/squads.json", JSON.stringify(players, null, 2));
   console.log("Saved", players.length, "players from", data.teams.length, "clubs");
 }

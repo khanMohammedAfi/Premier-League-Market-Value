@@ -44,16 +44,18 @@ fetch("data/news.json")
   .then(data => { playerNews = data.playerNews || {}; })
   .catch(error => console.error("Could not load player news:", error));
 
+// Simple silhouette, used when a player has no photo or the photo fails to load
+const PLACEHOLDER_PHOTO = "data:image/svg+xml;utf8," + encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">' +
+  '<rect width="100" height="100" fill="#3b2447"/>' +
+  '<circle cx="50" cy="38" r="18" fill="#8a7a96"/>' +
+  '<path d="M14 100c0-24 16-38 36-38s36 14 36 38z" fill="#8a7a96"/></svg>'
+);
+
 function loadPhoto(player, img) {
-  const title = encodeURIComponent(player.name.replace(/ /g, "_"));
-  fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${title}`)
-    .then(response => response.json())
-    .then(data => {
-      if (data.thumbnail) {
-        img.src = data.thumbnail.source;
-      }
-    })
-    .catch(() => {});
+  // If the photo link is broken, swap in the silhouette instead of a broken-image icon
+  img.onerror = () => { img.onerror = null; img.src = PLACEHOLDER_PHOTO; };
+  img.src = player.photo || PLACEHOLDER_PHOTO;
 }
 
 function renderPlayers(list) {
@@ -61,7 +63,7 @@ function renderPlayers(list) {
   list.forEach(player => {
     const row = document.createElement("tr");
     row.innerHTML = `
-   <td><img alt="${player.name}" class="player-photo"></td>
+     <td><img alt="${player.name}" class="player-photo" loading="lazy"></td>
       <td>${player.name}</td>
       <td>${player.club}</td>
       <td>${player.position}</td>
@@ -70,9 +72,8 @@ function renderPlayers(list) {
       <td>${player.goals ?? "-"}</td>
             <td>${player.value != null ? euro.format(player.value) : "-"}</td>
     `;
-    playersBody.appendChild(row);
-        if (player.value != null) {
-      loadPhoto(player, row.querySelector(".player-photo"));
+    playersBody.appendChild(row);{
+        loadPhoto(player, row.querySelector(".player-photo"));
     }
         row.addEventListener("click", () => {
       showDashboard(player, row.querySelector(".player-photo").src);
@@ -90,15 +91,14 @@ Promise.all([
 
     playersData = squads.map(s => {
       const c = byId[s.apiId] || {};
-      return {
+           return {
         ...s,
         value: c.value ?? s.value ?? null,
-        appearances: c.appearances ?? null,
-        goals: c.goals ?? null,
-        assists: c.assists ?? null
+        appearances: c.appearances ?? s.appearances ?? null,
+        goals: c.goals ?? s.goals ?? null,
+        assists: c.assists ?? s.assists ?? null
       };
-    });
-
+}); 
     playersData.sort((a, b) => (b.value ?? -1) - (a.value ?? -1));
     renderPlayers(playersData);
   })

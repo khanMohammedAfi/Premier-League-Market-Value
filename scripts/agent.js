@@ -56,11 +56,12 @@ async function main() {
   execSync("node scripts/update-news.js", { stdio: "inherit" });
 execSync("node scripts/update-awards.js", { stdio: "inherit" });
 execSync("node scripts/update-squads.js", { stdio: "inherit" });
-try {
-  execSync("node scripts/update-values.js", { stdio: "inherit" });
-} catch (error) {
-  console.log("Market values skipped:", error.message);
-}
+try { execSync("node scripts/update-stats.js", { stdio: "inherit" }); }
+catch (error) { console.log("Stats skipped:", error.message); }
+try { execSync("node scripts/update-fpl.js", { stdio: "inherit" }); }
+catch (error) { console.log("FPL stats skipped:", error.message); }
+try { execSync("node scripts/update-values.js", { stdio: "inherit" }); }
+catch (error) { console.log("Market values skipped:", error.message); }
 
   // 3. Compare before and after
   const newTable = readJson("data/table.json");
