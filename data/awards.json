@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T15:49:50.519Z",
+  "updated": "2026-11-23T13:29:54.667Z",
   "note": "Form-based picks from the last 30 days, not the official awards",
   "playerNominees": [
     {
@@ -8,13 +8,13 @@
       "goals": 2
     },
     {
-      "name": "Evanilson",
-      "team": "Bournemouth",
-      "goals": 1
+      "name": "Oliver McBurnie",
+      "team": "Hull City",
+      "goals": 2
     },
     {
-      "name": "Dominic Calvert-Lewin",
-      "team": "Leeds United",
+      "name": "Evanilson",
+      "team": "Bournemouth",
       "goals": 1
     }
   ],
@@ -34,11 +34,11 @@
       "manager": "Mikel Arteta"
     },
     {
-      "team": "Tottenham Hotspur FC",
+      "team": "Liverpool FC",
       "played": 4,
       "won": 3,
       "points": 9,
-      "manager": "Roberto De Zerbi"
+      "manager": "Andoni Iraola"
     }
   ]
 }

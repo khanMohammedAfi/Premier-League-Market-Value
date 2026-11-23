@@ -1,11 +1,16 @@
 {
-  "updated": "2026-11-22T15:49:48.185Z",
+  "updated": "2026-11-23T13:29:52.762Z",
   "week": {
     "since": "2026-11-20",
     "leaders": [
       {
         "name": "Noah Okafor",
         "team": "Leeds United",
+        "goals": 2
+      },
+      {
+        "name": "Oliver McBurnie",
+        "team": "Hull City",
         "goals": 2
       },
       {
@@ -19,8 +24,18 @@
         "goals": 1
       },
       {
+        "name": "Víctor Muñoz",
+        "team": "Liverpool",
+        "goals": 1
+      },
+      {
         "name": "Harvey Barnes",
         "team": "Newcastle",
+        "goals": 1
+      },
+      {
+        "name": "Dominik Szoboszlai",
+        "team": "Liverpool",
         "goals": 1
       },
       {
@@ -36,21 +51,6 @@
       {
         "name": "Dominic Solanke",
         "team": "Tottenham",
-        "goals": 1
-      },
-      {
-        "name": "Yeremi Pino",
-        "team": "Crystal Palace",
-        "goals": 1
-      },
-      {
-        "name": "Noni Madueke",
-        "team": "Arsenal",
-        "goals": 1
-      },
-      {
-        "name": "Tatsuhiro Sakamoto",
-        "team": "Coventry City",
         "goals": 1
       }
     ]
@@ -64,6 +64,11 @@
         "goals": 2
       },
       {
+        "name": "Oliver McBurnie",
+        "team": "Hull City",
+        "goals": 2
+      },
+      {
         "name": "Evanilson",
         "team": "Bournemouth",
         "goals": 1
@@ -74,8 +79,18 @@
         "goals": 1
       },
       {
+        "name": "Víctor Muñoz",
+        "team": "Liverpool",
+        "goals": 1
+      },
+      {
         "name": "Harvey Barnes",
         "team": "Newcastle",
+        "goals": 1
+      },
+      {
+        "name": "Dominik Szoboszlai",
+        "team": "Liverpool",
         "goals": 1
       },
       {
@@ -91,21 +106,6 @@
       {
         "name": "Dominic Solanke",
         "team": "Tottenham",
-        "goals": 1
-      },
-      {
-        "name": "Yeremi Pino",
-        "team": "Crystal Palace",
-        "goals": 1
-      },
-      {
-        "name": "Noni Madueke",
-        "team": "Arsenal",
-        "goals": 1
-      },
-      {
-        "name": "Tatsuhiro Sakamoto",
-        "team": "Coventry City",
         "goals": 1
       }
     ]

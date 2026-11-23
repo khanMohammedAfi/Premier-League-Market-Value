@@ -16,10 +16,10 @@
     "crest": "https://crests.football-data.org/397.png",
     "played": 11,
     "won": 7,
-    "drawn": 2,
-    "lost": 2,
-    "gd": 19,
-    "points": 23
+    "drawn": 1,
+    "lost": 3,
+    "gd": 17,
+    "points": 22
   },
   {
     "position": 3,
@@ -34,23 +34,23 @@
   },
   {
     "position": 4,
+    "club": "Liverpool",
+    "crest": "https://crests.football-data.org/64.png",
+    "played": 11,
+    "won": 6,
+    "drawn": 3,
+    "lost": 2,
+    "gd": 8,
+    "points": 21
+  },
+  {
+    "position": 5,
     "club": "Bournemouth",
     "crest": "https://crests.football-data.org/bournemouth.png",
     "played": 11,
     "won": 5,
     "drawn": 3,
     "lost": 3,
-    "gd": 4,
-    "points": 18
-  },
-  {
-    "position": 5,
-    "club": "Liverpool",
-    "crest": "https://crests.football-data.org/64.png",
-    "played": 10,
-    "won": 5,
-    "drawn": 3,
-    "lost": 2,
     "gd": 4,
     "points": 18
   },
@@ -111,6 +111,17 @@
   },
   {
     "position": 11,
+    "club": "Hull City",
+    "crest": "https://crests.football-data.org/322.png",
+    "played": 11,
+    "won": 3,
+    "drawn": 5,
+    "lost": 3,
+    "gd": 2,
+    "points": 14
+  },
+  {
+    "position": 12,
     "club": "Aston Villa",
     "crest": "https://crests.football-data.org/58.png",
     "played": 11,
@@ -121,7 +132,7 @@
     "points": 14
   },
   {
-    "position": 12,
+    "position": 13,
     "club": "Newcastle",
     "crest": "https://crests.football-data.org/67.png",
     "played": 11,
@@ -130,17 +141,6 @@
     "lost": 4,
     "gd": -3,
     "points": 13
-  },
-  {
-    "position": 13,
-    "club": "Hull City",
-    "crest": "https://crests.football-data.org/322.png",
-    "played": 11,
-    "won": 2,
-    "drawn": 6,
-    "lost": 3,
-    "gd": 0,
-    "points": 12
   },
   {
     "position": 14,
@@ -201,11 +201,11 @@
     "position": 19,
     "club": "Man United",
     "crest": "https://crests.football-data.org/66.png",
-    "played": 10,
+    "played": 11,
     "won": 1,
     "drawn": 5,
-    "lost": 4,
-    "gd": -5,
+    "lost": 5,
+    "gd": -9,
     "points": 8
   },
   {

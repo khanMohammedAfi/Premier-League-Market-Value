@@ -1,8 +1,11 @@
 {
-  "updated": "2026-11-22T15:49:57.360Z",
-  "summary": "Hull City has moved up from 14th to 13th place. Coventry City has dropped from 13th to 14th place.",
+  "updated": "2026-11-23T13:30:01.496Z",
+  "summary": "Liverpool moved up to 4th place while Bournemouth dropped to 5th. Hull City climbed to 11th, Aston Villa fell to 12th, and Newcastle dropped to 13th.",
   "items": [
-    "Hull City moved from 14 to 13",
-    "Coventry City moved from 13 to 14"
+    "Liverpool moved from 5 to 4",
+    "Bournemouth moved from 4 to 5",
+    "Hull City moved from 13 to 11",
+    "Aston Villa moved from 11 to 12",
+    "Newcastle moved from 12 to 13"
   ]
 }
