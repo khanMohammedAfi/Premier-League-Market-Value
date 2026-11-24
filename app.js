@@ -289,10 +289,10 @@ Promise.all([
       const c = byId[s.apiId] || {};
       return {
         ...s,
-        value: c.value ?? null,
-        appearances: c.appearances ?? null,
-        goals: c.goals ?? null,
-        assists: c.assists ?? null
+       value: c.value ?? s.value ?? null,
+       appearances: c.appearances ?? s.appearances ?? null,
+       goals: c.goals ?? s.goals ?? null,
+       assists: c.assists ?? s.assists ?? null,
       };
     });
 
