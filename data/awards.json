@@ -1,7 +1,12 @@
 {
-  "updated": "2026-11-23T13:29:54.667Z",
+  "updated": "2026-11-24T14:08:45.017Z",
   "note": "Form-based picks from the last 30 days, not the official awards",
   "playerNominees": [
+    {
+      "name": "Keane Lewis-Potter",
+      "team": "Brentford",
+      "goals": 2
+    },
     {
       "name": "Noah Okafor",
       "team": "Leeds United",
@@ -11,34 +16,29 @@
       "name": "Oliver McBurnie",
       "team": "Hull City",
       "goals": 2
-    },
-    {
-      "name": "Evanilson",
-      "team": "Bournemouth",
-      "goals": 1
     }
   ],
   "managerNominees": [
     {
       "team": "AFC Bournemouth",
-      "played": 4,
-      "won": 4,
-      "points": 12,
+      "played": 3,
+      "won": 3,
+      "points": 9,
       "manager": "Marco Rose"
     },
     {
       "team": "Arsenal FC",
-      "played": 4,
-      "won": 3,
-      "points": 10,
+      "played": 3,
+      "won": 2,
+      "points": 7,
       "manager": "Mikel Arteta"
     },
     {
-      "team": "Liverpool FC",
+      "team": "Leeds United FC",
       "played": 4,
-      "won": 3,
-      "points": 9,
-      "manager": "Andoni Iraola"
+      "won": 2,
+      "points": 7,
+      "manager": "Daniel Farke"
     }
   ]
 }

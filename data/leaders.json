@@ -1,8 +1,13 @@
 {
-  "updated": "2026-11-23T13:29:52.762Z",
+  "updated": "2026-11-24T14:08:43.327Z",
   "week": {
     "since": "2026-11-20",
     "leaders": [
+      {
+        "name": "Keane Lewis-Potter",
+        "team": "Brentford",
+        "goals": 2
+      },
       {
         "name": "Noah Okafor",
         "team": "Leeds United",
@@ -24,6 +29,11 @@
         "goals": 1
       },
       {
+        "name": "Vitaly Janelt",
+        "team": "Brentford",
+        "goals": 1
+      },
+      {
         "name": "Víctor Muñoz",
         "team": "Liverpool",
         "goals": 1
@@ -41,16 +51,6 @@
       {
         "name": "Jørgen Strand Larsen",
         "team": "Crystal Palace",
-        "goals": 1
-      },
-      {
-        "name": "Justin Kluivert",
-        "team": "Bournemouth",
-        "goals": 1
-      },
-      {
-        "name": "Dominic Solanke",
-        "team": "Tottenham",
         "goals": 1
       }
     ]
@@ -59,6 +59,11 @@
     "since": "2026-11-20",
     "leaders": [
       {
+        "name": "Keane Lewis-Potter",
+        "team": "Brentford",
+        "goals": 2
+      },
+      {
         "name": "Noah Okafor",
         "team": "Leeds United",
         "goals": 2
@@ -79,6 +84,11 @@
         "goals": 1
       },
       {
+        "name": "Vitaly Janelt",
+        "team": "Brentford",
+        "goals": 1
+      },
+      {
         "name": "Víctor Muñoz",
         "team": "Liverpool",
         "goals": 1
@@ -96,16 +106,6 @@
       {
         "name": "Jørgen Strand Larsen",
         "team": "Crystal Palace",
-        "goals": 1
-      },
-      {
-        "name": "Justin Kluivert",
-        "team": "Bournemouth",
-        "goals": 1
-      },
-      {
-        "name": "Dominic Solanke",
-        "team": "Tottenham",
         "goals": 1
       }
     ]
