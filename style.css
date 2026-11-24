@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   font-family: Arial, sans-serif;
   max-width: 900px;
@@ -7,11 +15,18 @@ body {
   color: #ffffff;
   background: linear-gradient(160deg, #37003c 0%, #1d0021 60%, #0b000d 100%);
   background-attachment: fixed;
+  line-height: 1.4;
 }
 
 h1, h2, h3 {
   color: #00ff85;
 }
+
+img {
+  max-width: 100%;
+}
+
+/* ---------- Tables ---------- */
 
 table {
   width: 100%;
@@ -29,6 +44,7 @@ th, td {
 th {
   background-color: #00ff85;
   color: #37003c;
+  white-space: nowrap;
 }
 
 tbody tr:hover {
@@ -55,6 +71,16 @@ tbody tr:hover {
   visibility: hidden;
 }
 
+.team-crest {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* ---------- Player dashboard ---------- */
+
 #player-dashboard {
   background-color: rgba(255, 255, 255, 0.08);
   padding: 20px;
@@ -62,13 +88,19 @@ tbody tr:hover {
   margin-bottom: 30px;
 }
 
+#player-dashboard[hidden] {
+  display: none;
+}
+
 #close-dashboard {
   background-color: #00ff85;
   color: #37003c;
   border: none;
-  padding: 6px 12px;
+  border-radius: 6px;
+  padding: 10px 16px;
   margin-bottom: 12px;
   font-weight: bold;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -93,22 +125,14 @@ tbody tr:hover {
 
 .dash-details {
   flex: 1;
+  min-width: 0;
 }
 
 small {
   color: #c9b3cc;
 }
 
-@media (max-width: 600px) {
-  .dash-layout {
-    flex-direction: column;
-  }
-  .dash-photo {
-    width: 100%;
-    height: auto;
-    max-height: 320px;
-  }
-}
+/* ---------- Lists (news, latest events, etc.) ---------- */
 
 #news-list,
 #dash-latest {
@@ -133,13 +157,13 @@ small {
   flex-shrink: 0;
 }
 
-#news-list a, 
+#news-list a,
 #dash-latest a {
   color: #00ff85;
   text-decoration: none;
 }
 
-#news-list a:hover, 
+#news-list a:hover,
 #dash-latest a:hover {
   text-decoration: underline;
 }
@@ -151,10 +175,151 @@ small {
   font-size: 0.85em;
 }
 
-.team-crest {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-  vertical-align: middle;
-  margin-right: 8px;
+/* Fixtures, scorers and award nominees: clean rows instead of bullets */
+#fixtures-list,
+#leaders-week,
+#leaders-month,
+#awards-player,
+#awards-manager {
+  list-style: none;
+  padding: 0;
+}
+
+#fixtures-list li,
+#leaders-week li,
+#leaders-month li,
+#awards-player li,
+#awards-manager li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#fixtures-list small {
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* ---------- Phones ---------- */
+
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin-top: 28px;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  /* Tables must fit the screen width: no sideways scrolling */
+  table {
+    table-layout: fixed;
+  }
+
+  th, td {
+    padding: 8px 3px;
+    font-size: 0.8rem;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .player-photo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .team-crest {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+  }
+
+  /* League table: Pos | Club | P | W | D | L | GD | Pts */
+  .league th:nth-child(1), .league td:nth-child(1) { width: 28px; }
+  .league th:nth-child(n+3):nth-child(-n+6),
+  .league td:nth-child(n+3):nth-child(-n+6) { width: 26px; }
+  .league th:nth-child(7), .league td:nth-child(7) { width: 32px; }
+  .league th:nth-child(8), .league td:nth-child(8) { width: 34px; font-weight: bold; }
+  .league th:nth-child(2), .league td:nth-child(2) {
+    text-align: left;
+    padding-left: 6px;
+  }
+
+  /* Players table: Photo | Name | Club | Goals | Value
+     (Position, Age and Starts are hidden on phones to save room) */
+  .players th:nth-child(4), .players td:nth-child(4),
+  .players th:nth-child(5), .players td:nth-child(5),
+  .players th:nth-child(6), .players td:nth-child(6) {
+    display: none;
+  }
+  .players th:nth-child(1), .players td:nth-child(1) { width: 38px; }
+  .players th:nth-child(7), .players td:nth-child(7) { width: 44px; }
+  .players th:nth-child(8), .players td:nth-child(8) { width: 80px; }
+  .players td:nth-child(8) { font-size: 0.72rem; white-space: nowrap; }
+
+  .league td:nth-child(2) { overflow-wrap: anywhere; }
+
+  #market-movers ul { padding-left: 18px; }
+  .players th:nth-child(2), .players td:nth-child(2),
+  .players th:nth-child(3), .players td:nth-child(3) {
+    text-align: left;
+    overflow-wrap: anywhere;
+  }
+
+  /* Player dashboard becomes a full-screen card on top of the page,
+     so tapping a player doesn't leave it hidden far down the page */
+  #player-dashboard {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    margin: 0;
+    padding: 16px;
+    border-left: none;
+    border-top: 6px solid #00ff85;
+    overflow-y: auto;
+    background: #1d0021;
+  }
+
+  #close-dashboard {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .dash-layout {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .dash-photo {
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+  }
+
+  /* News: smaller thumbnail so the headline gets room */
+  .news-thumb {
+    width: 88px;
+    height: 56px;
+  }
+
+  #news-list li,
+  #dash-latest li {
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  #news-list a,
+  #dash-latest a {
+    overflow-wrap: anywhere;
+  }
 }
