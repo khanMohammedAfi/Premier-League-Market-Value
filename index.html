@@ -46,7 +46,27 @@
   <h2>Market Movers</h2>
   <div id="market-movers">The agent's weekly summary will appear here.</div>
 
-  <h2>Player Market Values</h2>
+
+  <h2>Trending Players</h2>
+
+<div class="tabs">
+  <button type="button" class="tab active" id="tab-btn-news">In the News</button>
+  <button type="button" class="tab" id="tab-btn-all">All Players</button>
+</div>
+
+<input type="search" id="player-search" placeholder="Search players or clubs…" autocomplete="off">
+
+<!-- Tab 1: only players with news (your existing table, moved inside) -->
+<div id="view-news">
+  <p id="news-empty" hidden>No players in the news right now.</p>
+  
+</div>
+
+<!-- Tab 2: every player, grouped by club -->
+<div id="view-all" hidden>
+  <p id="all-empty" hidden>No players match your search.</p>
+  <div id="clubs-container"></div>
+</div>
   <table class="players">
     <thead>
       <tr>

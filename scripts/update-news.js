@@ -92,13 +92,43 @@ async function main() {
     .filter((i) => TRANSFER_WORDS.test(i.title) && !NOT_TRANSFER.test(i.title))
     .slice(0, 10);
 
-  // Stories that mention each of your players by surname
+   // Remove accents so "Šeško" matches "Sesko"
+  function deaccent(s) {
+    return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  }
+
+  // Stories that mention each player (all squads, not just the curated list)
   const playerNews = {};
   try {
-    const players = JSON.parse(fs.readFileSync("data/players.json", "utf8"));
+    const players = JSON.parse(fs.readFileSync("data/squads.json", "utf8"));
+
+    // How many players share each surname? Shared ones need the full name.
+    const surnameCount = {};
     for (const p of players) {
-      const surname = p.name.split(" ").slice(-1)[0];
-      const hits = all.filter((i) => i.title.includes(surname)).slice(0, 3);
+      const s = deaccent(p.name.split(" ").slice(-1)[0]);
+      surnameCount[s] = (surnameCount[s] || 0) + 1;
+    }
+
+    for (const p of players) {
+      const fullName = deaccent(p.name).toLowerCase();
+      const surname = deaccent(p.name.split(" ").slice(-1)[0]);
+      const safe = surname.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      const surnameOk = surname.length >= 4 && surnameCount[surname] === 1;
+      const surnameRe = new RegExp(`\\b${safe}\\b`); // whole word, keeps capital letter
+
+      const hits = all
+           .filter((i) => {
+      const title = deaccent(i.title);
+      const lower = title.toLowerCase();
+      // Single-name players (e.g. "Rayan") must also have their club in the headline,
+      // otherwise "Rayan Cherki" stories would match them too
+      if (!p.name.includes(" ")) {
+        return lower.includes(fullName) && lower.includes(deaccent(p.club).toLowerCase());
+      }
+      return lower.includes(fullName) || (surnameOk && surnameRe.test(title));
+    })
+        .slice(0, 3);
+
       if (hits.length) playerNews[p.name] = hits;
     }
   } catch (e) {

@@ -39,10 +39,7 @@ let playersData = [];
 let descending = true;
 let playerNews = {};
 
-fetch("data/news.json")
-  .then(response => response.json())
-  .then(data => { playerNews = data.playerNews || {}; })
-  .catch(error => console.error("Could not load player news:", error));
+
 
 // Simple silhouette, used when a player has no photo or the photo fails to load
 const PLACEHOLDER_PHOTO = "data:image/svg+xml;utf8," + encodeURIComponent(
@@ -81,26 +78,115 @@ function renderPlayers(list) {
   });
 }
 
+// A player "has news" if at least one story mentions them
+function hasNews(player) {
+  return (playerNews[player.name] || []).length > 0;
+}
+
+// Draws the "In the News" table with only those players
+function renderNewsTab() {
+  const list = playersData.filter(p => hasNews(p) && matchesSearch(p))
+  document.getElementById("news-empty").hidden = list.length > 0;
+  renderPlayers(list);
+}
+
+
+// ---------- Search ----------
+let searchQuery = "";
+
+// lowercase + strip accents so "moises" finds "Moisés"
+function plain(text) {
+  return String(text).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+function matchesSearch(player) {
+  const q = plain(searchQuery.trim());
+  return !q || plain(player.name).includes(q) || plain(player.club).includes(q);
+}
+
+// ---------- All Players tab, grouped by club ----------
+function renderAllTab() {
+  const container = document.getElementById("clubs-container");
+  container.innerHTML = "";
+
+  const matches = playersData.filter(matchesSearch);
+  document.getElementById("all-empty").hidden = matches.length > 0;
+
+  // Group into { "Arsenal": [players], "Chelsea": [players], ... }
+  const byClub = {};
+  matches.forEach(p => {
+    if (!byClub[p.club]) byClub[p.club] = [];
+    byClub[p.club].push(p);
+  });
+
+  Object.keys(byClub).sort().forEach(clubName => {
+    const players = byClub[clubName];
+    players.sort((a, b) => (b.value ?? -1) - (a.value ?? -1));
+
+    const details = document.createElement("details");
+    details.className = "club";
+    details.open = searchQuery.trim() !== "";   // auto-open clubs while searching
+
+    const crestUrl = players[0].crest;
+    const crest = crestUrl && crestUrl.startsWith("https://")
+      ? `<img class="team-crest" src="${crestUrl}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+      : "";
+
+    const summary = document.createElement("summary");
+    summary.innerHTML = `${crest}${clubName} <span class="club-count">(${players.length})</span>`;
+    details.appendChild(summary);
+
+    players.forEach(player => {
+      const row = document.createElement("div");
+      row.className = "club-player";
+      row.innerHTML = `
+        <img alt="${player.name}" class="player-photo" loading="lazy">
+        <div class="cp-name">${player.name}<small>${player.position} · Age ${player.age}</small></div>
+        <div class="cp-value">${player.value != null ? euro.format(player.value) : "-"}</div>
+      `;
+      loadPhoto(player, row.querySelector(".player-photo"));
+      row.addEventListener("click", () => {
+        showDashboard(player, row.querySelector(".player-photo").src);
+      });
+      details.appendChild(row);
+    });
+
+    container.appendChild(details);
+  });
+}
+
+document.getElementById("player-search").addEventListener("input", e => {
+  searchQuery = e.target.value;
+  renderNewsTab();
+  renderAllTab();
+});
+
+
 Promise.all([
   fetch("data/squads.json").then(r => r.json()),
-  fetch("data/players.json").then(r => r.json())
+  fetch("data/players.json").then(r => r.json()),
+  fetch("data/news.json").then(r => r.json())
 ])
-  .then(([squads, curated]) => {
+  .then(([squads, curated, newsData]) => {
+    playerNews = newsData.playerNews || {};
+
     const byId = {};
     curated.forEach(p => { byId[p.apiId] = p; });
 
     playersData = squads.map(s => {
       const c = byId[s.apiId] || {};
-           return {
+      return {
         ...s,
         value: c.value ?? s.value ?? null,
         appearances: c.appearances ?? s.appearances ?? null,
         goals: c.goals ?? s.goals ?? null,
         assists: c.assists ?? s.assists ?? null
       };
-}); 
+    });
+
     playersData.sort((a, b) => (b.value ?? -1) - (a.value ?? -1));
-    renderPlayers(playersData);
+    renderNewsTab();
+    renderAllTab();
   })
   .catch(error => console.error("Could not load player data:", error));
 
@@ -109,7 +195,7 @@ valueHeader.addEventListener("click", () => {
     ? (b.value ?? -1) - (a.value ?? -1)
     : (a.value ?? Infinity) - (b.value ?? Infinity));
   descending = !descending;
-  renderPlayers(playersData);
+    renderNewsTab();
 });
 
 function showDashboard(player, photoUrl) {
@@ -126,7 +212,8 @@ function showDashboard(player, photoUrl) {
     `${player.club} | ${player.position} | Age ${player.age} | ${euro.format(player.value)}`;
 
   document.getElementById("dash-stats").innerHTML = `
-      <li>Appearances: ${player.appearances ?? "-"}</li>
+          <li>Starts: ${player.appearances ?? "-"}</li>
+    <li>Minutes: ${player.minutes ?? "-"}</li>
     <li>Goals: ${player.goals ?? "-"}</li>
   
   `;
@@ -277,30 +364,6 @@ fetch("data/leaders.json")
   })
   .catch(error => console.error("Could not load leaders:", error));
 
-Promise.all([
-  fetch("data/squads.json").then(r => r.json()),
-  fetch("data/players.json").then(r => r.json())
-])
-  .then(([squads, curated]) => {
-    const byId = {};
-    curated.forEach(p => { byId[p.apiId] = p; });
-
-    playersData = squads.map(s => {
-      const c = byId[s.apiId] || {};
-      return {
-        ...s,
-       value: c.value ?? s.value ?? null,
-       appearances: c.appearances ?? s.appearances ?? null,
-       goals: c.goals ?? s.goals ?? null,
-       assists: c.assists ?? s.assists ?? null,
-      };
-    });
-
-    // players with a market value first, biggest first
-    playersData.sort((a, b) => (b.value ?? -1) - (a.value ?? -1));
-    renderPlayers(playersData);
-  })
-  .catch(error => console.error("Could not load player data:", error));
 
 
   // Awards (form-based nominees)
@@ -391,3 +454,20 @@ fetch("data/fixtures.json")
     });
   })
   .catch(error => console.error("Could not load fixtures:", error));
+
+  // ---------- Tabs ----------
+const tabBtnNews = document.getElementById("tab-btn-news");
+const tabBtnAll = document.getElementById("tab-btn-all");
+const viewNews = document.getElementById("view-news");
+const viewAll = document.getElementById("view-all");
+
+function showTab(which) {
+  const showNews = which === "news";
+  viewNews.hidden = !showNews;
+  viewAll.hidden = showNews;
+  tabBtnNews.classList.toggle("active", showNews);
+  tabBtnAll.classList.toggle("active", !showNews);
+}
+
+tabBtnNews.addEventListener("click", () => showTab("news"));
+tabBtnAll.addEventListener("click", () => showTab("all"));
