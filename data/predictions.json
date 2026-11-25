@@ -1,0 +1,4019 @@
+{
+  "updated": "2026-11-25T10:53:38.507Z",
+  "model": {
+    "type": "ridge regression on log(market value)",
+    "inputs": "age, position, goals per 90, assists per 90, minutes played, club strength",
+    "trainedOn": 499,
+    "ratedPlayers": 93,
+    "r2": 0.6,
+    "note": "A rough estimate from goals, assists and playing time. Only forwards and midfielders worth 5M-80M are rated; it cannot see defending, reputation or contracts."
+  },
+  "undervalued": [
+    192811,
+    16344,
+    7798,
+    176628,
+    172956
+  ],
+  "overvalued": [
+    203356,
+    3257,
+    30842,
+    161088,
+    2563
+  ],
+  "players": {
+    "6": {
+      "name": "Géronimo Rulli",
+      "club": "Man City",
+      "value": 6000000,
+      "fair": 1400000,
+      "diffPct": -77,
+      "label": null
+    },
+    "65": {
+      "name": "Mateo Kovačić",
+      "club": "Man City",
+      "value": 10000000,
+      "fair": 17000000,
+      "diffPct": 70,
+      "label": null
+    },
+    "88": {
+      "name": "Fabian Schär",
+      "club": "Newcastle",
+      "value": 4000000,
+      "fair": 4400000,
+      "diffPct": 10,
+      "label": null
+    },
+    "171": {
+      "name": "Kai Havertz",
+      "club": "Arsenal",
+      "value": 55000000,
+      "fair": 83000000,
+      "diffPct": 51,
+      "label": "Undervalued"
+    },
+    "612": {
+      "name": "Yoane Wissa",
+      "club": "Newcastle",
+      "value": 25000000,
+      "fair": 21500000,
+      "diffPct": -14,
+      "label": "Fairly valued"
+    },
+    "641": {
+      "name": "Jean-Philippe Mateta",
+      "club": "Crystal Palace",
+      "value": 30000000,
+      "fair": 16500000,
+      "diffPct": -45,
+      "label": null
+    },
+    "813": {
+      "name": "Axel Disasi",
+      "club": "Crystal Palace",
+      "value": 15000000,
+      "fair": 21000000,
+      "diffPct": 40,
+      "label": null
+    },
+    "846": {
+      "name": "Olivier Boscagli",
+      "club": "Brighton Hove",
+      "value": 15000000,
+      "fair": 17500000,
+      "diffPct": 17,
+      "label": null
+    },
+    "1299": {
+      "name": "John",
+      "club": "Nottingham",
+      "value": 5000000,
+      "fair": 2000000,
+      "diffPct": -60,
+      "label": null
+    },
+    "1684": {
+      "name": "Bruno Guimarães",
+      "club": "Arsenal",
+      "value": 70000000,
+      "fair": 56000000,
+      "diffPct": -20,
+      "label": "Fairly valued"
+    },
+    "1731": {
+      "name": "Gianluigi Donnarumma",
+      "club": "Man City",
+      "value": 45000000,
+      "fair": 35000000,
+      "diffPct": -22,
+      "label": null
+    },
+    "1775": {
+      "name": "Nikola Milenković",
+      "club": "Nottingham",
+      "value": 28000000,
+      "fair": 19000000,
+      "diffPct": -32,
+      "label": null
+    },
+    "1780": {
+      "name": "Federico Chiesa",
+      "club": "Liverpool",
+      "value": 13000000,
+      "fair": 8500000,
+      "diffPct": -35,
+      "label": null
+    },
+    "1795": {
+      "name": "Alisson Becker",
+      "club": "Liverpool",
+      "value": 15000000,
+      "fair": 4100000,
+      "diffPct": -73,
+      "label": null
+    },
+    "1836": {
+      "name": "Timothy Castagne",
+      "club": "Fulham",
+      "value": 8000000,
+      "fair": 11000000,
+      "diffPct": 38,
+      "label": null
+    },
+    "1859": {
+      "name": "Dejan Kulusevski",
+      "club": "Tottenham",
+      "value": 17000000,
+      "fair": 20000000,
+      "diffPct": 18,
+      "label": null
+    },
+    "2041": {
+      "name": "Rodrigo Bentancur",
+      "club": "Tottenham",
+      "value": 20000000,
+      "fair": 23500000,
+      "diffPct": 18,
+      "label": null
+    },
+    "2074": {
+      "name": "Pedro Neto",
+      "club": "Chelsea",
+      "value": 60000000,
+      "fair": 51000000,
+      "diffPct": -15,
+      "label": "Fairly valued"
+    },
+    "2253": {
+      "name": "Joachim Andersen",
+      "club": "Fulham",
+      "value": 20000000,
+      "fair": 8000000,
+      "diffPct": -60,
+      "label": null
+    },
+    "2563": {
+      "name": "Sandro Tonali",
+      "club": "Tottenham",
+      "value": 80000000,
+      "fair": 38500000,
+      "diffPct": -52,
+      "label": "Overvalued"
+    },
+    "3141": {
+      "name": "Emiliano Martínez",
+      "club": "Chelsea",
+      "value": 12000000,
+      "fair": 4200000,
+      "diffPct": -65,
+      "label": null
+    },
+    "3174": {
+      "name": "Bernd Leno",
+      "club": "Fulham",
+      "value": 6000000,
+      "fair": 2200000,
+      "diffPct": -63,
+      "label": null
+    },
+    "3181": {
+      "name": "Leon Goretzka",
+      "club": "Aston Villa",
+      "value": 12000000,
+      "fair": 12500000,
+      "diffPct": 4,
+      "label": null
+    },
+    "3189": {
+      "name": "Kepa Arrizabalaga",
+      "club": "Arsenal",
+      "value": 5000000,
+      "fair": 6500000,
+      "diffPct": 30,
+      "label": null
+    },
+    "3257": {
+      "name": "Bruno Fernandes",
+      "club": "Man United",
+      "value": 35000000,
+      "fair": 14500000,
+      "diffPct": -59,
+      "label": "Overvalued"
+    },
+    "3269": {
+      "name": "Wataru Endō",
+      "club": "Liverpool",
+      "value": 4000000,
+      "fair": 2500000,
+      "diffPct": -37,
+      "label": null
+    },
+    "3308": {
+      "name": "Jack Butland",
+      "club": "Hull City",
+      "value": 1500000,
+      "fair": 400000,
+      "diffPct": -73,
+      "label": null
+    },
+    "3309": {
+      "name": "Jordan Pickford",
+      "club": "Everton",
+      "value": 13000000,
+      "fair": 4700000,
+      "diffPct": -64,
+      "label": null
+    },
+    "3310": {
+      "name": "Nick Pope",
+      "club": "Newcastle",
+      "value": 5000000,
+      "fair": 700000,
+      "diffPct": -86,
+      "label": null
+    },
+    "3316": {
+      "name": "James Tarkowski",
+      "club": "Everton",
+      "value": 5000000,
+      "fair": 4400000,
+      "diffPct": -12,
+      "label": null
+    },
+    "3320": {
+      "name": "Jordan Henderson",
+      "club": "Chelsea",
+      "value": 1200000,
+      "fair": 4300000,
+      "diffPct": 258,
+      "label": null
+    },
+    "3326": {
+      "name": "Harry Maguire",
+      "club": "Man United",
+      "value": 8000000,
+      "fair": 9000000,
+      "diffPct": 13,
+      "label": null
+    },
+    "3327": {
+      "name": "Lewis Cook",
+      "club": "Bournemouth",
+      "value": 11000000,
+      "fair": 15500000,
+      "diffPct": 41,
+      "label": null
+    },
+    "3328": {
+      "name": "Danny Welbeck",
+      "club": "Chelsea",
+      "value": 3000000,
+      "fair": 4600000,
+      "diffPct": 53,
+      "label": null
+    },
+    "3331": {
+      "name": "Marcus Rashford",
+      "club": "Man United",
+      "value": 40000000,
+      "fair": 23000000,
+      "diffPct": -43,
+      "label": null
+    },
+    "3386": {
+      "name": "Ola Aina",
+      "club": "Nottingham",
+      "value": 18000000,
+      "fair": 14500000,
+      "diffPct": -19,
+      "label": null
+    },
+    "3392": {
+      "name": "Alex Iwobi",
+      "club": "Fulham",
+      "value": 20000000,
+      "fair": 14500000,
+      "diffPct": -28,
+      "label": "Fairly valued"
+    },
+    "3475": {
+      "name": "Nico Elvedi",
+      "club": "Leeds United",
+      "value": 8000000,
+      "fair": 12000000,
+      "diffPct": 50,
+      "label": null
+    },
+    "3477": {
+      "name": "Granit Xhaka",
+      "club": "Sunderland",
+      "value": 8000000,
+      "fair": 3900000,
+      "diffPct": -51,
+      "label": "Overvalued"
+    },
+    "3638": {
+      "name": "Ismaïla Sarr",
+      "club": "Crystal Palace",
+      "value": 40000000,
+      "fair": 11000000,
+      "diffPct": -72,
+      "label": null
+    },
+    "3643": {
+      "name": "Matz Sels",
+      "club": "Nottingham",
+      "value": 3500000,
+      "fair": 3400000,
+      "diffPct": -3,
+      "label": null
+    },
+    "3650": {
+      "name": "Thomas Meunier",
+      "club": "Sunderland",
+      "value": 1500000,
+      "fair": 2100000,
+      "diffPct": 40,
+      "label": null
+    },
+    "3658": {
+      "name": "Youri Tielemans",
+      "club": "Man United",
+      "value": 30000000,
+      "fair": 27500000,
+      "diffPct": -8,
+      "label": "Fairly valued"
+    },
+    "3737": {
+      "name": "Jefferson Lerma",
+      "club": "Crystal Palace",
+      "value": 6000000,
+      "fair": 10000000,
+      "diffPct": 67,
+      "label": null
+    },
+    "3895": {
+      "name": "Jack Grealish",
+      "club": "Everton",
+      "value": 20000000,
+      "fair": 10000000,
+      "diffPct": -50,
+      "label": null
+    },
+    "3927": {
+      "name": "Antonee Robinson",
+      "club": "Fulham",
+      "value": 22000000,
+      "fair": 13500000,
+      "diffPct": -39,
+      "label": null
+    },
+    "3953": {
+      "name": "Marcus Bettinelli",
+      "club": "Man City",
+      "value": 300000,
+      "fair": 1600000,
+      "diffPct": 433,
+      "label": null
+    },
+    "3954": {
+      "name": "David Button",
+      "club": "Ipswich Town",
+      "value": 250000,
+      "fair": 100000,
+      "diffPct": -60,
+      "label": null
+    },
+    "3959": {
+      "name": "Ryan Sessegnon",
+      "club": "Fulham",
+      "value": 22000000,
+      "fair": 15500000,
+      "diffPct": -30,
+      "label": null
+    },
+    "3962": {
+      "name": "Matt Targett",
+      "club": "Hull City",
+      "value": 3000000,
+      "fair": 1700000,
+      "diffPct": -43,
+      "label": null
+    },
+    "3965": {
+      "name": "Tom Cairney",
+      "club": "Fulham",
+      "value": 500000,
+      "fair": 1800000,
+      "diffPct": 260,
+      "label": null
+    },
+    "3974": {
+      "name": "Matt O'Riley",
+      "club": "Brighton Hove",
+      "value": 18000000,
+      "fair": 11500000,
+      "diffPct": -36,
+      "label": null
+    },
+    "3992": {
+      "name": "James Maddison",
+      "club": "Tottenham",
+      "value": 20000000,
+      "fair": 18000000,
+      "diffPct": -10,
+      "label": null
+    },
+    "3995": {
+      "name": "Harrison Reed",
+      "club": "Fulham",
+      "value": 2000000,
+      "fair": 2400000,
+      "diffPct": 20,
+      "label": null
+    },
+    "4017": {
+      "name": "Darnell Furlong",
+      "club": "Ipswich Town",
+      "value": 3500000,
+      "fair": 4800000,
+      "diffPct": 37,
+      "label": null
+    },
+    "4032": {
+      "name": "Eberechi Eze",
+      "club": "Arsenal",
+      "value": 65000000,
+      "fair": 59000000,
+      "diffPct": -9,
+      "label": null
+    },
+    "4040": {
+      "name": "Jason Steele",
+      "club": "Brighton Hove",
+      "value": 500000,
+      "fair": 300000,
+      "diffPct": -40,
+      "label": null
+    },
+    "4058": {
+      "name": "Paddy McNair",
+      "club": "Hull City",
+      "value": 1500000,
+      "fair": 2400000,
+      "diffPct": 60,
+      "label": null
+    },
+    "4091": {
+      "name": "Morgan Gibbs-White",
+      "club": "Nottingham",
+      "value": 70000000,
+      "fair": 35000000,
+      "diffPct": -50,
+      "label": "Overvalued"
+    },
+    "4146": {
+      "name": "Pascal Struijk",
+      "club": "Brighton Hove",
+      "value": 22000000,
+      "fair": 15500000,
+      "diffPct": -30,
+      "label": null
+    },
+    "4158": {
+      "name": "Jack Clarke",
+      "club": "Ipswich Town",
+      "value": 15000000,
+      "fair": 16500000,
+      "diffPct": 10,
+      "label": null
+    },
+    "4184": {
+      "name": "Jayden Bogle",
+      "club": "Leeds United",
+      "value": 15000000,
+      "fair": 21500000,
+      "diffPct": 43,
+      "label": null
+    },
+    "4235": {
+      "name": "Luke Woolfenden",
+      "club": "Coventry City",
+      "value": 2000000,
+      "fair": 2400000,
+      "diffPct": 20,
+      "label": null
+    },
+    "4292": {
+      "name": "Simon Moore",
+      "club": "Sunderland",
+      "value": 75000,
+      "fair": 200000,
+      "diffPct": 167,
+      "label": null
+    },
+    "4309": {
+      "name": "Regan Slater",
+      "club": "Hull City",
+      "value": 3500000,
+      "fair": 14000000,
+      "diffPct": 300,
+      "label": null
+    },
+    "4321": {
+      "name": "David Brooks",
+      "club": "Bournemouth",
+      "value": 12000000,
+      "fair": 11000000,
+      "diffPct": -8,
+      "label": null
+    },
+    "4334": {
+      "name": "Ethan Pinnock",
+      "club": "Coventry City",
+      "value": 3000000,
+      "fair": 3700000,
+      "diffPct": 23,
+      "label": null
+    },
+    "4417": {
+      "name": "Antoine Semenyo",
+      "club": "Man City",
+      "value": 80000000,
+      "fair": 67000000,
+      "diffPct": -16,
+      "label": "Fairly valued"
+    },
+    "4418": {
+      "name": "Daniel Bentley",
+      "club": "Coventry City",
+      "value": 800000,
+      "fair": 400000,
+      "diffPct": -50,
+      "label": null
+    },
+    "4419": {
+      "name": "Ellery Balcombe",
+      "club": "Brentford",
+      "value": 400000,
+      "fair": 3100000,
+      "diffPct": 675,
+      "label": null
+    },
+    "4425": {
+      "name": "John Egan",
+      "club": "Hull City",
+      "value": 1000000,
+      "fair": 2300000,
+      "diffPct": 130,
+      "label": null
+    },
+    "4426": {
+      "name": "Rico Henry",
+      "club": "Brentford",
+      "value": 13000000,
+      "fair": 4800000,
+      "diffPct": -63,
+      "label": null
+    },
+    "4832": {
+      "name": "David Raya",
+      "club": "Arsenal",
+      "value": 30000000,
+      "fair": 19500000,
+      "diffPct": -35,
+      "label": null
+    },
+    "4867": {
+      "name": "Christian Walton",
+      "club": "Ipswich Town",
+      "value": 900000,
+      "fair": 4400000,
+      "diffPct": 389,
+      "label": null
+    },
+    "4870": {
+      "name": "Dan Burn",
+      "club": "Newcastle",
+      "value": 4000000,
+      "fair": 5000000,
+      "diffPct": 25,
+      "label": null
+    },
+    "4955": {
+      "name": "Sean Longstaff",
+      "club": "Leeds United",
+      "value": 15000000,
+      "fair": 13000000,
+      "diffPct": -13,
+      "label": null
+    },
+    "5048": {
+      "name": "Mark Gillespie",
+      "club": "Newcastle",
+      "value": 100000,
+      "fair": 800000,
+      "diffPct": 700,
+      "label": null
+    },
+    "5315": {
+      "name": "Alex Cairns",
+      "club": "Leeds United",
+      "value": 50000,
+      "fair": 700000,
+      "diffPct": 1300,
+      "label": null
+    },
+    "5435": {
+      "name": "Ryan Yates",
+      "club": "Nottingham",
+      "value": 7000000,
+      "fair": 18500000,
+      "diffPct": 164,
+      "label": null
+    },
+    "5457": {
+      "name": "Dean Henderson",
+      "club": "Crystal Palace",
+      "value": 28000000,
+      "fair": 10000000,
+      "diffPct": -64,
+      "label": null
+    },
+    "5613": {
+      "name": "James Justin",
+      "club": "Leeds United",
+      "value": 12000000,
+      "fair": 18000000,
+      "diffPct": 50,
+      "label": null
+    },
+    "5714": {
+      "name": "Joe Rodon",
+      "club": "Leeds United",
+      "value": 18000000,
+      "fair": 9000000,
+      "diffPct": -50,
+      "label": null
+    },
+    "5999": {
+      "name": "Jack Taylor",
+      "club": "Ipswich Town",
+      "value": 3000000,
+      "fair": 3500000,
+      "diffPct": 17,
+      "label": null
+    },
+    "6154": {
+      "name": "Ben White",
+      "club": "Arsenal",
+      "value": 30000000,
+      "fair": 41500000,
+      "diffPct": 38,
+      "label": null
+    },
+    "6259": {
+      "name": "Luke O'Nien",
+      "club": "Sunderland",
+      "value": 700000,
+      "fair": 5500000,
+      "diffPct": 686,
+      "label": null
+    },
+    "6300": {
+      "name": "Dillon Phillips",
+      "club": "Hull City",
+      "value": 450000,
+      "fair": 700000,
+      "diffPct": 56,
+      "label": null
+    },
+    "6308": {
+      "name": "Jay Dasilva",
+      "club": "Coventry City",
+      "value": 9000000,
+      "fair": 11500000,
+      "diffPct": 28,
+      "label": null
+    },
+    "6317": {
+      "name": "Ezri Konsa",
+      "club": "Arsenal",
+      "value": 40000000,
+      "fair": 51000000,
+      "diffPct": 27,
+      "label": null
+    },
+    "6358": {
+      "name": "Matt Grimes",
+      "club": "Coventry City",
+      "value": 7000000,
+      "fair": 8000000,
+      "diffPct": 14,
+      "label": "Fairly valued"
+    },
+    "6396": {
+      "name": "Marcus Tavernier",
+      "club": "Bournemouth",
+      "value": 25000000,
+      "fair": 26000000,
+      "diffPct": 4,
+      "label": "Fairly valued"
+    },
+    "6413": {
+      "name": "Remi Matthews",
+      "club": "Crystal Palace",
+      "value": 200000,
+      "fair": 1300000,
+      "diffPct": 550,
+      "label": null
+    },
+    "6451": {
+      "name": "Semi Ajayi",
+      "club": "Hull City",
+      "value": 700000,
+      "fair": 3300000,
+      "diffPct": 371,
+      "label": null
+    },
+    "6486": {
+      "name": "Alexander Isak",
+      "club": "Liverpool",
+      "value": 85000000,
+      "fair": 44000000,
+      "diffPct": -48,
+      "label": null
+    },
+    "6655": {
+      "name": "Kevin Danso",
+      "club": "Sunderland",
+      "value": 20000000,
+      "fair": 11500000,
+      "diffPct": -43,
+      "label": null
+    },
+    "6716": {
+      "name": "Daichi Kamada",
+      "club": "Crystal Palace",
+      "value": 10000000,
+      "fair": 21000000,
+      "diffPct": 110,
+      "label": "Undervalued"
+    },
+    "7427": {
+      "name": "Martin Ødegaard",
+      "club": "Arsenal",
+      "value": 65000000,
+      "fair": 86000000,
+      "diffPct": 32,
+      "label": "Fairly valued"
+    },
+    "7459": {
+      "name": "Cody Gakpo",
+      "club": "Liverpool",
+      "value": 60000000,
+      "fair": 36000000,
+      "diffPct": -40,
+      "label": "Overvalued"
+    },
+    "7549": {
+      "name": "Matthijs de Ligt",
+      "club": "Man United",
+      "value": 30000000,
+      "fair": 18000000,
+      "diffPct": -40,
+      "label": null
+    },
+    "7553": {
+      "name": "Noussair Mazraoui",
+      "club": "Man United",
+      "value": 18000000,
+      "fair": 16500000,
+      "diffPct": -8,
+      "label": null
+    },
+    "7561": {
+      "name": "Justin Kluivert",
+      "club": "Bournemouth",
+      "value": 25000000,
+      "fair": 22500000,
+      "diffPct": -10,
+      "label": "Fairly valued"
+    },
+    "7566": {
+      "name": "Azor Matusiwa",
+      "club": "Ipswich Town",
+      "value": 11000000,
+      "fair": 8500000,
+      "diffPct": -23,
+      "label": null
+    },
+    "7599": {
+      "name": "Mason Mount",
+      "club": "Man United",
+      "value": 25000000,
+      "fair": 27000000,
+      "diffPct": 8,
+      "label": null
+    },
+    "7675": {
+      "name": "Marco Bizot",
+      "club": "Aston Villa",
+      "value": 1500000,
+      "fair": 1300000,
+      "diffPct": -13,
+      "label": null
+    },
+    "7720": {
+      "name": "Sepp van den Berg",
+      "club": "Brentford",
+      "value": 32000000,
+      "fair": 24000000,
+      "diffPct": -25,
+      "label": null
+    },
+    "7792": {
+      "name": "Ainsley Maitland-Niles",
+      "club": "Everton",
+      "value": 10000000,
+      "fair": 12500000,
+      "diffPct": 25,
+      "label": null
+    },
+    "7796": {
+      "name": "Josh Dasilva",
+      "club": "Brentford",
+      "value": 1500000,
+      "fair": 6000000,
+      "diffPct": 300,
+      "label": null
+    },
+    "7798": {
+      "name": "Joe Willock",
+      "club": "Newcastle",
+      "value": 14000000,
+      "fair": 35500000,
+      "diffPct": 154,
+      "label": "Undervalued"
+    },
+    "7800": {
+      "name": "Eddie Nketiah",
+      "club": "Crystal Palace",
+      "value": 10000000,
+      "fair": 25500000,
+      "diffPct": 155,
+      "label": null
+    },
+    "7815": {
+      "name": "Ethan Ampadu",
+      "club": "Leeds United",
+      "value": 30000000,
+      "fair": 26000000,
+      "diffPct": -13,
+      "label": "Fairly valued"
+    },
+    "7816": {
+      "name": "Callum Hudson-Odoi",
+      "club": "Nottingham",
+      "value": 30000000,
+      "fair": 18500000,
+      "diffPct": -38,
+      "label": null
+    },
+    "7817": {
+      "name": "Ross Barkley",
+      "club": "Aston Villa",
+      "value": 4000000,
+      "fair": 11000000,
+      "diffPct": 175,
+      "label": null
+    },
+    "7829": {
+      "name": "Michael Keane",
+      "club": "Everton",
+      "value": 3000000,
+      "fair": 3900000,
+      "diffPct": 30,
+      "label": null
+    },
+    "7839": {
+      "name": "Dominic Calvert-Lewin",
+      "club": "Leeds United",
+      "value": 22000000,
+      "fair": 18500000,
+      "diffPct": -16,
+      "label": "Fairly valued"
+    },
+    "7862": {
+      "name": "Joe Gomez",
+      "club": "Liverpool",
+      "value": 13000000,
+      "fair": 11000000,
+      "diffPct": -15,
+      "label": null
+    },
+    "7868": {
+      "name": "Andrew Robertson",
+      "club": "Tottenham",
+      "value": 7000000,
+      "fair": 10500000,
+      "diffPct": 50,
+      "label": null
+    },
+    "7869": {
+      "name": "Virgil van Dijk",
+      "club": "Liverpool",
+      "value": 15000000,
+      "fair": 5000000,
+      "diffPct": -67,
+      "label": null
+    },
+    "7878": {
+      "name": "Dominic Solanke",
+      "club": "Tottenham",
+      "value": 28000000,
+      "fair": 24500000,
+      "diffPct": -12,
+      "label": "Fairly valued"
+    },
+    "7880": {
+      "name": "Tosin Adarabioyo",
+      "club": "Tottenham",
+      "value": 16000000,
+      "fair": 12500000,
+      "diffPct": -22,
+      "label": null
+    },
+    "7888": {
+      "name": "Phil Foden",
+      "club": "Man City",
+      "value": 70000000,
+      "fair": 64500000,
+      "diffPct": -8,
+      "label": null
+    },
+    "7892": {
+      "name": "Lukas Nmecha",
+      "club": "Leeds United",
+      "value": 10000000,
+      "fair": 15500000,
+      "diffPct": 55,
+      "label": null
+    },
+    "7898": {
+      "name": "Luke Shaw",
+      "club": "Man United",
+      "value": 8000000,
+      "fair": 12500000,
+      "diffPct": 56,
+      "label": null
+    },
+    "7913": {
+      "name": "Karl Darlow",
+      "club": "Man United",
+      "value": 200000,
+      "fair": 400000,
+      "diffPct": 100,
+      "label": null
+    },
+    "7914": {
+      "name": "Martin Dúbravka",
+      "club": "Tottenham",
+      "value": 500000,
+      "fair": 200000,
+      "diffPct": -60,
+      "label": null
+    },
+    "7934": {
+      "name": "Jacob Murphy",
+      "club": "Newcastle",
+      "value": 12000000,
+      "fair": 15500000,
+      "diffPct": 29,
+      "label": "Fairly valued"
+    },
+    "7935": {
+      "name": "Mikel Merino",
+      "club": "Arsenal",
+      "value": 25000000,
+      "fair": 37500000,
+      "diffPct": 50,
+      "label": null
+    },
+    "7974": {
+      "name": "Daniel James",
+      "club": "Leeds United",
+      "value": 10000000,
+      "fair": 11500000,
+      "diffPct": 15,
+      "label": null
+    },
+    "7985": {
+      "name": "Tammy Abraham",
+      "club": "Aston Villa",
+      "value": 18000000,
+      "fair": 13500000,
+      "diffPct": -25,
+      "label": null
+    },
+    "7994": {
+      "name": "Ben Davies",
+      "club": "Tottenham",
+      "value": 3000000,
+      "fair": 3600000,
+      "diffPct": 20,
+      "label": null
+    },
+    "8011": {
+      "name": "Alex Palmer",
+      "club": "Ipswich Town",
+      "value": 900000,
+      "fair": 1200000,
+      "diffPct": 33,
+      "label": null
+    },
+    "8035": {
+      "name": "Tom Heaton",
+      "club": "Man United",
+      "value": 100000,
+      "fair": 100000,
+      "diffPct": 0,
+      "label": null
+    },
+    "8057": {
+      "name": "Chris Wood",
+      "club": "Nottingham",
+      "value": 5000000,
+      "fair": 4500000,
+      "diffPct": -10,
+      "label": null
+    },
+    "8065": {
+      "name": "Ben Chilwell",
+      "club": "Crystal Palace",
+      "value": 10000000,
+      "fair": 9000000,
+      "diffPct": -10,
+      "label": null
+    },
+    "8076": {
+      "name": "Harvey Barnes",
+      "club": "Newcastle",
+      "value": 32000000,
+      "fair": 32000000,
+      "diffPct": 0,
+      "label": "Fairly valued"
+    },
+    "8079": {
+      "name": "Fraser Forster",
+      "club": "Bournemouth",
+      "value": 400000,
+      "fair": 100000,
+      "diffPct": -75,
+      "label": null
+    },
+    "8124": {
+      "name": "Will Hughes",
+      "club": "Crystal Palace",
+      "value": 5000000,
+      "fair": 8000000,
+      "diffPct": 60,
+      "label": null
+    },
+    "8133": {
+      "name": "Richarlison",
+      "club": "Tottenham",
+      "value": 25000000,
+      "fair": 15000000,
+      "diffPct": -40,
+      "label": null
+    },
+    "8158": {
+      "name": "Aaron Wan-Bissaka",
+      "club": "Aston Villa",
+      "value": 15000000,
+      "fair": 19000000,
+      "diffPct": 27,
+      "label": null
+    },
+    "8215": {
+      "name": "Declan Rice",
+      "club": "Arsenal",
+      "value": 120000000,
+      "fair": 76000000,
+      "diffPct": -37,
+      "label": null
+    },
+    "8231": {
+      "name": "Adam Smith",
+      "club": "Bournemouth",
+      "value": 300000,
+      "fair": 3200000,
+      "diffPct": 967,
+      "label": null
+    },
+    "8235": {
+      "name": "Tyrone Mings",
+      "club": "Aston Villa",
+      "value": 3000000,
+      "fair": 6500000,
+      "diffPct": 117,
+      "label": null
+    },
+    "8251": {
+      "name": "Callum Wilson",
+      "club": "Brentford",
+      "value": 4000000,
+      "fair": 4100000,
+      "diffPct": 2,
+      "label": null
+    },
+    "8259": {
+      "name": "Lewis Dunk",
+      "club": "Brighton Hove",
+      "value": 3500000,
+      "fair": 3400000,
+      "diffPct": -3,
+      "label": null
+    },
+    "8273": {
+      "name": "Pascal Groß",
+      "club": "Brighton Hove",
+      "value": 2500000,
+      "fair": 4200000,
+      "diffPct": 68,
+      "label": null
+    },
+    "8279": {
+      "name": "Viktor Gyökeres",
+      "club": "Arsenal",
+      "value": 65000000,
+      "fair": 45500000,
+      "diffPct": -30,
+      "label": null
+    },
+    "8296": {
+      "name": "Issa Diop",
+      "club": "Ipswich Town",
+      "value": 8000000,
+      "fair": 12000000,
+      "diffPct": 50,
+      "label": null
+    },
+    "8307": {
+      "name": "Ibrahim Sangaré",
+      "club": "Nottingham",
+      "value": 20000000,
+      "fair": 20500000,
+      "diffPct": 2,
+      "label": null
+    },
+    "8346": {
+      "name": "Boubacar Kamara",
+      "club": "Aston Villa",
+      "value": 40000000,
+      "fair": 32500000,
+      "diffPct": -19,
+      "label": "Fairly valued"
+    },
+    "8366": {
+      "name": "Benjamin Lecomte",
+      "club": "Fulham",
+      "value": 800000,
+      "fair": 300000,
+      "diffPct": -62,
+      "label": null
+    },
+    "8371": {
+      "name": "Nordi Mukiele",
+      "club": "Sunderland",
+      "value": 16000000,
+      "fair": 11500000,
+      "diffPct": -28,
+      "label": null
+    },
+    "8420": {
+      "name": "Walter Benítez",
+      "club": "Crystal Palace",
+      "value": 4000000,
+      "fair": 3800000,
+      "diffPct": -5,
+      "label": null
+    },
+    "8460": {
+      "name": "Kenny Tete",
+      "club": "Fulham",
+      "value": 8000000,
+      "fair": 7000000,
+      "diffPct": -12,
+      "label": null
+    },
+    "8545": {
+      "name": "Wesley Fofana",
+      "club": "Chelsea",
+      "value": 28000000,
+      "fair": 40000000,
+      "diffPct": 43,
+      "label": null
+    },
+    "8626": {
+      "name": "Bryan Mbeumo",
+      "club": "Man United",
+      "value": 75000000,
+      "fair": 38500000,
+      "diffPct": -49,
+      "label": "Overvalued"
+    },
+    "8642": {
+      "name": "Rayan Aït Nouri",
+      "club": "Man City",
+      "value": 40000000,
+      "fair": 13500000,
+      "diffPct": -66,
+      "label": null
+    },
+    "8973": {
+      "name": "Sander Berge",
+      "club": "Fulham",
+      "value": 25000000,
+      "fair": 20000000,
+      "diffPct": -20,
+      "label": "Fairly valued"
+    },
+    "9034": {
+      "name": "Takehiro Tomiyasu",
+      "club": "Crystal Palace",
+      "value": 5000000,
+      "fair": 17000000,
+      "diffPct": 240,
+      "label": null
+    },
+    "9053": {
+      "name": "Chuba Akpom",
+      "club": "Ipswich Town",
+      "value": 6000000,
+      "fair": 6000000,
+      "diffPct": 0,
+      "label": null
+    },
+    "9218": {
+      "name": "Taiwo Awoniyi",
+      "club": "Coventry City",
+      "value": 8000000,
+      "fair": 11000000,
+      "diffPct": 38,
+      "label": "Fairly valued"
+    },
+    "9438": {
+      "name": "Michael Zetterer",
+      "club": "Leeds United",
+      "value": 4000000,
+      "fair": 1100000,
+      "diffPct": -72,
+      "label": null
+    },
+    "9623": {
+      "name": "Gustavo Hamer",
+      "club": "Coventry City",
+      "value": 15000000,
+      "fair": 6500000,
+      "diffPct": -57,
+      "label": null
+    },
+    "9814": {
+      "name": "Kjell Scherpen",
+      "club": "Ipswich Town",
+      "value": 8000000,
+      "fair": 8000000,
+      "diffPct": 0,
+      "label": null
+    },
+    "9869": {
+      "name": "Ferdi Kadıoğlu",
+      "club": "Brighton Hove",
+      "value": 35000000,
+      "fair": 21000000,
+      "diffPct": -40,
+      "label": null
+    },
+    "10000": {
+      "name": "Vitaly Janelt",
+      "club": "Brentford",
+      "value": 16000000,
+      "fair": 29000000,
+      "diffPct": 81,
+      "label": "Undervalued"
+    },
+    "10076": {
+      "name": "Haji Wright",
+      "club": "Coventry City",
+      "value": 16000000,
+      "fair": 2700000,
+      "diffPct": -83,
+      "label": null
+    },
+    "10183": {
+      "name": "Rúben Dias",
+      "club": "Man City",
+      "value": 55000000,
+      "fair": 45500000,
+      "diffPct": -17,
+      "label": null
+    },
+    "10194": {
+      "name": "Mathias Jensen",
+      "club": "Brentford",
+      "value": 10000000,
+      "fair": 14000000,
+      "diffPct": 40,
+      "label": null
+    },
+    "10653": {
+      "name": "Joelinton",
+      "club": "Newcastle",
+      "value": 25000000,
+      "fair": 17500000,
+      "diffPct": -30,
+      "label": null
+    },
+    "11306": {
+      "name": "Kieran Dowell",
+      "club": "Hull City",
+      "value": 1500000,
+      "fair": 2100000,
+      "diffPct": 40,
+      "label": null
+    },
+    "11623": {
+      "name": "Dwight McNeil",
+      "club": "Crystal Palace",
+      "value": 18000000,
+      "fair": 26500000,
+      "diffPct": 47,
+      "label": null
+    },
+    "11629": {
+      "name": "Freddie Woodman",
+      "club": "Liverpool",
+      "value": 3000000,
+      "fair": 3100000,
+      "diffPct": 3,
+      "label": null
+    },
+    "11644": {
+      "name": "Matty Cash",
+      "club": "Aston Villa",
+      "value": 22000000,
+      "fair": 18500000,
+      "diffPct": -16,
+      "label": null
+    },
+    "11720": {
+      "name": "Exequiel Palacios",
+      "club": "Ipswich Town",
+      "value": 25000000,
+      "fair": 16000000,
+      "diffPct": -36,
+      "label": "Overvalued"
+    },
+    "11777": {
+      "name": "Harry Wilson",
+      "club": "Leeds United",
+      "value": 25000000,
+      "fair": 13500000,
+      "diffPct": -46,
+      "label": null
+    },
+    "15905": {
+      "name": "Diogo Dalot",
+      "club": "Man United",
+      "value": 30000000,
+      "fair": 30500000,
+      "diffPct": 2,
+      "label": null
+    },
+    "16058": {
+      "name": "Noah Okafor",
+      "club": "Leeds United",
+      "value": 25000000,
+      "fair": 25000000,
+      "diffPct": 0,
+      "label": "Fairly valued"
+    },
+    "16068": {
+      "name": "Kristoffer Ajer",
+      "club": "Brentford",
+      "value": 18000000,
+      "fair": 23000000,
+      "diffPct": 28,
+      "label": null
+    },
+    "16165": {
+      "name": "Vitalii Mykolenko",
+      "club": "Everton",
+      "value": 25000000,
+      "fair": 20500000,
+      "diffPct": -18,
+      "label": null
+    },
+    "16344": {
+      "name": "Xaver Schlager",
+      "club": "Nottingham",
+      "value": 10000000,
+      "fair": 26000000,
+      "diffPct": 160,
+      "label": "Undervalued"
+    },
+    "16347": {
+      "name": "Dominik Szoboszlai",
+      "club": "Liverpool",
+      "value": 100000000,
+      "fair": 43500000,
+      "diffPct": -56,
+      "label": null
+    },
+    "19334": {
+      "name": "Florian Wirtz",
+      "club": "Liverpool",
+      "value": 100000000,
+      "fair": 45000000,
+      "diffPct": -55,
+      "label": null
+    },
+    "22010": {
+      "name": "Daniel Muñoz",
+      "club": "Nottingham",
+      "value": 22000000,
+      "fair": 16000000,
+      "diffPct": -27,
+      "label": null
+    },
+    "23128": {
+      "name": "Gabriel Magalhães",
+      "club": "Arsenal",
+      "value": 75000000,
+      "fair": 61000000,
+      "diffPct": -19,
+      "label": null
+    },
+    "24102": {
+      "name": "Christian Nørgaard",
+      "club": "Everton",
+      "value": 5000000,
+      "fair": 3600000,
+      "diffPct": -28,
+      "label": null
+    },
+    "24207": {
+      "name": "Victor Torp",
+      "club": "Coventry City",
+      "value": 1200000,
+      "fair": 13000000,
+      "diffPct": 983,
+      "label": null
+    },
+    "24210": {
+      "name": "Frank Onyeka",
+      "club": "Coventry City",
+      "value": 8000000,
+      "fair": 12000000,
+      "diffPct": 50,
+      "label": null
+    },
+    "24238": {
+      "name": "Mikkel Damsgaard",
+      "club": "Brentford",
+      "value": 30000000,
+      "fair": 27500000,
+      "diffPct": -8,
+      "label": null
+    },
+    "25650": {
+      "name": "Dara O'Shea",
+      "club": "Ipswich Town",
+      "value": 16000000,
+      "fair": 16000000,
+      "diffPct": 0,
+      "label": null
+    },
+    "26444": {
+      "name": "Sorba Thomas",
+      "club": "Hull City",
+      "value": 14000000,
+      "fair": 10000000,
+      "diffPct": -29,
+      "label": null
+    },
+    "28292": {
+      "name": "Ronald Araújo",
+      "club": "Liverpool",
+      "value": 20000000,
+      "fair": 34000000,
+      "diffPct": 70,
+      "label": null
+    },
+    "28549": {
+      "name": "Manuel Ugarte",
+      "club": "Man United",
+      "value": 25000000,
+      "fair": 9000000,
+      "diffPct": -64,
+      "label": null
+    },
+    "30298": {
+      "name": "Abdülkadir Ömür",
+      "club": "Hull City",
+      "value": 1500000,
+      "fair": 2800000,
+      "diffPct": 87,
+      "label": null
+    },
+    "30842": {
+      "name": "Matheus Cunha",
+      "club": "Man United",
+      "value": 75000000,
+      "fair": 33000000,
+      "diffPct": -56,
+      "label": "Overvalued"
+    },
+    "31531": {
+      "name": "Gabriel Gudmundsson",
+      "club": "Leeds United",
+      "value": 20000000,
+      "fair": 18000000,
+      "diffPct": -10,
+      "label": null
+    },
+    "31941": {
+      "name": "Emiliano Buendía",
+      "club": "Aston Villa",
+      "value": 16000000,
+      "fair": 23000000,
+      "diffPct": 44,
+      "label": "Undervalued"
+    },
+    "32938": {
+      "name": "Saša Lukić",
+      "club": "Ipswich Town",
+      "value": 10000000,
+      "fair": 10500000,
+      "diffPct": 5,
+      "label": "Fairly valued"
+    },
+    "33109": {
+      "name": "Pau Torres",
+      "club": "Aston Villa",
+      "value": 20000000,
+      "fair": 18000000,
+      "diffPct": -10,
+      "label": null
+    },
+    "34495": {
+      "name": "Ryan Christie",
+      "club": "Bournemouth",
+      "value": 8000000,
+      "fair": 10500000,
+      "diffPct": 31,
+      "label": "Fairly valued"
+    },
+    "34646": {
+      "name": "John McGinn",
+      "club": "Aston Villa",
+      "value": 13000000,
+      "fair": 11500000,
+      "diffPct": -12,
+      "label": "Fairly valued"
+    },
+    "34871": {
+      "name": "Cédric Kipré",
+      "club": "Ipswich Town",
+      "value": 2200000,
+      "fair": 2400000,
+      "diffPct": 9,
+      "label": null
+    },
+    "37094": {
+      "name": "Reinildo",
+      "club": "Sunderland",
+      "value": 4000000,
+      "fair": 6500000,
+      "diffPct": 63,
+      "label": null
+    },
+    "37560": {
+      "name": "Florentino",
+      "club": "Ipswich Town",
+      "value": 16000000,
+      "fair": 16500000,
+      "diffPct": 3,
+      "label": null
+    },
+    "38101": {
+      "name": "Erling Haaland",
+      "club": "Man City",
+      "value": 200000000,
+      "fair": 85500000,
+      "diffPct": -57,
+      "label": null
+    },
+    "41381": {
+      "name": "Michele Di Gregorio",
+      "club": "Bournemouth",
+      "value": 10000000,
+      "fair": 1700000,
+      "diffPct": -83,
+      "label": null
+    },
+    "44017": {
+      "name": "Daizen Maeda",
+      "club": "Ipswich Town",
+      "value": 13000000,
+      "fair": 13000000,
+      "diffPct": 0,
+      "label": "Fairly valued"
+    },
+    "45681": {
+      "name": "Alexis Mac Allister",
+      "club": "Liverpool",
+      "value": 70000000,
+      "fair": 42500000,
+      "diffPct": -39,
+      "label": "Overvalued"
+    },
+    "46046": {
+      "name": "Marcos Senesi",
+      "club": "Tottenham",
+      "value": 25000000,
+      "fair": 17000000,
+      "diffPct": -32,
+      "label": null
+    },
+    "46346": {
+      "name": "Nicolás Domínguez",
+      "club": "Nottingham",
+      "value": 15000000,
+      "fair": 17000000,
+      "diffPct": 13,
+      "label": null
+    },
+    "46451": {
+      "name": "Lisandro Martínez",
+      "club": "Man United",
+      "value": 40000000,
+      "fair": 25500000,
+      "diffPct": -36,
+      "label": null
+    },
+    "46491": {
+      "name": "Omar Alderete",
+      "club": "Sunderland",
+      "value": 13000000,
+      "fair": 8500000,
+      "diffPct": -35,
+      "label": null
+    },
+    "49092": {
+      "name": "Hidemasa Morita",
+      "club": "Hull City",
+      "value": 8000000,
+      "fair": 4000000,
+      "diffPct": -50,
+      "label": null
+    },
+    "49105": {
+      "name": "Ao Tanaka",
+      "club": "Leeds United",
+      "value": 13000000,
+      "fair": 4200000,
+      "diffPct": -68,
+      "label": null
+    },
+    "55048": {
+      "name": "Milan van Ewijk",
+      "club": "Coventry City",
+      "value": 5000000,
+      "fair": 14500000,
+      "diffPct": 190,
+      "label": null
+    },
+    "56628": {
+      "name": "Reece James",
+      "club": "Chelsea",
+      "value": 60000000,
+      "fair": 32500000,
+      "diffPct": -46,
+      "label": null
+    },
+    "61968": {
+      "name": "Michael Svoboda",
+      "club": "Brighton Hove",
+      "value": 900000,
+      "fair": 7000000,
+      "diffPct": 678,
+      "label": null
+    },
+    "65843": {
+      "name": "Anton Stach",
+      "club": "Leeds United",
+      "value": 28000000,
+      "fair": 20000000,
+      "diffPct": -29,
+      "label": "Overvalued"
+    },
+    "66896": {
+      "name": "Omar Marmoush",
+      "club": "Tottenham",
+      "value": 50000000,
+      "fair": 34000000,
+      "diffPct": -32,
+      "label": "Overvalued"
+    },
+    "67893": {
+      "name": "Zian Flemming",
+      "club": "Ipswich Town",
+      "value": 12000000,
+      "fair": 13500000,
+      "diffPct": 13,
+      "label": null
+    },
+    "74677": {
+      "name": "Cheick Doucouré",
+      "club": "Crystal Palace",
+      "value": 10000000,
+      "fair": 7500000,
+      "diffPct": -25,
+      "label": null
+    },
+    "74688": {
+      "name": "Jaka Bijol",
+      "club": "Leeds United",
+      "value": 20000000,
+      "fair": 14500000,
+      "diffPct": -28,
+      "label": null
+    },
+    "74831": {
+      "name": "Illan Meslier",
+      "club": "Arsenal",
+      "value": 8000000,
+      "fair": 9000000,
+      "diffPct": 13,
+      "label": null
+    },
+    "75284": {
+      "name": "Ilia Gruev",
+      "club": "Leeds United",
+      "value": 12000000,
+      "fair": 6000000,
+      "diffPct": -50,
+      "label": null
+    },
+    "77399": {
+      "name": "Mohammed Kudus",
+      "club": "Tottenham",
+      "value": 50000000,
+      "fair": 33500000,
+      "diffPct": -33,
+      "label": "Overvalued"
+    },
+    "77596": {
+      "name": "Tyler Adams",
+      "club": "Bournemouth",
+      "value": 25000000,
+      "fair": 24500000,
+      "diffPct": -2,
+      "label": "Fairly valued"
+    },
+    "77641": {
+      "name": "Dan Ndoye",
+      "club": "Nottingham",
+      "value": 32000000,
+      "fair": 35500000,
+      "diffPct": 11,
+      "label": "Fairly valued"
+    },
+    "80171": {
+      "name": "William Saliba",
+      "club": "Arsenal",
+      "value": 100000000,
+      "fair": 15000000,
+      "diffPct": -85,
+      "label": null
+    },
+    "80175": {
+      "name": "Yann Gboho",
+      "club": "Coventry City",
+      "value": 18000000,
+      "fair": 13500000,
+      "diffPct": -25,
+      "label": null
+    },
+    "80761": {
+      "name": "Joe Gelhardt",
+      "club": "Hull City",
+      "value": 7000000,
+      "fair": 10000000,
+      "diffPct": 43,
+      "label": null
+    },
+    "80765": {
+      "name": "Max Aarons",
+      "club": "Bournemouth",
+      "value": 2500000,
+      "fair": 4600000,
+      "diffPct": 84,
+      "label": null
+    },
+    "81037": {
+      "name": "Pedro Porro",
+      "club": "Tottenham",
+      "value": 35000000,
+      "fair": 23500000,
+      "diffPct": -33,
+      "label": null
+    },
+    "81055": {
+      "name": "Steven Benda",
+      "club": "Nottingham",
+      "value": 1000000,
+      "fair": 3100000,
+      "diffPct": 210,
+      "label": null
+    },
+    "81082": {
+      "name": "Sven Botman",
+      "club": "Newcastle",
+      "value": 35000000,
+      "fair": 30000000,
+      "diffPct": -14,
+      "label": null
+    },
+    "81189": {
+      "name": "Georginio Rutter",
+      "club": "Brighton Hove",
+      "value": 30000000,
+      "fair": 21000000,
+      "diffPct": -30,
+      "label": null
+    },
+    "81793": {
+      "name": "Ryan Gravenberch",
+      "club": "Liverpool",
+      "value": 80000000,
+      "fair": 38000000,
+      "diffPct": -52,
+      "label": null
+    },
+    "81816": {
+      "name": "Amar Dedić",
+      "club": "Newcastle",
+      "value": 16000000,
+      "fair": 32000000,
+      "diffPct": 100,
+      "label": null
+    },
+    "82135": {
+      "name": "Mark Travers",
+      "club": "Everton",
+      "value": 3000000,
+      "fair": 2500000,
+      "diffPct": -17,
+      "label": null
+    },
+    "82140": {
+      "name": "Morgan Rogers",
+      "club": "Chelsea",
+      "value": 90000000,
+      "fair": 58500000,
+      "diffPct": -35,
+      "label": null
+    },
+    "82145": {
+      "name": "James Hill",
+      "club": "Bournemouth",
+      "value": 23000000,
+      "fair": 24000000,
+      "diffPct": 4,
+      "label": null
+    },
+    "82351": {
+      "name": "Maxence Lacroix",
+      "club": "Chelsea",
+      "value": 50000000,
+      "fair": 38000000,
+      "diffPct": -24,
+      "label": null
+    },
+    "83599": {
+      "name": "Wilson Isidor",
+      "club": "Sunderland",
+      "value": 18000000,
+      "fair": 17000000,
+      "diffPct": -6,
+      "label": null
+    },
+    "84506": {
+      "name": "Giorgi Mamardashvili",
+      "club": "Liverpool",
+      "value": 28000000,
+      "fair": 4300000,
+      "diffPct": -85,
+      "label": null
+    },
+    "85570": {
+      "name": "Emile Smith Rowe",
+      "club": "Fulham",
+      "value": 20000000,
+      "fair": 12500000,
+      "diffPct": -37,
+      "label": null
+    },
+    "91512": {
+      "name": "Matheus Nunes",
+      "club": "Man City",
+      "value": 50000000,
+      "fair": 46000000,
+      "diffPct": -8,
+      "label": null
+    },
+    "94091": {
+      "name": "Iliman Ndiaye",
+      "club": "Man City",
+      "value": 55000000,
+      "fair": 73000000,
+      "diffPct": 33,
+      "label": "Fairly valued"
+    },
+    "97505": {
+      "name": "Mats Wieffer",
+      "club": "Brighton Hove",
+      "value": 25000000,
+      "fair": 17000000,
+      "diffPct": -32,
+      "label": null
+    },
+    "97535": {
+      "name": "Brian Brobbey",
+      "club": "Sunderland",
+      "value": 30000000,
+      "fair": 21500000,
+      "diffPct": -28,
+      "label": "Fairly valued"
+    },
+    "97536": {
+      "name": "Quinten Timber",
+      "club": "Crystal Palace",
+      "value": 25000000,
+      "fair": 33000000,
+      "diffPct": 32,
+      "label": "Fairly valued"
+    },
+    "98566": {
+      "name": "Jan Paul van Hecke",
+      "club": "Tottenham",
+      "value": 45000000,
+      "fair": 33500000,
+      "diffPct": -26,
+      "label": null
+    },
+    "98745": {
+      "name": "Bafodé Diakité",
+      "club": "Bournemouth",
+      "value": 25000000,
+      "fair": 9500000,
+      "diffPct": -62,
+      "label": null
+    },
+    "98750": {
+      "name": "Jorge Cuenca",
+      "club": "Fulham",
+      "value": 8000000,
+      "fair": 11000000,
+      "diffPct": 38,
+      "label": null
+    },
+    "98816": {
+      "name": "Jurrien Timber",
+      "club": "Arsenal",
+      "value": 70000000,
+      "fair": 65000000,
+      "diffPct": -7,
+      "label": null
+    },
+    "98978": {
+      "name": "Mykhailo Mudryk",
+      "club": "Tottenham",
+      "value": 18000000,
+      "fair": 16500000,
+      "diffPct": -8,
+      "label": null
+    },
+    "99120": {
+      "name": "Leif Davis",
+      "club": "Ipswich Town",
+      "value": 20000000,
+      "fair": 17000000,
+      "diffPct": -15,
+      "label": null
+    },
+    "99664": {
+      "name": "Enzo Le Fée",
+      "club": "Sunderland",
+      "value": 28000000,
+      "fair": 22000000,
+      "diffPct": -21,
+      "label": "Fairly valued"
+    },
+    "99731": {
+      "name": "Joshua Zirkzee",
+      "club": "Man United",
+      "value": 20000000,
+      "fair": 28500000,
+      "diffPct": 43,
+      "label": null
+    },
+    "99775": {
+      "name": "Jeremy Doku",
+      "club": "Man City",
+      "value": 75000000,
+      "fair": 70500000,
+      "diffPct": -6,
+      "label": "Fairly valued"
+    },
+    "99813": {
+      "name": "Bukayo Saka",
+      "club": "Arsenal",
+      "value": 110000000,
+      "fair": 90000000,
+      "diffPct": -18,
+      "label": null
+    },
+    "99856": {
+      "name": "Chris Richards",
+      "club": "Crystal Palace",
+      "value": 28000000,
+      "fair": 30000000,
+      "diffPct": 7,
+      "label": null
+    },
+    "101076": {
+      "name": "James Garner",
+      "club": "Everton",
+      "value": 45000000,
+      "fair": 29500000,
+      "diffPct": -34,
+      "label": "Overvalued"
+    },
+    "101111": {
+      "name": "Aaron Hickey",
+      "club": "Brentford",
+      "value": 16000000,
+      "fair": 24000000,
+      "diffPct": 50,
+      "label": null
+    },
+    "101910": {
+      "name": "Keane Lewis-Potter",
+      "club": "Brentford",
+      "value": 25000000,
+      "fair": 29000000,
+      "diffPct": 16,
+      "label": null
+    },
+    "102046": {
+      "name": "Caoimhin Kelleher",
+      "club": "Brentford",
+      "value": 28000000,
+      "fair": 12500000,
+      "diffPct": -55,
+      "label": null
+    },
+    "102603": {
+      "name": "Enzo Fernández",
+      "club": "Man City",
+      "value": 90000000,
+      "fair": 79000000,
+      "diffPct": -12,
+      "label": null
+    },
+    "103125": {
+      "name": "João Pedro",
+      "club": "Chelsea",
+      "value": 80000000,
+      "fair": 48000000,
+      "diffPct": -40,
+      "label": "Overvalued"
+    },
+    "107330": {
+      "name": "Elliot Anderson",
+      "club": "Man City",
+      "value": 75000000,
+      "fair": 86000000,
+      "diffPct": 15,
+      "label": "Fairly valued"
+    },
+    "111437": {
+      "name": "Jacob Ramsey",
+      "club": "Newcastle",
+      "value": 35000000,
+      "fair": 27500000,
+      "diffPct": -21,
+      "label": null
+    },
+    "113262": {
+      "name": "Brenden Aaronson",
+      "club": "Leeds United",
+      "value": 22000000,
+      "fair": 21000000,
+      "diffPct": -5,
+      "label": null
+    },
+    "113335": {
+      "name": "Julian Araujo",
+      "club": "Bournemouth",
+      "value": 8000000,
+      "fair": 4700000,
+      "diffPct": -41,
+      "label": null
+    },
+    "113632": {
+      "name": "Tatsuhiro Sakamoto",
+      "club": "Coventry City",
+      "value": 1800000,
+      "fair": 9500000,
+      "diffPct": 428,
+      "label": null
+    },
+    "114024": {
+      "name": "Amadou Onana",
+      "club": "Aston Villa",
+      "value": 45000000,
+      "fair": 7500000,
+      "diffPct": -83,
+      "label": null
+    },
+    "114120": {
+      "name": "Jarrad Branthwaite",
+      "club": "Everton",
+      "value": 40000000,
+      "fair": 24000000,
+      "diffPct": -40,
+      "label": null
+    },
+    "115035": {
+      "name": "Martín Zubimendi",
+      "club": "Arsenal",
+      "value": 75000000,
+      "fair": 49500000,
+      "diffPct": -34,
+      "label": null
+    },
+    "115642": {
+      "name": "Nathan Collins",
+      "club": "Brentford",
+      "value": 30000000,
+      "fair": 21000000,
+      "diffPct": -30,
+      "label": null
+    },
+    "117687": {
+      "name": "Trai Hume",
+      "club": "Sunderland",
+      "value": 22000000,
+      "fair": 18000000,
+      "diffPct": -18,
+      "label": null
+    },
+    "118489": {
+      "name": "Marc Guéhi",
+      "club": "Man City",
+      "value": 70000000,
+      "fair": 62500000,
+      "diffPct": -11,
+      "label": null
+    },
+    "118920": {
+      "name": "Zion Suzuki",
+      "club": "Aston Villa",
+      "value": 20000000,
+      "fair": 18000000,
+      "diffPct": -10,
+      "label": null
+    },
+    "119265": {
+      "name": "Conor Gallagher",
+      "club": "Tottenham",
+      "value": 32000000,
+      "fair": 34500000,
+      "diffPct": 8,
+      "label": null
+    },
+    "121103": {
+      "name": "Moisés Caicedo",
+      "club": "Chelsea",
+      "value": 100000000,
+      "fair": 47000000,
+      "diffPct": -53,
+      "label": null
+    },
+    "122266": {
+      "name": "Joško Gvardiol",
+      "club": "Man City",
+      "value": 70000000,
+      "fair": 61000000,
+      "diffPct": -13,
+      "label": null
+    },
+    "123212": {
+      "name": "David Affengruber",
+      "club": "Fulham",
+      "value": 20000000,
+      "fair": 20500000,
+      "diffPct": 2,
+      "label": null
+    },
+    "123286": {
+      "name": "Kevin Schade",
+      "club": "Brentford",
+      "value": 35000000,
+      "fair": 35000000,
+      "diffPct": 0,
+      "label": "Fairly valued"
+    },
+    "124244": {
+      "name": "Benjamin Šeško",
+      "club": "Man United",
+      "value": 75000000,
+      "fair": 24000000,
+      "diffPct": -68,
+      "label": null
+    },
+    "124694": {
+      "name": "Brennan Johnson",
+      "club": "Everton",
+      "value": 30000000,
+      "fair": 25000000,
+      "diffPct": -17,
+      "label": null
+    },
+    "125651": {
+      "name": "Jacob Greaves",
+      "club": "Ipswich Town",
+      "value": 16000000,
+      "fair": 14500000,
+      "diffPct": -9,
+      "label": null
+    },
+    "125674": {
+      "name": "Piero Hincapié",
+      "club": "Arsenal",
+      "value": 50000000,
+      "fair": 43000000,
+      "diffPct": -14,
+      "label": null
+    },
+    "126870": {
+      "name": "Bart Verbruggen",
+      "club": "Brighton Hove",
+      "value": 40000000,
+      "fair": 16000000,
+      "diffPct": -60,
+      "label": null
+    },
+    "128710": {
+      "name": "Evann Guessand",
+      "club": "Crystal Palace",
+      "value": 25000000,
+      "fair": 20500000,
+      "diffPct": -18,
+      "label": null
+    },
+    "128954": {
+      "name": "Jeremie Frimpong",
+      "club": "Liverpool",
+      "value": 35000000,
+      "fair": 28500000,
+      "diffPct": -19,
+      "label": null
+    },
+    "129946": {
+      "name": "Senne Lammens",
+      "club": "Man United",
+      "value": 35000000,
+      "fair": 21500000,
+      "diffPct": -39,
+      "label": null
+    },
+    "130044": {
+      "name": "Joel Latibeaudiere",
+      "club": "Coventry City",
+      "value": 3000000,
+      "fair": 3500000,
+      "diffPct": 17,
+      "label": null
+    },
+    "130668": {
+      "name": "Arnaud Kalimuendo",
+      "club": "Nottingham",
+      "value": 25000000,
+      "fair": 20500000,
+      "diffPct": -18,
+      "label": null
+    },
+    "130809": {
+      "name": "Evan Ferguson",
+      "club": "Brighton Hove",
+      "value": 20000000,
+      "fair": 6500000,
+      "diffPct": -67,
+      "label": null
+    },
+    "131035": {
+      "name": "Taylor Harwood-Bellis",
+      "club": "Aston Villa",
+      "value": 20000000,
+      "fair": 21500000,
+      "diffPct": 7,
+      "label": null
+    },
+    "131120": {
+      "name": "Ian Maatsen",
+      "club": "Aston Villa",
+      "value": 30000000,
+      "fair": 29000000,
+      "diffPct": -3,
+      "label": null
+    },
+    "131177": {
+      "name": "Mickey van de Ven",
+      "club": "Tottenham",
+      "value": 50000000,
+      "fair": 32500000,
+      "diffPct": -35,
+      "label": null
+    },
+    "131260": {
+      "name": "Evanilson",
+      "club": "Bournemouth",
+      "value": 35000000,
+      "fair": 24500000,
+      "diffPct": -30,
+      "label": "Overvalued"
+    },
+    "131569": {
+      "name": "Jake O'Brien",
+      "club": "Everton",
+      "value": 18000000,
+      "fair": 19000000,
+      "diffPct": 6,
+      "label": null
+    },
+    "132707": {
+      "name": "Kaoru Mitoma",
+      "club": "Brighton Hove",
+      "value": 22000000,
+      "fair": 4300000,
+      "diffPct": -80,
+      "label": null
+    },
+    "133229": {
+      "name": "Brandon Austin",
+      "club": "Tottenham",
+      "value": 500000,
+      "fair": 3700000,
+      "diffPct": 640,
+      "label": null
+    },
+    "133242": {
+      "name": "Rayan Cherki",
+      "club": "Man City",
+      "value": 90000000,
+      "fair": 79000000,
+      "diffPct": -12,
+      "label": null
+    },
+    "133512": {
+      "name": "Riccardo Calafiori",
+      "club": "Arsenal",
+      "value": 55000000,
+      "fair": 77000000,
+      "diffPct": 40,
+      "label": null
+    },
+    "133584": {
+      "name": "Amad Diallo",
+      "club": "Man United",
+      "value": 45000000,
+      "fair": 36000000,
+      "diffPct": -20,
+      "label": null
+    },
+    "133765": {
+      "name": "Neco Williams",
+      "club": "Nottingham",
+      "value": 28000000,
+      "fair": 32500000,
+      "diffPct": 16,
+      "label": null
+    },
+    "135482": {
+      "name": "Adrien Truffert",
+      "club": "Bournemouth",
+      "value": 30000000,
+      "fair": 23500000,
+      "diffPct": -22,
+      "label": null
+    },
+    "136721": {
+      "name": "Melvin Bard",
+      "club": "Leeds United",
+      "value": 10000000,
+      "fair": 11500000,
+      "diffPct": 15,
+      "label": null
+    },
+    "137047": {
+      "name": "Amine Adli",
+      "club": "Bournemouth",
+      "value": 20000000,
+      "fair": 11000000,
+      "diffPct": -45,
+      "label": null
+    },
+    "137068": {
+      "name": "Tyrick Mitchell",
+      "club": "Crystal Palace",
+      "value": 25000000,
+      "fair": 28000000,
+      "diffPct": 12,
+      "label": null
+    },
+    "137544": {
+      "name": "Gabriel Slonina",
+      "club": "Chelsea",
+      "value": 3000000,
+      "fair": 5000000,
+      "diffPct": 67,
+      "label": null
+    },
+    "137691": {
+      "name": "Robin Roefs",
+      "club": "Sunderland",
+      "value": 28000000,
+      "fair": 10500000,
+      "diffPct": -62,
+      "label": null
+    },
+    "138034": {
+      "name": "João Gomes",
+      "club": "Aston Villa",
+      "value": 40000000,
+      "fair": 30000000,
+      "diffPct": -25,
+      "label": null
+    },
+    "138036": {
+      "name": "Rodrigo Muniz",
+      "club": "Fulham",
+      "value": 20000000,
+      "fair": 18000000,
+      "diffPct": -10,
+      "label": null
+    },
+    "138230": {
+      "name": "Thiago",
+      "club": "Brentford",
+      "value": 65000000,
+      "fair": 32500000,
+      "diffPct": -50,
+      "label": "Overvalued"
+    },
+    "140194": {
+      "name": "Kiernan Dewsbury Hall",
+      "club": "Everton",
+      "value": 35000000,
+      "fair": 23500000,
+      "diffPct": -33,
+      "label": "Overvalued"
+    },
+    "140245": {
+      "name": "Marcelino Núñez",
+      "club": "Ipswich Town",
+      "value": 14000000,
+      "fair": 13500000,
+      "diffPct": -4,
+      "label": null
+    },
+    "140269": {
+      "name": "Carlos Alcaraz",
+      "club": "Everton",
+      "value": 15000000,
+      "fair": 11500000,
+      "diffPct": -23,
+      "label": null
+    },
+    "142075": {
+      "name": "Maxim De Cuyper",
+      "club": "Brighton Hove",
+      "value": 22000000,
+      "fair": 26500000,
+      "diffPct": 20,
+      "label": null
+    },
+    "142732": {
+      "name": "Malick Thiaw",
+      "club": "Newcastle",
+      "value": 45000000,
+      "fair": 33500000,
+      "diffPct": -26,
+      "label": null
+    },
+    "144361": {
+      "name": "Luca Netz",
+      "club": "Nottingham",
+      "value": 8000000,
+      "fair": 18500000,
+      "diffPct": 131,
+      "label": null
+    },
+    "144434": {
+      "name": "Christos Tzolis",
+      "club": "Arsenal",
+      "value": 40000000,
+      "fair": 82500000,
+      "diffPct": 106,
+      "label": "Undervalued"
+    },
+    "144782": {
+      "name": "Bobby Thomas",
+      "club": "Coventry City",
+      "value": 2000000,
+      "fair": 15500000,
+      "diffPct": 675,
+      "label": null
+    },
+    "144892": {
+      "name": "Cole Palmer",
+      "club": "Chelsea",
+      "value": 100000000,
+      "fair": 55000000,
+      "diffPct": -45,
+      "label": null
+    },
+    "145613": {
+      "name": "Yasin Ayari",
+      "club": "Brighton Hove",
+      "value": 35000000,
+      "fair": 34000000,
+      "diffPct": -3,
+      "label": "Fairly valued"
+    },
+    "146122": {
+      "name": "Ellis Simms",
+      "club": "Coventry City",
+      "value": 6000000,
+      "fair": 12000000,
+      "diffPct": 100,
+      "label": null
+    },
+    "146154": {
+      "name": "Calvin Bassey",
+      "club": "Fulham",
+      "value": 28000000,
+      "fair": 20500000,
+      "diffPct": -27,
+      "label": null
+    },
+    "146352": {
+      "name": "Sávio",
+      "club": "Tottenham",
+      "value": 200000,
+      "fair": 37500000,
+      "diffPct": 18650,
+      "label": null
+    },
+    "146753": {
+      "name": "Lukáš Horníček",
+      "club": "Newcastle",
+      "value": 18000000,
+      "fair": 21000000,
+      "diffPct": 17,
+      "label": null
+    },
+    "146986": {
+      "name": "Óscar Mingueza",
+      "club": "Crystal Palace",
+      "value": 18000000,
+      "fair": 18000000,
+      "diffPct": 0,
+      "label": null
+    },
+    "147891": {
+      "name": "Jaouen Hadjam",
+      "club": "Brighton Hove",
+      "value": 7000000,
+      "fair": 13500000,
+      "diffPct": 93,
+      "label": null
+    },
+    "147914": {
+      "name": "Eliot Matazo",
+      "club": "Hull City",
+      "value": 2000000,
+      "fair": 3300000,
+      "diffPct": 65,
+      "label": null
+    },
+    "148289": {
+      "name": "Xavi Simons",
+      "club": "Tottenham",
+      "value": 40000000,
+      "fair": 8500000,
+      "diffPct": -79,
+      "label": null
+    },
+    "149129": {
+      "name": "Mohamed Ali Cho",
+      "club": "Hull City",
+      "value": 15000000,
+      "fair": 11000000,
+      "diffPct": -27,
+      "label": null
+    },
+    "150599": {
+      "name": "Emanuel Emegha",
+      "club": "Chelsea",
+      "value": 25000000,
+      "fair": 30500000,
+      "diffPct": 22,
+      "label": null
+    },
+    "150778": {
+      "name": "Jaidon Anthony",
+      "club": "Brentford",
+      "value": 20000000,
+      "fair": 27000000,
+      "diffPct": 35,
+      "label": "Fairly valued"
+    },
+    "150893": {
+      "name": "Melker Ellborg",
+      "club": "Sunderland",
+      "value": 3000000,
+      "fair": 2200000,
+      "diffPct": -27,
+      "label": null
+    },
+    "150948": {
+      "name": "Chadi Riad",
+      "club": "Crystal Palace",
+      "value": 15000000,
+      "fair": 17500000,
+      "diffPct": 17,
+      "label": null
+    },
+    "150964": {
+      "name": "Mamadou Sangare",
+      "club": "Brentford",
+      "value": 40000000,
+      "fair": 31500000,
+      "diffPct": -21,
+      "label": "Fairly valued"
+    },
+    "151095": {
+      "name": "Liam Delap",
+      "club": "Nottingham",
+      "value": 28000000,
+      "fair": 39500000,
+      "diffPct": 41,
+      "label": "Undervalued"
+    },
+    "151119": {
+      "name": "Fabio Carvalho",
+      "club": "Brentford",
+      "value": 8000000,
+      "fair": 14000000,
+      "diffPct": 75,
+      "label": null
+    },
+    "151241": {
+      "name": "Matteo Ruggeri",
+      "club": "Aston Villa",
+      "value": 28000000,
+      "fair": 20500000,
+      "diffPct": -27,
+      "label": null
+    },
+    "151251": {
+      "name": "Pep Chavarría",
+      "club": "Chelsea",
+      "value": 10000000,
+      "fair": 29500000,
+      "diffPct": 195,
+      "label": null
+    },
+    "152454": {
+      "name": "Hugo Ekitike",
+      "club": "Liverpool",
+      "value": 80000000,
+      "fair": 9500000,
+      "diffPct": -88,
+      "label": null
+    },
+    "152498": {
+      "name": "Malo Gusto",
+      "club": "Chelsea",
+      "value": 35000000,
+      "fair": 35500000,
+      "diffPct": 1,
+      "label": null
+    },
+    "152505": {
+      "name": "Yeremi Pino",
+      "club": "Crystal Palace",
+      "value": 30000000,
+      "fair": 36000000,
+      "diffPct": 20,
+      "label": "Fairly valued"
+    },
+    "152515": {
+      "name": "Nicolas Jackson",
+      "club": "Aston Villa",
+      "value": 40000000,
+      "fair": 38000000,
+      "diffPct": -5,
+      "label": "Fairly valued"
+    },
+    "152579": {
+      "name": "Vítězslav Jaroš",
+      "club": "Liverpool",
+      "value": 5000000,
+      "fair": 4700000,
+      "diffPct": -6,
+      "label": null
+    },
+    "153874": {
+      "name": "James Trafford",
+      "club": "Leeds United",
+      "value": 25000000,
+      "fair": 13500000,
+      "diffPct": -46,
+      "label": null
+    },
+    "156552": {
+      "name": "Merlin Röhl",
+      "club": "Everton",
+      "value": 16000000,
+      "fair": 29500000,
+      "diffPct": 84,
+      "label": "Undervalued"
+    },
+    "161088": {
+      "name": "Alex Scott",
+      "club": "Bournemouth",
+      "value": 50000000,
+      "fair": 23500000,
+      "diffPct": -53,
+      "label": "Overvalued"
+    },
+    "161270": {
+      "name": "Aji Alese",
+      "club": "Sunderland",
+      "value": 1200000,
+      "fair": 3900000,
+      "diffPct": 225,
+      "label": null
+    },
+    "165154": {
+      "name": "Harvey Davies",
+      "club": "Liverpool",
+      "value": 500000,
+      "fair": 5000000,
+      "diffPct": 900,
+      "label": null
+    },
+    "165311": {
+      "name": "Abdoullah Ba",
+      "club": "Sunderland",
+      "value": 1500000,
+      "fair": 4800000,
+      "diffPct": 220,
+      "label": null
+    },
+    "166366": {
+      "name": "Andrey Santos",
+      "club": "Man United",
+      "value": 40000000,
+      "fair": 33500000,
+      "diffPct": -16,
+      "label": null
+    },
+    "166376": {
+      "name": "Anthony Elanga",
+      "club": "Newcastle",
+      "value": 32000000,
+      "fair": 36500000,
+      "diffPct": 14,
+      "label": null
+    },
+    "167720": {
+      "name": "Noni Madueke",
+      "club": "Arsenal",
+      "value": 50000000,
+      "fair": 87000000,
+      "diffPct": 74,
+      "label": "Undervalued"
+    },
+    "168712": {
+      "name": "Valentino Livramento",
+      "club": "Newcastle",
+      "value": 45000000,
+      "fair": 6500000,
+      "diffPct": -86,
+      "label": null
+    },
+    "168949": {
+      "name": "Julio Enciso",
+      "club": "Ipswich Town",
+      "value": 25000000,
+      "fair": 21000000,
+      "diffPct": -16,
+      "label": "Fairly valued"
+    },
+    "169191": {
+      "name": "Daniel Jebbison",
+      "club": "Bournemouth",
+      "value": 6000000,
+      "fair": 13500000,
+      "diffPct": 125,
+      "label": null
+    },
+    "169297": {
+      "name": "Aurele Amenda",
+      "club": "Coventry City",
+      "value": 10000000,
+      "fair": 12500000,
+      "diffPct": 25,
+      "label": null
+    },
+    "169324": {
+      "name": "William Osula",
+      "club": "Newcastle",
+      "value": 28000000,
+      "fair": 34000000,
+      "diffPct": 21,
+      "label": null
+    },
+    "169326": {
+      "name": "Tim Iroegbunam",
+      "club": "Hull City",
+      "value": 18000000,
+      "fair": 13000000,
+      "diffPct": -28,
+      "label": null
+    },
+    "170261": {
+      "name": "Valentin Barco",
+      "club": "Chelsea",
+      "value": 40000000,
+      "fair": 33500000,
+      "diffPct": -16,
+      "label": null
+    },
+    "170378": {
+      "name": "Destiny Udogie",
+      "club": "Tottenham",
+      "value": 30000000,
+      "fair": 25500000,
+      "diffPct": -15,
+      "label": null
+    },
+    "170394": {
+      "name": "Loum Tchaouna",
+      "club": "Coventry City",
+      "value": 13000000,
+      "fair": 13500000,
+      "diffPct": 4,
+      "label": null
+    },
+    "170440": {
+      "name": "Levi Colwill",
+      "club": "Chelsea",
+      "value": 50000000,
+      "fair": 44500000,
+      "diffPct": -11,
+      "label": null
+    },
+    "170812": {
+      "name": "Konstantinos Tzolakis",
+      "club": "Hull City",
+      "value": 18000000,
+      "fair": 7500000,
+      "diffPct": -58,
+      "label": null
+    },
+    "171141": {
+      "name": "Milos Kerkez",
+      "club": "Liverpool",
+      "value": 35000000,
+      "fair": 41000000,
+      "diffPct": 17,
+      "label": null
+    },
+    "171498": {
+      "name": "Carl Rushworth",
+      "club": "Coventry City",
+      "value": 16000000,
+      "fair": 8500000,
+      "diffPct": -47,
+      "label": null
+    },
+    "171876": {
+      "name": "Habib Diarra",
+      "club": "Sunderland",
+      "value": 35000000,
+      "fair": 11500000,
+      "diffPct": -67,
+      "label": null
+    },
+    "171965": {
+      "name": "Antoni Milambo",
+      "club": "Brentford",
+      "value": 15000000,
+      "fair": 6000000,
+      "diffPct": -60,
+      "label": null
+    },
+    "171977": {
+      "name": "Mathys Tel",
+      "club": "Tottenham",
+      "value": 22000000,
+      "fair": 33000000,
+      "diffPct": 50,
+      "label": "Undervalued"
+    },
+    "171986": {
+      "name": "Nico Gonzalez",
+      "club": "Newcastle",
+      "value": 40000000,
+      "fair": 37500000,
+      "diffPct": -6,
+      "label": "Fairly valued"
+    },
+    "171995": {
+      "name": "Thierno Barry",
+      "club": "Everton",
+      "value": 30000000,
+      "fair": 29500000,
+      "diffPct": -2,
+      "label": "Fairly valued"
+    },
+    "172275": {
+      "name": "Romaine Mundle",
+      "club": "Sunderland",
+      "value": 7000000,
+      "fair": 5500000,
+      "diffPct": -21,
+      "label": null
+    },
+    "172738": {
+      "name": "Romeo Lavia",
+      "club": "Chelsea",
+      "value": 22000000,
+      "fair": 48500000,
+      "diffPct": 120,
+      "label": "Undervalued"
+    },
+    "172762": {
+      "name": "Bradley Barcola",
+      "club": "Liverpool",
+      "value": 70000000,
+      "fair": 41500000,
+      "diffPct": -41,
+      "label": "Overvalued"
+    },
+    "172839": {
+      "name": "Cristhian Mosquera",
+      "club": "Arsenal",
+      "value": 40000000,
+      "fair": 50500000,
+      "diffPct": 26,
+      "label": null
+    },
+    "172899": {
+      "name": "Lamare Bogarde",
+      "club": "Aston Villa",
+      "value": 18000000,
+      "fair": 14000000,
+      "diffPct": -22,
+      "label": null
+    },
+    "172956": {
+      "name": "James McAtee",
+      "club": "Nottingham",
+      "value": 18000000,
+      "fair": 41500000,
+      "diffPct": 131,
+      "label": "Undervalued"
+    },
+    "175865": {
+      "name": "Conor Bradley",
+      "club": "Liverpool",
+      "value": 25000000,
+      "fair": 8000000,
+      "diffPct": -68,
+      "label": null
+    },
+    "175910": {
+      "name": "Teddy Sharman-Lowe",
+      "club": "Chelsea",
+      "value": 500000,
+      "fair": 6000000,
+      "diffPct": 1100,
+      "label": null
+    },
+    "176628": {
+      "name": "Emersonn",
+      "club": "Ipswich Town",
+      "value": 8000000,
+      "fair": 20000000,
+      "diffPct": 150,
+      "label": "Undervalued"
+    },
+    "176777": {
+      "name": "Kasey McAteer",
+      "club": "Ipswich Town",
+      "value": 10000000,
+      "fair": 11000000,
+      "diffPct": 10,
+      "label": null
+    },
+    "177040": {
+      "name": "Archie Gray",
+      "club": "Tottenham",
+      "value": 35000000,
+      "fair": 25500000,
+      "diffPct": -27,
+      "label": null
+    },
+    "177169": {
+      "name": "Brooke Norton-Cuffy",
+      "club": "Hull City",
+      "value": 15000000,
+      "fair": 8000000,
+      "diffPct": -47,
+      "label": null
+    },
+    "177305": {
+      "name": "Dango Ouattara",
+      "club": "Brentford",
+      "value": 35000000,
+      "fair": 31000000,
+      "diffPct": -11,
+      "label": "Fairly valued"
+    },
+    "178604": {
+      "name": "Carlos Baleba",
+      "club": "Man United",
+      "value": 55000000,
+      "fair": 30500000,
+      "diffPct": -45,
+      "label": null
+    },
+    "178951": {
+      "name": "Diego Gómez",
+      "club": "Brighton Hove",
+      "value": 25000000,
+      "fair": 34000000,
+      "diffPct": 36,
+      "label": "Fairly valued"
+    },
+    "179319": {
+      "name": "Darío Osorio",
+      "club": "Crystal Palace",
+      "value": 15000000,
+      "fair": 20000000,
+      "diffPct": 33,
+      "label": null
+    },
+    "179603": {
+      "name": "Lucas Gourna-Douath",
+      "club": "Hull City",
+      "value": 6000000,
+      "fair": 11500000,
+      "diffPct": 92,
+      "label": null
+    },
+    "179716": {
+      "name": "Oscar Bobb",
+      "club": "Fulham",
+      "value": 28000000,
+      "fair": 25500000,
+      "diffPct": -9,
+      "label": "Fairly valued"
+    },
+    "180038": {
+      "name": "Juanlu",
+      "club": "Bournemouth",
+      "value": 300000,
+      "fair": 5500000,
+      "diffPct": 1733,
+      "label": null
+    },
+    "180563": {
+      "name": "Hugo Larsson",
+      "club": "Fulham",
+      "value": 28000000,
+      "fair": 16000000,
+      "diffPct": -43,
+      "label": null
+    },
+    "181901": {
+      "name": "Alejandro Garnacho",
+      "club": "Aston Villa",
+      "value": 28000000,
+      "fair": 16500000,
+      "diffPct": -41,
+      "label": null
+    },
+    "181933": {
+      "name": "Leny Yoro",
+      "club": "Man United",
+      "value": 50000000,
+      "fair": 26500000,
+      "diffPct": -47,
+      "label": null
+    },
+    "182273": {
+      "name": "Noah Sadiki",
+      "club": "Sunderland",
+      "value": 35000000,
+      "fair": 20000000,
+      "diffPct": -43,
+      "label": "Overvalued"
+    },
+    "183583": {
+      "name": "Julio Soler",
+      "club": "Bournemouth",
+      "value": 8000000,
+      "fair": 6500000,
+      "diffPct": -19,
+      "label": null
+    },
+    "184963": {
+      "name": "Darko Gyabi",
+      "club": "Hull City",
+      "value": 2000000,
+      "fair": 3100000,
+      "diffPct": 55,
+      "label": null
+    },
+    "184999": {
+      "name": "Wilson Odobert",
+      "club": "Tottenham",
+      "value": 18000000,
+      "fair": 7500000,
+      "diffPct": -58,
+      "label": null
+    },
+    "185116": {
+      "name": "Costinha",
+      "club": "Brighton Hove",
+      "value": 7000000,
+      "fair": 23000000,
+      "diffPct": 229,
+      "label": null
+    },
+    "185178": {
+      "name": "Mateo Fernandez",
+      "club": "Leeds United",
+      "value": 50000,
+      "fair": 6500000,
+      "diffPct": 12900,
+      "label": null
+    },
+    "185610": {
+      "name": "Antonio Silva",
+      "club": "Bournemouth",
+      "value": 25000000,
+      "fair": 24000000,
+      "diffPct": -4,
+      "label": null
+    },
+    "187065": {
+      "name": "Malick Fofana",
+      "club": "Sunderland",
+      "value": 30000000,
+      "fair": 12500000,
+      "diffPct": -58,
+      "label": null
+    },
+    "187202": {
+      "name": "Rico Lewis",
+      "club": "Man City",
+      "value": 28000000,
+      "fair": 40000000,
+      "diffPct": 43,
+      "label": null
+    },
+    "187216": {
+      "name": "Mateus Fernandes",
+      "club": "Tottenham",
+      "value": 50000000,
+      "fair": 36000000,
+      "diffPct": -28,
+      "label": "Fairly valued"
+    },
+    "187375": {
+      "name": "Nilson Angulo",
+      "club": "Sunderland",
+      "value": 17000000,
+      "fair": 20000000,
+      "diffPct": 18,
+      "label": "Fairly valued"
+    },
+    "187482": {
+      "name": "Yankubah Minteh",
+      "club": "Brighton Hove",
+      "value": 45000000,
+      "fair": 14500000,
+      "diffPct": -68,
+      "label": null
+    },
+    "189153": {
+      "name": "Tarik Muharemović",
+      "club": "Leeds United",
+      "value": 25000000,
+      "fair": 22000000,
+      "diffPct": -12,
+      "label": null
+    },
+    "189369": {
+      "name": "Alvaro Rodriguez",
+      "club": "Bournemouth",
+      "value": 10000000,
+      "fair": 14500000,
+      "diffPct": 45,
+      "label": null
+    },
+    "189477": {
+      "name": "Jorrel Hato",
+      "club": "Chelsea",
+      "value": 40000000,
+      "fair": 26000000,
+      "diffPct": -35,
+      "label": null
+    },
+    "190558": {
+      "name": "Nobel Mendy",
+      "club": "Hull City",
+      "value": 7500000,
+      "fair": 11500000,
+      "diffPct": 53,
+      "label": null
+    },
+    "190797": {
+      "name": "Kobbie Mainoo",
+      "club": "Man United",
+      "value": 70000000,
+      "fair": 35000000,
+      "diffPct": -50,
+      "label": "Overvalued"
+    },
+    "190817": {
+      "name": "Chris Rigg",
+      "club": "Sunderland",
+      "value": 25000000,
+      "fair": 11000000,
+      "diffPct": -56,
+      "label": null
+    },
+    "190851": {
+      "name": "Jack Hinshelwood",
+      "club": "Brighton Hove",
+      "value": 28000000,
+      "fair": 24000000,
+      "diffPct": -14,
+      "label": null
+    },
+    "191068": {
+      "name": "Mike Penders",
+      "club": "Chelsea",
+      "value": 25000000,
+      "fair": 17500000,
+      "diffPct": -30,
+      "label": null
+    },
+    "191140": {
+      "name": "Lewis Hall",
+      "club": "Newcastle",
+      "value": 40000000,
+      "fair": 33000000,
+      "diffPct": -18,
+      "label": null
+    },
+    "191396": {
+      "name": "Adam Wharton",
+      "club": "Crystal Palace",
+      "value": 70000000,
+      "fair": 36000000,
+      "diffPct": -49,
+      "label": "Overvalued"
+    },
+    "191730": {
+      "name": "Nicolò Savona",
+      "club": "Nottingham",
+      "value": 15000000,
+      "fair": 6500000,
+      "diffPct": -57,
+      "label": null
+    },
+    "191939": {
+      "name": "Lewis Miley",
+      "club": "Newcastle",
+      "value": 25000000,
+      "fair": 31000000,
+      "diffPct": 24,
+      "label": "Fairly valued"
+    },
+    "192108": {
+      "name": "Shea Charles",
+      "club": "Fulham",
+      "value": 15000000,
+      "fair": 27000000,
+      "diffPct": 80,
+      "label": "Undervalued"
+    },
+    "192313": {
+      "name": "Chemsdine Talbi",
+      "club": "Sunderland",
+      "value": 25000000,
+      "fair": 14500000,
+      "diffPct": -42,
+      "label": null
+    },
+    "192316": {
+      "name": "Alex Toth",
+      "club": "Bournemouth",
+      "value": 12000000,
+      "fair": 10000000,
+      "diffPct": -17,
+      "label": null
+    },
+    "192563": {
+      "name": "Giovanni Leoni",
+      "club": "Liverpool",
+      "value": 25000000,
+      "fair": 5500000,
+      "diffPct": -78,
+      "label": null
+    },
+    "192637": {
+      "name": "Murillo",
+      "club": "Nottingham",
+      "value": 50000000,
+      "fair": 32000000,
+      "diffPct": -36,
+      "label": null
+    },
+    "192811": {
+      "name": "Elliot Stroud",
+      "club": "Hull City",
+      "value": 5000000,
+      "fair": 14000000,
+      "diffPct": 180,
+      "label": "Undervalued"
+    },
+    "193622": {
+      "name": "Lucas Bergvall",
+      "club": "Tottenham",
+      "value": 35000000,
+      "fair": 22500000,
+      "diffPct": -36,
+      "label": null
+    },
+    "193627": {
+      "name": "Jens Hjertö-Dahl",
+      "club": "Hull City",
+      "value": 10000000,
+      "fair": 6000000,
+      "diffPct": -40,
+      "label": null
+    },
+    "193633": {
+      "name": "El Hadji Malick Diouf",
+      "club": "Brentford",
+      "value": 28000000,
+      "fair": 17500000,
+      "diffPct": -37,
+      "label": null
+    },
+    "203356": {
+      "name": "Rayan",
+      "club": "Bournemouth",
+      "value": 60000000,
+      "fair": 22000000,
+      "diffPct": -63,
+      "label": "Overvalued"
+    },
+    "204348": {
+      "name": "Michael Kayode",
+      "club": "Brentford",
+      "value": 40000000,
+      "fair": 27000000,
+      "diffPct": -32,
+      "label": null
+    },
+    "204421": {
+      "name": "Yegor Yarmolyuk",
+      "club": "Brentford",
+      "value": 32000000,
+      "fair": 6500000,
+      "diffPct": -80,
+      "label": null
+    },
+    "204460": {
+      "name": "James Wright",
+      "club": "Aston Villa",
+      "value": 200000,
+      "fair": 3400000,
+      "diffPct": 1600,
+      "label": null
+    },
+    "205531": {
+      "name": "Ibrahim Osman",
+      "club": "Brighton Hove",
+      "value": 7000000,
+      "fair": 15000000,
+      "diffPct": 114,
+      "label": null
+    },
+    "206127": {
+      "name": "Jeremy Jacquet",
+      "club": "Liverpool",
+      "value": 55000000,
+      "fair": 35500000,
+      "diffPct": -35,
+      "label": null
+    },
+    "206136": {
+      "name": "Marco Palestra",
+      "club": "Chelsea",
+      "value": 35000000,
+      "fair": 27000000,
+      "diffPct": -23,
+      "label": null
+    },
+    "206743": {
+      "name": "Nico O'Reilly",
+      "club": "Man City",
+      "value": 70000000,
+      "fair": 50000000,
+      "diffPct": -29,
+      "label": null
+    },
+    "209148": {
+      "name": "Aaron Anselmino",
+      "club": "Chelsea",
+      "value": 10000000,
+      "fair": 8000000,
+      "diffPct": -20,
+      "label": null
+    },
+    "209504": {
+      "name": "Stefanos Tzimas",
+      "club": "Brighton Hove",
+      "value": 18000000,
+      "fair": 5000000,
+      "diffPct": -72,
+      "label": null
+    },
+    "210150": {
+      "name": "Harry Amass",
+      "club": "Man United",
+      "value": 5000000,
+      "fair": 4900000,
+      "diffPct": -2,
+      "label": null
+    },
+    "210730": {
+      "name": "Dermot Mee",
+      "club": "Man United",
+      "value": 200000,
+      "fair": 4700000,
+      "diffPct": 2250,
+      "label": null
+    },
+    "211559": {
+      "name": "Patrick Dorgu",
+      "club": "Man United",
+      "value": 35000000,
+      "fair": 28500000,
+      "diffPct": -19,
+      "label": null
+    },
+    "211740": {
+      "name": "Ilyas Ansah",
+      "club": "Hull City",
+      "value": 12000000,
+      "fair": 2900000,
+      "diffPct": -76,
+      "label": null
+    },
+    "212309": {
+      "name": "Johan Manzambi",
+      "club": "Aston Villa",
+      "value": 50000000,
+      "fair": 27000000,
+      "diffPct": -46,
+      "label": "Overvalued"
+    },
+    "212868": {
+      "name": "Abdukodir Khusanov",
+      "club": "Man City",
+      "value": 50000000,
+      "fair": 61000000,
+      "diffPct": 22,
+      "label": null
+    },
+    "213033": {
+      "name": "Robinio Vaz",
+      "club": "Hull City",
+      "value": 18000000,
+      "fair": 5000000,
+      "diffPct": -72,
+      "label": null
+    },
+    "213072": {
+      "name": "Mohamed Belloumi",
+      "club": "Hull City",
+      "value": 4000000,
+      "fair": 15000000,
+      "diffPct": 275,
+      "label": null
+    },
+    "213269": {
+      "name": "Jørgen Strand Larsen",
+      "club": "Crystal Palace",
+      "value": 40000000,
+      "fair": 31500000,
+      "diffPct": -21,
+      "label": "Fairly valued"
+    },
+    "213425": {
+      "name": "Anan Khalaili",
+      "club": "Crystal Palace",
+      "value": 23000000,
+      "fair": 29000000,
+      "diffPct": 26,
+      "label": null
+    },
+    "213511": {
+      "name": "Matias Fernandez-Pardo",
+      "club": "Newcastle",
+      "value": 35000000,
+      "fair": 28500000,
+      "diffPct": -19,
+      "label": null
+    },
+    "213518": {
+      "name": "Kaye Furo",
+      "club": "Brentford",
+      "value": 8000000,
+      "fair": 4700000,
+      "diffPct": -41,
+      "label": null
+    },
+    "213712": {
+      "name": "Sidiki Cherif",
+      "club": "Coventry City",
+      "value": 18000000,
+      "fair": 9000000,
+      "diffPct": -50,
+      "label": null
+    },
+    "214502": {
+      "name": "James McConnell",
+      "club": "Liverpool",
+      "value": 2000000,
+      "fair": 10000000,
+      "diffPct": 400,
+      "label": null
+    },
+    "216835": {
+      "name": "Luka Vušković",
+      "club": "Brighton Hove",
+      "value": 60000000,
+      "fair": 17500000,
+      "diffPct": -71,
+      "label": null
+    },
+    "217577": {
+      "name": "Jonah Kusi-Asare",
+      "club": "Fulham",
+      "value": 3000000,
+      "fair": 3700000,
+      "diffPct": 23,
+      "label": null
+    },
+    "217658": {
+      "name": "Gonzalo García",
+      "club": "Fulham",
+      "value": 30000000,
+      "fair": 25000000,
+      "diffPct": -17,
+      "label": "Fairly valued"
+    },
+    "218525": {
+      "name": "Tyler Dibling",
+      "club": "Everton",
+      "value": 17000000,
+      "fair": 14500000,
+      "diffPct": -15,
+      "label": null
+    },
+    "221783": {
+      "name": "Ji-soo Kim",
+      "club": "Brentford",
+      "value": 1800000,
+      "fair": 5500000,
+      "diffPct": 206,
+      "label": null
+    },
+    "221819": {
+      "name": "Ayyoub Bouaddi",
+      "club": "Man City",
+      "value": 50000000,
+      "fair": 42500000,
+      "diffPct": -15,
+      "label": null
+    },
+    "224618": {
+      "name": "Zavier Gozo",
+      "club": "Crystal Palace",
+      "value": 6000000,
+      "fair": 11500000,
+      "diffPct": 92,
+      "label": null
+    },
+    "227046": {
+      "name": "Veljko Milosavljević",
+      "club": "Bournemouth",
+      "value": 20000000,
+      "fair": 3000000,
+      "diffPct": -85,
+      "label": null
+    },
+    "227064": {
+      "name": "Jannik Schuster",
+      "club": "Brentford",
+      "value": 18000000,
+      "fair": 16500000,
+      "diffPct": -8,
+      "label": null
+    },
+    "229421": {
+      "name": "Geovany Quenda",
+      "club": "Chelsea",
+      "value": 42000000,
+      "fair": 23000000,
+      "diffPct": -45,
+      "label": null
+    },
+    "230517": {
+      "name": "Trey Nyoni",
+      "club": "Liverpool",
+      "value": 8000000,
+      "fair": 25500000,
+      "diffPct": 219,
+      "label": null
+    },
+    "244120": {
+      "name": "Myles Lewis-Skelly",
+      "club": "Arsenal",
+      "value": 45000000,
+      "fair": 64500000,
+      "diffPct": 43,
+      "label": null
+    },
+    "244747": {
+      "name": "Briaden Graham",
+      "club": "Everton",
+      "value": 25000,
+      "fair": 5000000,
+      "diffPct": 19900,
+      "label": null
+    },
+    "244778": {
+      "name": "Estevao",
+      "club": "Chelsea",
+      "value": 80000000,
+      "fair": 26500000,
+      "diffPct": -67,
+      "label": null
+    },
+    "244989": {
+      "name": "Lewis Koumas",
+      "club": "Liverpool",
+      "value": 4000000,
+      "fair": 29500000,
+      "diffPct": 638,
+      "label": null
+    },
+    "245364": {
+      "name": "Benjamin Fredrick",
+      "club": "Brentford",
+      "value": 600000,
+      "fair": 5500000,
+      "diffPct": 817,
+      "label": null
+    },
+    "246418": {
+      "name": "Joshua King",
+      "club": "Fulham",
+      "value": 1200000,
+      "fair": 20000000,
+      "diffPct": 1567,
+      "label": null
+    },
+    "246670": {
+      "name": "Malick Yalcouyé",
+      "club": "Brighton Hove",
+      "value": 12000000,
+      "fair": 25500000,
+      "diffPct": 113,
+      "label": null
+    },
+    "247644": {
+      "name": "Ayden Heaven",
+      "club": "Man United",
+      "value": 30000000,
+      "fair": 20000000,
+      "diffPct": -33,
+      "label": null
+    },
+    "249196": {
+      "name": "Vitor Reis",
+      "club": "Man City",
+      "value": 30000000,
+      "fair": 12500000,
+      "diffPct": -58,
+      "label": null
+    },
+    "249312": {
+      "name": "Bazoumana Touré",
+      "club": "Newcastle",
+      "value": 40000000,
+      "fair": 20000000,
+      "diffPct": -50,
+      "label": null
+    },
+    "249320": {
+      "name": "Josh Acheampong",
+      "club": "Chelsea",
+      "value": 25000000,
+      "fair": 33000000,
+      "diffPct": 32,
+      "label": null
+    },
+    "250436": {
+      "name": "Tyrique George",
+      "club": "Everton",
+      "value": 20000000,
+      "fair": 21500000,
+      "diffPct": 7,
+      "label": "Fairly valued"
+    },
+    "251265": {
+      "name": "Sean Steur",
+      "club": "Newcastle",
+      "value": 7000000,
+      "fair": 20000000,
+      "diffPct": 186,
+      "label": null
+    },
+    "255239": {
+      "name": "Antonín Kinský",
+      "club": "Tottenham",
+      "value": 15000000,
+      "fair": 20500000,
+      "diffPct": 37,
+      "label": null
+    },
+    "256339": {
+      "name": "Igor Jesus",
+      "club": "Nottingham",
+      "value": 25000000,
+      "fair": 31500000,
+      "diffPct": 26,
+      "label": null
+    },
+    "260271": {
+      "name": "Jaydee Canvot",
+      "club": "Crystal Palace",
+      "value": 28000000,
+      "fair": 23000000,
+      "diffPct": -18,
+      "label": null
+    },
+    "260718": {
+      "name": "Alysson",
+      "club": "Aston Villa",
+      "value": 10000000,
+      "fair": 24000000,
+      "diffPct": 140,
+      "label": null
+    },
+    "262187": {
+      "name": "Caleb Yirenkyi",
+      "club": "Coventry City",
+      "value": 10000000,
+      "fair": 13500000,
+      "diffPct": 35,
+      "label": "Fairly valued"
+    },
+    "263661": {
+      "name": "Honest Ahanor",
+      "club": "Crystal Palace",
+      "value": 30000000,
+      "fair": 11000000,
+      "diffPct": -63,
+      "label": null
+    },
+    "264281": {
+      "name": "Harrison Armstrong",
+      "club": "Everton",
+      "value": 12000000,
+      "fair": 20500000,
+      "diffPct": 71,
+      "label": "Undervalued"
+    },
+    "264300": {
+      "name": "Charalampos Kostoulas",
+      "club": "Brighton Hove",
+      "value": 25000000,
+      "fair": 20500000,
+      "diffPct": -18,
+      "label": "Fairly valued"
+    },
+    "264301": {
+      "name": "Christos Mouzakitis",
+      "club": "Hull City",
+      "value": 25000000,
+      "fair": 3900000,
+      "diffPct": -84,
+      "label": null
+    },
+    "264401": {
+      "name": "Dayann Methalie",
+      "club": "Sunderland",
+      "value": 18000000,
+      "fair": 8500000,
+      "diffPct": -53,
+      "label": null
+    },
+    "265040": {
+      "name": "Ibrahim M'Baye",
+      "club": "Aston Villa",
+      "value": 30000000,
+      "fair": 13500000,
+      "diffPct": -55,
+      "label": null
+    },
+    "270273": {
+      "name": "Chema Andrés",
+      "club": "Brighton Hove",
+      "value": 20000000,
+      "fair": 6000000,
+      "diffPct": -70,
+      "label": null
+    },
+    "270733": {
+      "name": "Lucas Herrington",
+      "club": "Hull City",
+      "value": 4500000,
+      "fair": 7000000,
+      "diffPct": 56,
+      "label": null
+    },
+    "270889": {
+      "name": "Abdoul Ouattara",
+      "club": "Ipswich Town",
+      "value": 15000000,
+      "fair": 13500000,
+      "diffPct": -10,
+      "label": null
+    },
+    "272943": {
+      "name": "Aladji Bamba",
+      "club": "Newcastle",
+      "value": 18000000,
+      "fair": 14500000,
+      "diffPct": -19,
+      "label": null
+    },
+    "273423": {
+      "name": "Víctor Muñoz",
+      "club": "Liverpool",
+      "value": 30000000,
+      "fair": 44500000,
+      "diffPct": 48,
+      "label": "Undervalued"
+    },
+    "273453": {
+      "name": "Rio Ngumoha",
+      "club": "Liverpool",
+      "value": 30000000,
+      "fair": 20000000,
+      "diffPct": -33,
+      "label": null
+    },
+    "274216": {
+      "name": "Allan",
+      "club": "Man City",
+      "value": 20000000,
+      "fair": 38000000,
+      "diffPct": 90,
+      "label": null
+    },
+    "276000": {
+      "name": "Modou Keba Cisse",
+      "club": "Aston Villa",
+      "value": 6000000,
+      "fair": 5500000,
+      "diffPct": -8,
+      "label": null
+    },
+    "279784": {
+      "name": "Zadok Yohanna",
+      "club": "Brighton Hove",
+      "value": 500000,
+      "fair": 9000000,
+      "diffPct": 1700,
+      "label": null
+    },
+    "280446": {
+      "name": "Brian Madjo",
+      "club": "Aston Villa",
+      "value": 12000000,
+      "fair": 7500000,
+      "diffPct": -37,
+      "label": null
+    },
+    "285128": {
+      "name": "Max Dowman",
+      "club": "Arsenal",
+      "value": 30000000,
+      "fair": 13000000,
+      "diffPct": -57,
+      "label": null
+    },
+    "286011": {
+      "name": "Jules Ahoka",
+      "club": "Sunderland",
+      "value": 300000,
+      "fair": 14500000,
+      "diffPct": 4733,
+      "label": null
+    },
+    "290848": {
+      "name": "César Palacios",
+      "club": "Fulham",
+      "value": 7500000,
+      "fair": 20000000,
+      "diffPct": 167,
+      "label": null
+    },
+    "291727": {
+      "name": "Manuel Angel",
+      "club": "Fulham",
+      "value": 5000000,
+      "fair": 11000000,
+      "diffPct": 120,
+      "label": null
+    }
+  }
+}

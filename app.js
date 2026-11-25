@@ -189,6 +189,7 @@ Promise.all([
     renderAllTab();
     drawLeaders();
     drawAwards(); 
+    drawValueWatch();
   })
   .catch(error => console.error("Could not load player data:", error));
 
@@ -212,12 +213,20 @@ function showDashboard(player, photoUrl) {
 
   document.getElementById("dash-info").textContent =
     `${player.club} | ${player.position} | Age ${player.age} | ${euro.format(player.value)}`;
-
+  const pr = predictions && predictions.players[player.apiId];
+  const fairLine = pr
+    ? `<li>Fair value estimate: ${euro.format(pr.fair)}${
+        pr.label
+          ? ` (${pr.label}, ${pr.diffPct > 0 ? "+" : ""}${pr.diffPct}%)`
+          : " (not  rated)"
+      }</li>`
+    : "";
   document.getElementById("dash-stats").innerHTML = `
           <li>Starts: ${player.appearances ?? "-"}</li>
     <li>Minutes: ${player.minutes ?? "-"}</li>
     <li>Goals: ${player.goals ?? "-"}</li>
-  
+    ${fairLine}
+
   `;
 
     const latest = document.getElementById("dash-latest");
@@ -577,3 +586,55 @@ function showTab(which) {
 
 tabBtnNews.addEventListener("click", () => showTab("news"));
 tabBtnAll.addEventListener("click", () => showTab("all"));
+
+// ---------- Value Watch (fair value estimates) ----------
+let predictions = null;
+
+function fillValueList(listId, ids) {
+  const list = document.getElementById(listId);
+  list.innerHTML = "";
+
+  if (!ids || ids.length === 0) {
+    const empty = document.createElement("li");
+    empty.textContent = "No players flagged right now.";
+    list.appendChild(empty);
+    return;
+  }
+
+  ids.forEach(id => {
+    const pr = predictions.players[id];
+    const found = playersData.find(p => String(p.apiId) === String(id));
+
+    const img = document.createElement("img");
+    img.className = "player-photo";
+    img.alt = "";
+    loadPhoto(found || {}, img);
+
+    const sign = pr.diffPct > 0 ? "+" : "";
+    const row = rankRow(
+      img,
+      pr.name,
+      `${pr.club} · now ${euro.format(pr.value)} · fair ${euro.format(pr.fair)}`,
+      `${sign}${pr.diffPct}%`
+    );
+    if (pr.diffPct < 0) row.querySelector(".rank-stat").classList.add("down");
+    list.appendChild(row);
+  });
+}
+
+// Needs predictions.json and the squads (for photos); whichever arrives last draws
+function drawValueWatch() {
+  if (!predictions || playersData.length === 0) return;
+  document.getElementById("value-note").textContent =
+      predictions.model.note;
+  fillValueList("value-under", predictions.undervalued);
+  fillValueList("value-over", predictions.overvalued);
+}
+
+fetch("data/predictions.json")
+  .then(response => response.json())
+  .then(data => {
+    predictions = data;
+    drawValueWatch();
+  })
+  .catch(error => console.error("Could not load predictions:", error));

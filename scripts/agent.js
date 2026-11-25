@@ -62,6 +62,8 @@ try { execSync("node scripts/update-fpl.js", { stdio: "inherit" }); }
 catch (error) { console.log("FPL stats skipped:", error.message); }
 try { execSync("node scripts/update-values.js", { stdio: "inherit" }); }
 catch (error) { console.log("Market values skipped:", error.message); }
+try { execSync("node scripts/update-predictions.js", { stdio: "inherit" }); }
+catch (error) { console.log("Predictions skipped:", error.message); }
 
   // 3. Compare before and after
   const newTable = readJson("data/table.json");

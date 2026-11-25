@@ -350,6 +350,22 @@ small {
   white-space: nowrap;
 }
 
+/* Value Watch */
+#value-under,
+#value-over {
+  list-style: none;
+  padding: 0;
+}
+
+#value-under li,
+#value-over li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.rank-stat.down {
+  color: #ff5c7a;
+}
 
 /* ---------- Phones ---------- */
 
