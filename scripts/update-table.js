@@ -19,6 +19,7 @@ async function main() {
     position: row.position,
     club: row.team.shortName,
      crest: row.team.crest,
+     id: row.team.id,
     played: row.playedGames,
     won: row.won,
     drawn: row.draw,

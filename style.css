@@ -499,3 +499,6 @@ small {
   background: rgba(255, 255, 255, 0.04); color: #fff;
 }
 .value-tab.active { background: #00ff85; color: #1a0022; border-color: #00ff85; }
+
+.club-row { cursor: pointer; }
+.club-row:hover { background: rgba(255, 255, 255, 0.08); }

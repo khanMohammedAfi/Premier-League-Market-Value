@@ -16,6 +16,8 @@ fetch("data/table.json")
         <td>${club.gd}</td>
         <td>${club.points}</td>
       `;
+            row.classList.add("club-row");
+      row.addEventListener("click", () => showClubFixtures(club.id, club.club));
       tableBody.appendChild(row);
     });
   })
@@ -676,3 +678,80 @@ fetch("data/predictions.json")
     drawValueWatch();
   })
   .catch(error => console.error("Could not load predictions:", error));
+
+
+  // Club fixtures (click a club in the table)
+let clubFixtures = [];
+
+fetch("data/club-fixtures.json")
+  .then(response => response.json())
+  .then(data => { clubFixtures = data; })
+  .catch(error => console.error("Could not load club fixtures:", error));
+
+function clubFixtureItem(m, teamId) {
+  const li = document.createElement("li");
+
+  const when = document.createElement("small");
+  when.textContent = new Date(m.date).toLocaleDateString("en-GB", {
+    weekday: "short", day: "numeric", month: "short"
+  });
+
+  // For finished games, add W / D / L from this club's point of view
+  if (m.status === "FINISHED") {
+    const isHome = m.homeId === teamId;
+    const mine = isHome ? m.homeGoals : m.awayGoals;
+    const theirs = isHome ? m.awayGoals : m.homeGoals;
+    const result = mine > theirs ? "W" : mine < theirs ? "L" : "D";
+    when.textContent += " | " + result;
+  }
+
+  const match = document.createElement("div");
+  const homeImg = crestImg(m.homeCrest);
+  const awayImg = crestImg(m.awayCrest);
+  if (homeImg) match.appendChild(homeImg);
+
+  const middle = m.status === "FINISHED" ? ` ${m.homeGoals} - ${m.awayGoals} ` : " v ";
+  match.appendChild(document.createTextNode(m.home + middle + m.away + " "));
+  if (awayImg) match.appendChild(awayImg);
+
+  li.appendChild(when);
+  li.appendChild(match);
+  return li;
+}
+
+function fillClubList(listId, matches, teamId, emptyText) {
+  const list = document.getElementById(listId);
+  list.innerHTML = "";
+
+  if (matches.length === 0) {
+    const empty = document.createElement("li");
+    empty.textContent = emptyText;
+    list.appendChild(empty);
+    return;
+  }
+
+  matches.forEach(m => list.appendChild(clubFixtureItem(m, teamId)));
+}
+
+function showClubFixtures(teamId, clubName) {
+  const mine = clubFixtures
+    .filter(m => m.homeId === teamId || m.awayId === teamId)
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  const played = mine.filter(m => m.status === "FINISHED").slice(-5);
+  const next = mine
+    .filter(m => m.status !== "FINISHED" && m.status !== "POSTPONED")
+    .slice(0, 5);
+
+  document.getElementById("club-fixtures-title").textContent = clubName;
+  fillClubList("club-previous", played, teamId, "No matches played yet.");
+  fillClubList("club-next", next, teamId, "No upcoming matches.");
+
+  const panel = document.getElementById("club-fixtures");
+  panel.hidden = false;
+  panel.scrollIntoView({ behavior: "smooth" });
+}
+
+document.getElementById("close-club-fixtures").addEventListener("click", () => {
+  document.getElementById("club-fixtures").hidden = true;
+});

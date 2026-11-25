@@ -4237,6 +4237,20 @@
     "assists": 0
   },
   {
+    "apiId": 272687,
+    "name": "Luca Williams-Barnett",
+    "club": "Tottenham",
+    "crest": "https://crests.football-data.org/73.png",
+    "position": "MF",
+    "age": 18,
+    "nationality": "England",
+    "appearances": 1,
+    "goals": 1,
+    "assists": 1,
+    "minutes": 72,
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p611917.png"
+  },
+  {
     "apiId": 7878,
     "name": "Dominic Solanke",
     "club": "Tottenham",
