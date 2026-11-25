@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T10:53:38.507Z",
+  "updated": "2026-11-25T13:21:35.028Z",
   "model": {
     "type": "ridge regression on log(market value)",
     "inputs": "age, position, goals per 90, assists per 90, minutes played, club strength",
