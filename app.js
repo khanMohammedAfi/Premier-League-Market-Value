@@ -221,11 +221,16 @@ function showDashboard(player, photoUrl) {
           : " (not  rated)"
       }</li>`
     : "";
+      const outlookLine = pr && pr.ageOutlook
+      ? `<li>Age outlook: ${pr.ageOutlook === "Up" ? "↑" : pr.ageOutlook === "Down" ? "↓" : "→"} ${pr.ageOutlookPct > 0 ? "+" : ""}${pr.ageOutlookPct}% next year <span style="opacity:.6">(age effect only)</span></li>`
+      : "";
+      
   document.getElementById("dash-stats").innerHTML = `
           <li>Starts: ${player.appearances ?? "-"}</li>
     <li>Minutes: ${player.minutes ?? "-"}</li>
     <li>Goals: ${player.goals ?? "-"}</li>
     ${fairLine}
+    ${outlookLine}
 
   `;
 
@@ -623,12 +628,45 @@ function fillValueList(listId, ids) {
 }
 
 // Needs predictions.json and the squads (for photos); whichever arrives last draws
+let valueTab = "ALL";
+
+// Needs predictions.json and the squads (for photos); whichever arrives last draws
 function drawValueWatch() {
   if (!predictions || playersData.length === 0) return;
-  document.getElementById("value-note").textContent =
-      predictions.model.note;
-  fillValueList("value-under", predictions.undervalued);
-  fillValueList("value-over", predictions.overvalued);
+  const note = document.getElementById("value-note");
+  note.textContent = predictions.model.note;
+
+  // Build the All / Forwards / Midfielders tabs once
+  if (!document.getElementById("value-tabs") && predictions.byPosition) {
+    const bar = document.createElement("div");
+    bar.id = "value-tabs";
+    bar.className = "value-tabs";
+    [["ALL", "All"], ["FW", "Forwards"], ["MF", "Midfielders"]].forEach(([key, label]) => {
+      const b = document.createElement("button");
+      b.textContent = label;
+      b.dataset.tab = key;
+      b.className = "value-tab" + (key === valueTab ? " active" : "");
+      b.addEventListener("click", () => {
+        valueTab = key;
+        bar.querySelectorAll(".value-tab").forEach(x =>
+          x.classList.toggle("active", x.dataset.tab === key));
+        drawValueWatch();
+      });
+      bar.appendChild(b);
+    });
+    note.insertAdjacentElement("afterend", bar);
+  }
+
+  // Pick the lists for the selected tab (falls back to All if byPosition is missing)
+  const src = valueTab === "ALL" || !predictions.byPosition
+    ? predictions
+    : predictions.byPosition[valueTab];
+
+  ["value-under", "value-over"].forEach(id => {
+    document.getElementById(id).innerHTML = "";
+  });
+  fillValueList("value-under", src.undervalued);
+  fillValueList("value-over", src.overvalued);
 }
 
 fetch("data/predictions.json")
