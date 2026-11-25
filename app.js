@@ -187,6 +187,8 @@ Promise.all([
     playersData.sort((a, b) => (b.value ?? -1) - (a.value ?? -1));
     renderNewsTab();
     renderAllTab();
+    drawLeaders();
+    drawAwards(); 
   })
   .catch(error => console.error("Could not load player data:", error));
 
@@ -339,8 +341,43 @@ fetch("data/news.json")
   .catch(error => console.error("Could not load news:", error));
 
   // Top scorers
+// Look a scorer up in the squads so we can show their photo and stats
+function findPlayer(name) {
+  const n = plain(name);
+  const exact = playersData.find(p => plain(p.name) === n);
+  if (exact) return exact;
+  const surname = n.split(" ").slice(-1)[0];
+  const same = playersData.filter(p => plain(p.name).split(" ").slice(-1)[0] === surname);
+  return same.length === 1 ? same[0] : null;
+}
+
+// One ranked row: [picture] name + small line ........ big number
+function rankRow(imgEl, title, sub, stat) {
+  const li = document.createElement("li");
+  li.className = "rank-row";
+  if (imgEl) li.appendChild(imgEl);
+
+  const text = document.createElement("div");
+  text.className = "rank-text";
+  const name = document.createElement("div");
+  name.textContent = title;
+  const small = document.createElement("small");
+  small.textContent = sub;
+  text.appendChild(name);
+  text.appendChild(small);
+
+  const right = document.createElement("div");
+  right.className = "rank-stat";
+  right.textContent = stat;
+
+  li.appendChild(text);
+  li.appendChild(right);
+  return li;
+}
+
 function fillLeaders(listId, period) {
   const list = document.getElementById(listId);
+  list.innerHTML = "";
 
   if (!period.leaders || period.leaders.length === 0) {
     const empty = document.createElement("li");
@@ -349,18 +386,33 @@ function fillLeaders(listId, period) {
     return;
   }
 
-  period.leaders.forEach(p => {
-    const li = document.createElement("li");
-    li.textContent = `${p.name} (${p.team}) - ${p.goals} ${p.goals === 1 ? "goal" : "goals"}`;
-    list.appendChild(li);
+  period.leaders.slice(0, 5).forEach(p => {
+    const found = findPlayer(p.name);
+    const img = document.createElement("img");
+    img.className = "player-photo";
+    img.alt = "";
+    loadPhoto(found || {}, img);
+
+    const sub = found
+      ? `${p.team} · Season: ${found.goals ?? "-"} goals, ${found.assists ?? "-"} assists`
+      : p.team;
+    list.appendChild(rankRow(img, p.name, sub, `${p.goals} ${p.goals === 1 ? "goal" : "goals"}`));
   });
+}
+
+// Needs both the leaders file and the squads, whichever arrives last draws the lists
+let leadersData = null;
+function drawLeaders() {
+  if (!leadersData || playersData.length === 0) return;
+  fillLeaders("leaders-week", leadersData.week);
+  fillLeaders("leaders-month", leadersData.month);
 }
 
 fetch("data/leaders.json")
   .then(response => response.json())
   .then(data => {
-    fillLeaders("leaders-week", data.week);
-    fillLeaders("leaders-month", data.month);
+    leadersData = data;
+    drawLeaders();
   })
   .catch(error => console.error("Could not load leaders:", error));
 
@@ -384,16 +436,70 @@ function fillAwards(listId, items, makeText) {
   });
 }
 
+function fillManagers(listId, items) {
+  const list = document.getElementById(listId);
+  list.innerHTML = "";
+
+  if (!items || items.length === 0) {
+    const empty = document.createElement("li");
+    empty.textContent = "No nominees yet, check back after more matches.";
+    list.appendChild(empty);
+    return;
+  }
+
+  items.slice(0, 5).forEach(m => {
+    const crest = crestImg(m.crest);
+    if (crest) crest.className = "rank-crest";
+    list.appendChild(rankRow(
+      crest,
+      m.manager || "Unknown manager",
+      `${m.team} · ${m.won} wins from ${m.played} games`,
+      `${m.points} pts`
+    ));
+  });
+}
+
+
+function fillPlayerNominees(listId, items) {
+  const list = document.getElementById(listId);
+  list.innerHTML = "";
+
+  if (!items || items.length === 0) {
+    const empty = document.createElement("li");
+    empty.textContent = "No nominees yet, check back after more matches.";
+    list.appendChild(empty);
+    return;
+  }
+
+  items.forEach(p => {
+    const found = findPlayer(p.name);
+    const img = document.createElement("img");
+    img.className = "player-photo";
+    img.alt = "";
+    loadPhoto(found || {}, img);
+
+    const sub = found
+      ? `${p.team} · Season: ${found.goals ?? "-"} goals, ${found.assists ?? "-"} assists`
+      : p.team;
+    list.appendChild(rankRow(img, p.name, sub, `${p.goals} ${p.goals === 1 ? "goal" : "goals"}`));
+  });
+}
+
+// Needs both awards.json and the squads (for photos); whichever arrives last draws
+let awardsData = null;
+function drawAwards() {
+  if (!awardsData || playersData.length === 0) return;
+  fillPlayerNominees("awards-player", awardsData.playerNominees);
+  fillManagers("awards-manager", awardsData.managerNominees);
+  document.getElementById("awards-note").textContent = awardsData.note;
+}
+
+
 fetch("data/awards.json")
   .then(response => response.json())
   .then(data => {
-    fillAwards("awards-player", data.playerNominees,
-      p => `${p.name} (${p.team}) - ${p.goals} ${p.goals === 1 ? "goal" : "goals"}`);
-
-    fillAwards("awards-manager", data.managerNominees,
-      m => `${m.manager} (${m.team}) - ${m.won} wins from ${m.played}, ${m.points} points`);
-
-    document.getElementById("awards-note").textContent = data.note;
+    awardsData = data;
+    drawAwards();
   })
   .catch(error => console.error("Could not load awards:", error));
 

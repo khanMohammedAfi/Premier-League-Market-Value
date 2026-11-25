@@ -39,15 +39,20 @@ async function main() {
     }
   }
 
-  // Manager of each team
+  
+    // Manager and crest of each team
   const coach = {};
-  for (const t of teamData.teams) coach[t.id] = t.coach && t.coach.name;
+  const crest = {};
+  for (const t of teamData.teams) {
+    coach[t.id] = t.coach && t.coach.name;
+    crest[t.id] = t.crest;
+  }
 
   const managerNominees = Object.entries(table)
-    .map(([id, t]) => ({ ...t, manager: coach[id] || null }))
+    .map(([id, t]) => ({ ...t, manager: coach[id] || null, crest: crest[id] || null }))
     .filter((t) => t.played >= 3)
     .sort((a, b) => b.points - a.points || b.won - a.won)
-    .slice(0, 3);
+    .slice(0, 5);
 
   // Player nominees come from the monthly leaders the other script already builds
   let playerNominees = [];

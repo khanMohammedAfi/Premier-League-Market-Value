@@ -315,6 +315,42 @@ small {
 }
 
 
+
+/* Ranked rows: top scorers and manager nominees */
+.rank-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rank-row .player-photo,
+.rank-crest {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+.rank-crest {
+  object-fit: contain;
+}
+
+.rank-text {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.rank-text small {
+  display: block;
+}
+
+.rank-stat {
+  font-weight: bold;
+  color: #00ff85;
+  white-space: nowrap;
+}
+
+
 /* ---------- Phones ---------- */
 
 @media (max-width: 600px) {
