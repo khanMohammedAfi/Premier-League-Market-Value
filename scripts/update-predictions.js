@@ -30,18 +30,27 @@ function clubStrength(valued) {
 function features(p, clubOf) {
   const minutes = p.minutes || 0;
   const per90 = x => (minutes >= 180 ? Math.min((x || 0) / (minutes / 90), 1.5) : 0);
-  const a = ((p.age || 25) - 25) / 5;          // age, centred on 25
+  const a = ((p.age || 25) - 25) / 5;
+  const g = per90(p.goals);
+  const s = per90(p.assists);
+  const gk = p.position === "GK" ? 1 : 0;
+  const df = p.position === "DF" ? 1 : 0;
+  const mf = p.position === "MF" ? 1 : 0;       // forwards are the baseline
   return [
-    1,                                         // baseline
+    1,
     a,
-    a * a,                                     // value peaks in the mid-20s, then drops
-    p.position === "GK" ? 1 : 0,
-    p.position === "DF" ? 1 : 0,
-    p.position === "MF" ? 1 : 0,               // forwards are the baseline
-    per90(p.goals),
-    per90(p.assists),
-    Math.log1p(minutes) / 7,                   // playing time
-    clubOf(p)                                  // how strong the club is
+    a * a,
+    gk,
+    df,
+    mf,
+    g,
+    s,
+    Math.log1p(minutes) / 7,
+    clubOf(p),
+    g * mf,     // extra weight for a midfielder's goals
+    s * mf,     // extra weight for a midfielder's assists
+    g * df,
+    s * df
   ];
 }
 
@@ -104,6 +113,7 @@ function main() {
   const r2 = 1 - ssRes / ssTot;
 
   // 2. Fair value for each player, and how far it is from the current value
+    // 2. Fair value for each player, and how far it is from the current value
   const out = {};
   const rated = [];
   for (const p of valued) {
@@ -111,20 +121,28 @@ function main() {
     const step = raw >= 5e6 ? 500000 : 100000;
     const fair = Math.max(step, Math.round(raw / step) * step);
     const gap = Math.log(fair / p.value);
+
+    // Age outlook: same player, one year older, everything else held equal
+    const older = { ...p, age: (p.age || 25) + 1 };
+    const drift = Math.exp(predict(beta, features(older, clubOf)) - predict(beta, features(p, clubOf))) - 1;
+
     const entry = {
       name: p.name,
       club: p.club,
+      position: p.position,
       value: p.value,
       fair,
       diffPct: Math.round((fair / p.value - 1) * 100),
-      label: null
+      label: null,
+      ageOutlook: drift >= 0.05 ? "Up" : drift <= -0.05 ? "Down" : "Flat",
+      ageOutlookPct: Math.round(drift * 100)
     };
     const canRate = (p.minutes || 0) >= MIN_MINUTES
       && (p.position === "FW" || p.position === "MF")   // goals and assists say little about defenders and keepers
       && p.value >= MIN_VALUE && p.value <= MAX_VALUE;
     if (canRate) {
       entry.label = gap >= GAP_LIMIT ? "Undervalued" : gap <= -GAP_LIMIT ? "Overvalued" : "Fairly valued";
-      rated.push({ id: p.apiId, gap });
+      rated.push({ id: p.apiId, gap, pos: p.position });
     }
     out[p.apiId] = entry;
   }
@@ -132,6 +150,14 @@ function main() {
   rated.sort((a, b) => b.gap - a.gap);
   const undervalued = rated.filter(r => out[r.id].label === "Undervalued").slice(0, 5).map(r => r.id);
   const overvalued = rated.filter(r => out[r.id].label === "Overvalued").slice(-5).reverse().map(r => r.id);
+
+    const byPosition = {};
+  for (const pos of ["FW", "MF"]) {
+    byPosition[pos] = {
+      undervalued: rated.filter(r => r.pos === pos && out[r.id].label === "Undervalued").slice(0, 3).map(r => r.id),
+      overvalued: rated.filter(r => r.pos === pos && out[r.id].label === "Overvalued").slice(-3).reverse().map(r => r.id)
+    };
+  }
 
   fs.writeFileSync("data/predictions.json", JSON.stringify({
     updated: new Date().toISOString(),
@@ -145,6 +171,7 @@ function main() {
     },
     undervalued,
     overvalued,
+    byPosition,
     players: out
   }, null, 2));
 
@@ -152,9 +179,12 @@ function main() {
   const today = new Date().toISOString().slice(0, 10);
   let history = readJson("data/values-history.json", []);
   history = history.filter(h => h.date !== today);
-  const snap = { date: today, values: {} };
-  for (const p of valued) snap.values[p.apiId] = p.value;
-  history.push(snap);
+ const snap = { date: today, values: {}, stats: {} };
+for (const p of valued) {
+  snap.values[p.apiId] = p.value;
+  snap.stats[p.apiId] = [p.goals || 0, p.assists || 0, p.minutes || 0];   // [goals, assists, minutes]
+}
+history.push(snap);
   history = history.slice(-90);
   fs.writeFileSync("data/values-history.json", JSON.stringify(history));
 
