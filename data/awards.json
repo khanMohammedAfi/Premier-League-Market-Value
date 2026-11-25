@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T14:08:45.017Z",
+  "updated": "2026-11-25T09:31:48.916Z",
   "note": "Form-based picks from the last 30 days, not the official awards",
   "playerNominees": [
     {
@@ -24,21 +24,40 @@
       "played": 3,
       "won": 3,
       "points": 9,
-      "manager": "Marco Rose"
+      "manager": "Marco Rose",
+      "crest": "https://crests.football-data.org/bournemouth.png"
     },
     {
       "team": "Arsenal FC",
       "played": 3,
       "won": 2,
       "points": 7,
-      "manager": "Mikel Arteta"
+      "manager": "Mikel Arteta",
+      "crest": "https://crests.football-data.org/57.png"
     },
     {
-      "team": "Leeds United FC",
-      "played": 4,
+      "team": "Everton FC",
+      "played": 3,
       "won": 2,
-      "points": 7,
-      "manager": "Daniel Farke"
+      "points": 6,
+      "manager": "David Moyes",
+      "crest": "https://crests.football-data.org/62.png"
+    },
+    {
+      "team": "Liverpool FC",
+      "played": 3,
+      "won": 2,
+      "points": 6,
+      "manager": "Andoni Iraola",
+      "crest": "https://crests.football-data.org/64.png"
+    },
+    {
+      "team": "Tottenham Hotspur FC",
+      "played": 3,
+      "won": 2,
+      "points": 6,
+      "manager": "Roberto De Zerbi",
+      "crest": "https://crests.football-data.org/73.png"
     }
   ]
 }

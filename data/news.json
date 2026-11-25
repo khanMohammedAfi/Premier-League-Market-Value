@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-25T08:08:56.939Z",
+  "updated": "2026-11-25T09:31:47.606Z",
   "news": [
+    {
+      "title": "'Two faces' & rudely named set-pieces end Hibs' long wait for home win",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm4gn898zl80o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-25T09:04:27.000Z",
+      "source": "BBC Sport",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/179d/live/07f05db0-e8af-11f1-869a-f96fd5660210.jpg"
+    },
+    {
+      "title": "The story of how Pelé and Maradona went from friends to bitter rivals",
+      "link": "https://www.theguardian.com/football/2026/nov/25/pele-diego-maradona-brazil-argentina-world-cup",
+      "date": "2026-11-25T08:00:10.000Z",
+      "source": "The Guardian",
+      "image": "https://i.guim.co.uk/img/media/bb9d6d8791969fec67ddd59e5fa7b98b7516adf3/0_110_720_576/master/720.jpg?width=700&quality=85&auto=format&fit=max&s=8cf536723424fa0a962ffece99eb950b"
+    },
+    {
+      "title": "Has a footballer had a longer career hiatus than Ronaldinho’s 11 year-gap? | The Knowledge",
+      "link": "https://www.theguardian.com/football/2026/nov/25/has-a-footballer-had-a-longer-career-hiatus-than-ronaldinhos-11-year-gap",
+      "date": "2026-11-25T08:00:09.000Z",
+      "source": "The Guardian",
+      "image": "https://i.guim.co.uk/img/media/d9da0667aae75a0b6daa70690330cd89020e1d3e/95_0_2907_2325/master/2907.jpg?width=700&quality=85&auto=format&fit=max&s=af4750ad406af638c7f0b87c7e3e0bd6"
+    },
     {
       "title": "Celtic consider move for midfielder Ashour - gossip",
       "link": "https://www.bbc.co.uk/sport/football/articles/c6lymzn0lx02o?at_medium=RSS&at_campaign=rss",
@@ -20,7 +41,7 @@
       "link": "https://www.bbc.co.uk/sport/football/articles/cj4gndepk312o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-25T06:22:36.000Z",
       "source": "BBC Sport",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6f7/live/c5b34650-e80f-11f1-ab42-55d8d8278025.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6874/live/00c21c60-e8b2-11f1-869a-f96fd5660210.jpg"
     },
     {
       "title": "Matildas keeper reveals head trauma-induced neurological disorder almost ended career",
@@ -49,13 +70,6 @@
       "date": "2026-11-24T23:44:04.000Z",
       "source": "BBC Sport",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f58f/live/d9bad6f0-e859-11f1-9b85-e50d1e9de678.jpg"
-    },
-    {
-      "title": "Sportsound reaction to thriller at Ibrox",
-      "link": "https://www.bbc.co.uk/sounds/play/p0ppqqv0?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T23:25:00.000Z",
-      "source": "BBC Sport",
-      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0gf9mfx.jpg"
     },
     {
       "title": "'Pass, pass, slow, slow' - Man City's slick machine grinding to a halt",
@@ -91,20 +105,6 @@
       "date": "2026-11-24T22:01:50.000Z",
       "source": "The Guardian",
       "image": "https://i.guim.co.uk/img/media/18f2fd21c98696c091fd67acabf0c30cdac59595/258_0_2325_1860/master/2325.jpg?width=700&quality=85&auto=format&fit=max&s=62e49ff02ff55b4799515db6baf14c22"
-    },
-    {
-      "title": "Pochettino criticises Premier League officiating after Yoro red card overturned",
-      "link": "https://www.theguardian.com/football/2026/nov/23/manchester-united-appeal-leny-yoro-red-card-liverpool",
-      "date": "2026-11-24T21:51:31.000Z",
-      "source": "The Guardian",
-      "image": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=700&quality=85&auto=format&fit=max&s=51e45c7e63602b69a41ed48da0aebe09"
-    },
-    {
-      "title": "Oxford beat Spurs U21s to seal EFL Trophy progress",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmx20qn1dqv2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T21:08:09.000Z",
-      "source": "BBC Sport",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a2d0/live/80390010-e846-11f1-aa88-031e8213533d.jpg"
     }
   ],
   "rumours": [
@@ -308,15 +308,6 @@
         "date": "2026-09-03T09:00:49.000Z",
         "source": "The Guardian",
         "image": "https://i.guim.co.uk/img/media/52af0c45ed4412848a7eb4121d7f41b911656e73/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=750e3b394857be0d7ebdb3c23f23d6bb"
-      }
-    ],
-    "Evan Ferguson": [
-      {
-        "title": "Ferguson apologises after receiving seven-game ban as Glentoran boss",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cm0evqv7nyq5o?at_medium=RSS&at_campaign=rss",
-        "date": "2026-11-24T11:36:18.000Z",
-        "source": "BBC Sport",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e31/live/ab98c410-e7f7-11f1-ab60-79086b6495b8.jpg"
       }
     ],
     "Keane Lewis-Potter": [
