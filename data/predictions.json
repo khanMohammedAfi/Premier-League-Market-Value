@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T16:57:07.824Z",
+  "updated": "2026-11-26T13:00:31.359Z",
   "model": {
     "type": "ridge regression on log(market value)",
     "inputs": "age, position, goals per 90, assists per 90, minutes played, club strength",
@@ -76,8 +76,8 @@
       "club": "Newcastle",
       "position": "DF",
       "value": 4000000,
-      "fair": 4500000,
-      "diffPct": 13,
+      "fair": 4600000,
+      "diffPct": 15,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -31
@@ -87,8 +87,8 @@
       "club": "Arsenal",
       "position": "FW",
       "value": 55000000,
-      "fair": 83500000,
-      "diffPct": 52,
+      "fair": 84000000,
+      "diffPct": 53,
       "label": "Undervalued",
       "ageOutlook": "Down",
       "ageOutlookPct": -12
@@ -186,8 +186,8 @@
       "club": "Liverpool",
       "position": "FW",
       "value": 13000000,
-      "fair": 8000000,
-      "diffPct": -38,
+      "fair": 8500000,
+      "diffPct": -35,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -18
@@ -197,8 +197,8 @@
       "club": "Liverpool",
       "position": "GK",
       "value": 15000000,
-      "fair": 4100000,
-      "diffPct": -73,
+      "fair": 4200000,
+      "diffPct": -72,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -31
@@ -241,8 +241,8 @@
       "club": "Chelsea",
       "position": "FW",
       "value": 60000000,
-      "fair": 51500000,
-      "diffPct": -14,
+      "fair": 52000000,
+      "diffPct": -13,
       "label": "Fairly valued",
       "ageOutlook": "Down",
       "ageOutlookPct": -9
@@ -285,8 +285,8 @@
       "club": "Fulham",
       "position": "GK",
       "value": 6000000,
-      "fair": 2200000,
-      "diffPct": -63,
+      "fair": 2300000,
+      "diffPct": -62,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -31
@@ -329,11 +329,11 @@
       "club": "Liverpool",
       "position": "MF",
       "value": 4000000,
-      "fair": 2500000,
-      "diffPct": -37,
+      "fair": 2600000,
+      "diffPct": -35,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -29
+      "ageOutlookPct": -28
     },
     "3308": {
       "name": "Jack Butland",
@@ -344,7 +344,7 @@
       "diffPct": -73,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -29
+      "ageOutlookPct": -28
     },
     "3309": {
       "name": "Jordan Pickford",
@@ -395,11 +395,11 @@
       "club": "Man United",
       "position": "DF",
       "value": 8000000,
-      "fair": 8500000,
-      "diffPct": 6,
+      "fair": 9000000,
+      "diffPct": 13,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -29
+      "ageOutlookPct": -28
     },
     "3327": {
       "name": "Lewis Cook",
@@ -417,19 +417,19 @@
       "club": "Chelsea",
       "position": "FW",
       "value": 3000000,
-      "fair": 4600000,
-      "diffPct": 53,
+      "fair": 3100000,
+      "diffPct": 3,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -33
+      "ageOutlookPct": -36
     },
     "3331": {
       "name": "Marcus Rashford",
       "club": "Man United",
       "position": "FW",
       "value": 40000000,
-      "fair": 22000000,
-      "diffPct": -45,
+      "fair": 22500000,
+      "diffPct": -44,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -18
@@ -494,8 +494,8 @@
       "club": "Nottingham",
       "position": "GK",
       "value": 3500000,
-      "fair": 3400000,
-      "diffPct": -3,
+      "fair": 3500000,
+      "diffPct": 0,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -31
@@ -505,8 +505,8 @@
       "club": "Sunderland",
       "position": "DF",
       "value": 1500000,
-      "fair": 2000000,
-      "diffPct": 33,
+      "fair": 2100000,
+      "diffPct": 40,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -33
@@ -714,8 +714,8 @@
       "club": "Ipswich Town",
       "position": "FW",
       "value": 15000000,
-      "fair": 17500000,
-      "diffPct": 17,
+      "fair": 17000000,
+      "diffPct": 13,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -9
@@ -769,8 +769,8 @@
       "club": "Bournemouth",
       "position": "FW",
       "value": 12000000,
-      "fair": 10500000,
-      "diffPct": -12,
+      "fair": 11000000,
+      "diffPct": -8,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -18
@@ -784,7 +784,7 @@
       "diffPct": 27,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -29
+      "ageOutlookPct": -28
     },
     "4417": {
       "name": "Antoine Semenyo",
@@ -806,7 +806,7 @@
       "diffPct": -50,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -29
+      "ageOutlookPct": -28
     },
     "4419": {
       "name": "Ellery Balcombe",
@@ -905,7 +905,7 @@
       "diffPct": 1300,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -29
+      "ageOutlookPct": -28
     },
     "5435": {
       "name": "Ryan Yates",
@@ -1011,8 +1011,8 @@
       "club": "Arsenal",
       "position": "DF",
       "value": 40000000,
-      "fair": 51500000,
-      "diffPct": 29,
+      "fair": 52000000,
+      "diffPct": 30,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -18
@@ -1059,7 +1059,7 @@
       "diffPct": 386,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -29
+      "ageOutlookPct": -28
     },
     "6486": {
       "name": "Alexander Isak",
@@ -1279,7 +1279,7 @@
       "diffPct": 33,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -29
+      "ageOutlookPct": -28
     },
     "7839": {
       "name": "Dominic Calvert-Lewin",
@@ -1341,8 +1341,8 @@
       "club": "Tottenham",
       "position": "DF",
       "value": 16000000,
-      "fair": 12500000,
-      "diffPct": -22,
+      "fair": 13000000,
+      "diffPct": -19,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -18
@@ -1455,7 +1455,7 @@
       "diffPct": 23,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -29
+      "ageOutlookPct": -28
     },
     "8011": {
       "name": "Alex Palmer",
@@ -1484,8 +1484,8 @@
       "club": "Nottingham",
       "position": "FW",
       "value": 5000000,
-      "fair": 4400000,
-      "diffPct": -12,
+      "fair": 4500000,
+      "diffPct": -10,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -31
@@ -1495,8 +1495,8 @@
       "club": "Crystal Palace",
       "position": "DF",
       "value": 10000000,
-      "fair": 9000000,
-      "diffPct": -10,
+      "fair": 9500000,
+      "diffPct": -5,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -18
@@ -1528,8 +1528,8 @@
       "club": "Crystal Palace",
       "position": "MF",
       "value": 5000000,
-      "fair": 8000000,
-      "diffPct": 60,
+      "fair": 8500000,
+      "diffPct": 70,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -23
@@ -1550,11 +1550,11 @@
       "club": "Aston Villa",
       "position": "DF",
       "value": 15000000,
-      "fair": 19500000,
-      "diffPct": 30,
+      "fair": 16500000,
+      "diffPct": 10,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -15
+      "ageOutlookPct": -18
     },
     "8215": {
       "name": "Declan Rice",
@@ -1587,15 +1587,15 @@
       "diffPct": 117,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -29
+      "ageOutlookPct": -28
     },
     "8251": {
       "name": "Callum Wilson",
       "club": "Brentford",
       "position": "FW",
       "value": 4000000,
-      "fair": 4000000,
-      "diffPct": 0,
+      "fair": 4100000,
+      "diffPct": 2,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -31
@@ -1627,8 +1627,8 @@
       "club": "Arsenal",
       "position": "FW",
       "value": 65000000,
-      "fair": 47500000,
-      "diffPct": -27,
+      "fair": 48000000,
+      "diffPct": -26,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -15
@@ -1697,7 +1697,7 @@
       "diffPct": -5,
       "label": null,
       "ageOutlook": "Down",
-      "ageOutlookPct": -29
+      "ageOutlookPct": -28
     },
     "8460": {
       "name": "Kenny Tete",
@@ -2023,11 +2023,11 @@
       "club": "Liverpool",
       "position": "MF",
       "value": 100000000,
-      "fair": 45000000,
+      "fair": 44500000,
       "diffPct": -55,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "22010": {
       "name": "Daniel Muñoz",
@@ -2045,7 +2045,7 @@
       "club": "Arsenal",
       "position": "DF",
       "value": 75000000,
-      "fair": 62000000,
+      "fair": 62500000,
       "diffPct": -17,
       "label": null,
       "ageOutlook": "Down",
@@ -2100,8 +2100,8 @@
       "club": "Ipswich Town",
       "position": "DF",
       "value": 16000000,
-      "fair": 16500000,
-      "diffPct": 3,
+      "fair": 16000000,
+      "diffPct": 0,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -12
@@ -2419,8 +2419,8 @@
       "club": "Tottenham",
       "position": "FW",
       "value": 50000000,
-      "fair": 33500000,
-      "diffPct": -33,
+      "fair": 34000000,
+      "diffPct": -32,
       "label": "Overvalued",
       "ageOutlook": "Down",
       "ageOutlookPct": -12
@@ -2463,8 +2463,8 @@
       "club": "Arsenal",
       "position": "GK",
       "value": 8000000,
-      "fair": 9000000,
-      "diffPct": 13,
+      "fair": 8500000,
+      "diffPct": 6,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -9
@@ -2507,8 +2507,8 @@
       "club": "Nottingham",
       "position": "FW",
       "value": 32000000,
-      "fair": 35000000,
-      "diffPct": 9,
+      "fair": 35500000,
+      "diffPct": 11,
       "label": "Fairly valued",
       "ageOutlook": "Down",
       "ageOutlookPct": -9
@@ -2573,8 +2573,8 @@
       "club": "Nottingham",
       "position": "GK",
       "value": 1000000,
-      "fair": 3100000,
-      "diffPct": 210,
+      "fair": 3000000,
+      "diffPct": 200,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -15
@@ -2683,7 +2683,7 @@
       "club": "Liverpool",
       "position": "GK",
       "value": 28000000,
-      "fair": 4300000,
+      "fair": 4200000,
       "diffPct": -85,
       "label": null,
       "ageOutlook": "Down",
@@ -2738,8 +2738,8 @@
       "club": "Sunderland",
       "position": "FW",
       "value": 30000000,
-      "fair": 22000000,
-      "diffPct": -27,
+      "fair": 21500000,
+      "diffPct": -28,
       "label": "Fairly valued",
       "ageOutlook": "Flat",
       "ageOutlookPct": -2
@@ -2749,8 +2749,8 @@
       "club": "Crystal Palace",
       "position": "MF",
       "value": 25000000,
-      "fair": 33500000,
-      "diffPct": 34,
+      "fair": 33000000,
+      "diffPct": 32,
       "label": "Fairly valued",
       "ageOutlook": "Down",
       "ageOutlookPct": -5
@@ -2826,8 +2826,8 @@
       "club": "Sunderland",
       "position": "MF",
       "value": 28000000,
-      "fair": 22000000,
-      "diffPct": -21,
+      "fair": 21500000,
+      "diffPct": -23,
       "label": "Fairly valued",
       "ageOutlook": "Down",
       "ageOutlookPct": -9
@@ -2837,8 +2837,8 @@
       "club": "Man United",
       "position": "FW",
       "value": 20000000,
-      "fair": 27500000,
-      "diffPct": 38,
+      "fair": 28000000,
+      "diffPct": 40,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -5
@@ -2848,8 +2848,8 @@
       "club": "Man City",
       "position": "FW",
       "value": 75000000,
-      "fair": 73000000,
-      "diffPct": -3,
+      "fair": 73500000,
+      "diffPct": -2,
       "label": "Fairly valued",
       "ageOutlook": "Flat",
       "ageOutlookPct": -2
@@ -2936,7 +2936,7 @@
       "club": "Chelsea",
       "position": "FW",
       "value": 80000000,
-      "fair": 53000000,
+      "fair": 52500000,
       "diffPct": -34,
       "label": "Overvalued",
       "ageOutlook": "Down",
@@ -3068,8 +3068,8 @@
       "club": "Aston Villa",
       "position": "GK",
       "value": 20000000,
-      "fair": 18000000,
-      "diffPct": -10,
+      "fair": 17500000,
+      "diffPct": -12,
       "label": null,
       "ageOutlook": "Flat",
       "ageOutlookPct": -2
@@ -3138,7 +3138,7 @@
       "diffPct": -69,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "124694": {
       "name": "Brennan Johnson",
@@ -3211,8 +3211,8 @@
       "club": "Man United",
       "position": "GK",
       "value": 35000000,
-      "fair": 21500000,
-      "diffPct": -39,
+      "fair": 21000000,
+      "diffPct": -40,
       "label": null,
       "ageOutlook": "Flat",
       "ageOutlookPct": -2
@@ -3336,7 +3336,7 @@
       "diffPct": -17,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "133512": {
       "name": "Riccardo Calafiori",
@@ -3354,8 +3354,8 @@
       "club": "Man United",
       "position": "FW",
       "value": 45000000,
-      "fair": 35000000,
-      "diffPct": -22,
+      "fair": 35500000,
+      "diffPct": -21,
       "label": null,
       "ageOutlook": "Flat",
       "ageOutlookPct": -2
@@ -3435,7 +3435,7 @@
       "diffPct": -62,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "138034": {
       "name": "João Gomes",
@@ -3486,8 +3486,8 @@
       "club": "Ipswich Town",
       "position": "MF",
       "value": 14000000,
-      "fair": 14000000,
-      "diffPct": 0,
+      "fair": 13500000,
+      "diffPct": -4,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -9
@@ -3501,7 +3501,7 @@
       "diffPct": -23,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "142075": {
       "name": "Maxim De Cuyper",
@@ -3534,15 +3534,15 @@
       "diffPct": 138,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "144434": {
       "name": "Christos Tzolis",
       "club": "Arsenal",
       "position": "FW",
       "value": 40000000,
-      "fair": 84500000,
-      "diffPct": 111,
+      "fair": 85000000,
+      "diffPct": 113,
       "label": "Undervalued",
       "ageOutlook": "Flat",
       "ageOutlookPct": -2
@@ -3574,11 +3574,11 @@
       "club": "Brighton Hove",
       "position": "MF",
       "value": 35000000,
-      "fair": 33500000,
-      "diffPct": -4,
+      "fair": 33000000,
+      "diffPct": -6,
       "label": "Fairly valued",
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "146122": {
       "name": "Ellis Simms",
@@ -3607,8 +3607,8 @@
       "club": "Tottenham",
       "position": "FW",
       "value": 200000,
-      "fair": 36500000,
-      "diffPct": 18150,
+      "fair": 37000000,
+      "diffPct": 18400,
       "label": null,
       "ageOutlook": "Up",
       "ageOutlookPct": 5
@@ -3644,7 +3644,7 @@
       "diffPct": 93,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "147914": {
       "name": "Eliot Matazo",
@@ -3666,7 +3666,7 @@
       "diffPct": -79,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "149129": {
       "name": "Mohamed Ali Cho",
@@ -3688,7 +3688,7 @@
       "diffPct": 20,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "150778": {
       "name": "Jaidon Anthony",
@@ -3710,7 +3710,7 @@
       "diffPct": -27,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "150948": {
       "name": "Chadi Riad",
@@ -3721,7 +3721,7 @@
       "diffPct": 17,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "150964": {
       "name": "Mamadou Sangare",
@@ -3743,7 +3743,7 @@
       "diffPct": 41,
       "label": "Undervalued",
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "151119": {
       "name": "Fabio Carvalho",
@@ -3772,8 +3772,8 @@
       "club": "Chelsea",
       "position": "DF",
       "value": 10000000,
-      "fair": 28000000,
-      "diffPct": 180,
+      "fair": 28500000,
+      "diffPct": 185,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -15
@@ -3798,7 +3798,7 @@
       "diffPct": 4,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "152505": {
       "name": "Yeremi Pino",
@@ -3864,7 +3864,7 @@
       "diffPct": -54,
       "label": "Overvalued",
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "161270": {
       "name": "Aji Alese",
@@ -3886,7 +3886,7 @@
       "diffPct": 900,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "165311": {
       "name": "Abdoullah Ba",
@@ -3897,7 +3897,7 @@
       "diffPct": 213,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "166366": {
       "name": "Andrey Santos",
@@ -3948,8 +3948,8 @@
       "club": "Ipswich Town",
       "position": "MF",
       "value": 25000000,
-      "fair": 21000000,
-      "diffPct": -16,
+      "fair": 20500000,
+      "diffPct": -18,
       "label": "Fairly valued",
       "ageOutlook": "Up",
       "ageOutlookPct": 5
@@ -3959,11 +3959,11 @@
       "club": "Bournemouth",
       "position": "FW",
       "value": 6000000,
-      "fair": 13000000,
-      "diffPct": 117,
+      "fair": 13500000,
+      "diffPct": 125,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "169297": {
       "name": "Aurele Amenda",
@@ -3974,7 +3974,7 @@
       "diffPct": 25,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "169324": {
       "name": "William Osula",
@@ -3985,7 +3985,7 @@
       "diffPct": 27,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "169326": {
       "name": "Tim Iroegbunam",
@@ -4018,7 +4018,7 @@
       "diffPct": -13,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "170394": {
       "name": "Loum Tchaouna",
@@ -4029,18 +4029,18 @@
       "diffPct": 0,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "170440": {
       "name": "Levi Colwill",
       "club": "Chelsea",
       "position": "DF",
       "value": 50000000,
-      "fair": 45000000,
-      "diffPct": -10,
+      "fair": 45500000,
+      "diffPct": -9,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "170812": {
       "name": "Konstantinos Tzolakis",
@@ -4062,7 +4062,7 @@
       "diffPct": 19,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "171498": {
       "name": "Carl Rushworth",
@@ -4139,7 +4139,7 @@
       "diffPct": -21,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "172738": {
       "name": "Romeo Lavia",
@@ -4205,7 +4205,7 @@
       "diffPct": -68,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "175910": {
       "name": "Teddy Sharman-Lowe",
@@ -4216,7 +4216,7 @@
       "diffPct": 1100,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "176628": {
       "name": "Emersonn",
@@ -4293,15 +4293,15 @@
       "diffPct": 36,
       "label": "Fairly valued",
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "179319": {
       "name": "Darío Osorio",
       "club": "Crystal Palace",
       "position": "FW",
       "value": 15000000,
-      "fair": 19500000,
-      "diffPct": 30,
+      "fair": 20000000,
+      "diffPct": 33,
       "label": null,
       "ageOutlook": "Up",
       "ageOutlookPct": 5
@@ -4315,7 +4315,7 @@
       "diffPct": 92,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "179716": {
       "name": "Oscar Bobb",
@@ -4326,7 +4326,7 @@
       "diffPct": -9,
       "label": "Fairly valued",
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "180038": {
       "name": "Juanlu",
@@ -4337,7 +4337,7 @@
       "diffPct": 1733,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "180563": {
       "name": "Hugo Larsson",
@@ -4436,7 +4436,7 @@
       "diffPct": 12900,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "185610": {
       "name": "Antonio Silva",
@@ -4447,7 +4447,7 @@
       "diffPct": -2,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "187065": {
       "name": "Malick Fofana",
@@ -4491,7 +4491,7 @@
       "diffPct": 18,
       "label": "Fairly valued",
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "187482": {
       "name": "Yankubah Minteh",
@@ -4513,7 +4513,7 @@
       "diffPct": -16,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "189369": {
       "name": "Alvaro Rodriguez",
@@ -4623,7 +4623,7 @@
       "diffPct": -57,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "191939": {
       "name": "Lewis Miley",
@@ -4645,15 +4645,15 @@
       "diffPct": 80,
       "label": "Undervalued",
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "192313": {
       "name": "Chemsdine Talbi",
       "club": "Sunderland",
       "position": "FW",
       "value": 25000000,
-      "fair": 14000000,
-      "diffPct": -44,
+      "fair": 14500000,
+      "diffPct": -42,
       "label": null,
       "ageOutlook": "Up",
       "ageOutlookPct": 9
@@ -4971,8 +4971,8 @@
       "club": "Brentford",
       "position": "FW",
       "value": 8000000,
-      "fair": 4600000,
-      "diffPct": -43,
+      "fair": 4700000,
+      "diffPct": -41,
       "label": null,
       "ageOutlook": "Up",
       "ageOutlookPct": 17
@@ -5059,8 +5059,8 @@
       "club": "Man City",
       "position": "MF",
       "value": 50000000,
-      "fair": 43000000,
-      "diffPct": -14,
+      "fair": 43500000,
+      "diffPct": -13,
       "label": null,
       "ageOutlook": "Up",
       "ageOutlookPct": 17
@@ -5103,8 +5103,8 @@
       "club": "Chelsea",
       "position": "FW",
       "value": 42000000,
-      "fair": 22500000,
-      "diffPct": -46,
+      "fair": 23000000,
+      "diffPct": -45,
       "label": null,
       "ageOutlook": "Up",
       "ageOutlookPct": 17
@@ -5125,8 +5125,8 @@
       "club": "Arsenal",
       "position": "MF",
       "value": 45000000,
-      "fair": 65500000,
-      "diffPct": 46,
+      "fair": 66000000,
+      "diffPct": 47,
       "label": null,
       "ageOutlook": "Up",
       "ageOutlookPct": 13
@@ -5235,8 +5235,8 @@
       "club": "Chelsea",
       "position": "DF",
       "value": 25000000,
-      "fair": 33500000,
-      "diffPct": 34,
+      "fair": 34000000,
+      "diffPct": 36,
       "label": null,
       "ageOutlook": "Up",
       "ageOutlookPct": 13
@@ -5272,7 +5272,7 @@
       "diffPct": 37,
       "label": null,
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "256339": {
       "name": "Igor Jesus",
@@ -5301,8 +5301,8 @@
       "club": "Aston Villa",
       "position": "FW",
       "value": 10000000,
-      "fair": 26000000,
-      "diffPct": 160,
+      "fair": 25500000,
+      "diffPct": 155,
       "label": null,
       "ageOutlook": "Up",
       "ageOutlookPct": 13
@@ -5437,7 +5437,7 @@
       "diffPct": 53,
       "label": "Undervalued",
       "ageOutlook": "Flat",
-      "ageOutlookPct": 1
+      "ageOutlookPct": 2
     },
     "273453": {
       "name": "Rio Ngumoha",
