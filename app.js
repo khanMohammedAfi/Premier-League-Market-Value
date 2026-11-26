@@ -3,7 +3,8 @@ const tableBody = document.getElementById("table-body");
 
 fetch("data/table.json")
   .then(response => response.json())
-  .then(clubs => {
+    .then(clubs => {
+    tableData = clubs;
     clubs.forEach(club => {
       const row = document.createElement("tr");
       row.innerHTML = `
@@ -40,6 +41,7 @@ const euro = new Intl.NumberFormat("en-GB", {
 let playersData = [];
 let descending = true;
 let playerNews = {};
+let tableData = [];
 
 
 
@@ -713,9 +715,10 @@ function clubFixtureItem(m, teamId) {
   const middle = m.status === "FINISHED" ? ` ${m.homeGoals} - ${m.awayGoals} ` : " v ";
   match.appendChild(document.createTextNode(m.home + middle + m.away + " "));
   if (awayImg) match.appendChild(awayImg);
-
   li.appendChild(when);
   li.appendChild(match);
+  li.style.cursor = "pointer";
+  li.addEventListener("click", () => showH2H(m));
   return li;
 }
 
@@ -755,3 +758,267 @@ function showClubFixtures(teamId, clubName) {
 document.getElementById("close-club-fixtures").addEventListener("click", () => {
   document.getElementById("club-fixtures").hidden = true;
 });
+
+// Last 5 results for a team before a given date, as ["W","D","L",...]
+function formFor(teamId, beforeDate) {
+  return clubFixtures
+    .filter(m => m.status === "FINISHED"
+      && (m.homeId === teamId || m.awayId === teamId)
+      && new Date(m.date) < new Date(beforeDate))
+    .sort((a, b) => new Date(a.date) - new Date(b.date))
+    .slice(-5)
+    .map(m => {
+      const isHome = m.homeId === teamId;
+      const mine = isHome ? m.homeGoals : m.awayGoals;
+      const theirs = isHome ? m.awayGoals : m.homeGoals;
+      return mine > theirs ? "W" : mine < theirs ? "L" : "D";
+    });
+}
+
+// The highest market value player in a club
+function topPlayerFor(clubName) {
+  const squad = playersData
+    .filter(p => p.club === clubName && p.value != null)
+    .sort((a, b) => b.value - a.value);
+  return squad[0] || null;
+}
+
+function crestTag(url) {
+  return url && url.startsWith("https://")
+    ? `<img class="h2h-crest" src="${url}" alt="" referrerpolicy="no-referrer">`
+    : "";
+}
+
+function millions(v) {
+  return v != null ? "€" + Math.round(v / 1000000) + "M" : "-";
+}
+
+// Season goals scored / conceded per match
+function seasonStats(teamId) {
+  const games = clubFixtures.filter(m => m.status === "FINISHED"
+    && (m.homeId === teamId || m.awayId === teamId));
+  let scored = 0, conceded = 0;
+  games.forEach(m => {
+    const home = m.homeId === teamId;
+    scored += home ? m.homeGoals : m.awayGoals;
+    conceded += home ? m.awayGoals : m.homeGoals;
+  });
+  const n = games.length || 1;
+  return { scored: scored / n, conceded: conceded / n };
+}
+
+function pointsPerGame(teamId) {
+  const row = tableData.find(c => c.id === teamId);
+  return row && row.played ? row.points / row.played : 0;
+}
+
+function squadValue(clubName) {
+  return playersData
+    .filter(p => p.club === clubName)
+    .reduce((sum, p) => sum + (p.value || 0), 0);
+}
+
+// A simple estimate from league points per game, recent form and home advantage
+function estimateOdds(match, homeForm, awayForm) {
+  const pts = f => f.length
+    ? f.reduce((s, r) => s + (r === "W" ? 3 : r === "D" ? 1 : 0), 0) / f.length
+    : 1.4;
+  const home = 0.6 * pointsPerGame(match.homeId) + 0.4 * pts(homeForm) + 0.3;
+  const away = 0.6 * pointsPerGame(match.awayId) + 0.4 * pts(awayForm);
+  const diff = home - away;
+  const draw = 0.28 - 0.05 * Math.min(Math.abs(diff), 2);
+  const homeShare = 1 / (1 + Math.exp(-1.2 * diff));
+  const homeP = Math.round((1 - draw) * homeShare * 100);
+  const drawP = Math.round(draw * 100);
+  return { home: homeP, draw: drawP, away: 100 - homeP - drawP };
+}
+
+// Half circle gauge drawn with SVG
+function gauge(pct, color) {
+  return `
+    <svg viewBox="0 0 100 55" class="gauge">
+      <path d="M10 50 A40 40 0 0 1 90 50" pathLength="100" class="gauge-bg"/>
+      <path d="M10 50 A40 40 0 0 1 90 50" pathLength="100" class="gauge-fill"
+        style="stroke:${color};color:${color};stroke-dasharray:${pct} 100"/>
+      <text x="50" y="46" class="gauge-text">${pct}%</text>
+    </svg>`;
+}
+
+function formBoxes(form) {
+  return form.map(r => `<span class="form-box form-${r}">${r}</span>`).join("");
+}
+
+// One comparison row: number on the left, label, number on the right, then a split bar
+function statRow(label, a, b, format) {
+  const total = (a + b) || 1;
+  const aPct = Math.round(a / total * 100);
+  return `
+    <div class="h2h-stat">
+      <div class="h2h-stat-nums"><span>${format(a)}</span><em>${label}</em><span>${format(b)}</span></div>
+      <div class="h2h-bar">
+        <div class="h2h-bar-home" style="width:${aPct}%"></div>
+        <div class="h2h-bar-away" style="width:${100 - aPct}%"></div>
+      </div>
+    </div>`;
+}
+
+function playerCard(player, side) {
+  if (!player) return `<div class="h2h-player ${side}">No player data</div>`;
+  return `
+    <div class="h2h-player ${side}">
+      <img class="h2h-player-photo" alt="${player.name}">
+      <strong>${player.name}</strong>
+      <small>${player.club} · ${player.position}</small>
+      <div class="h2h-pstats">
+        <span><b>${millions(player.value)}</b>VALUE</span>
+        <span><b>${player.goals ?? "-"}</b>GOALS</span>
+        <span><b>${player.appearances ?? "-"}</b>STARTS</span>
+      </div>
+    </div>`;
+}
+
+// Past meetings between clubs. The file may not exist yet, so a failure is fine.
+let h2hData = {};
+fetch("data/h2h.json")
+  .then(r => r.json())
+  .then(d => { h2hData = d; })
+  .catch(() => {});
+
+// Same key whichever club is home: "57-66"
+function pairKey(a, b) {
+  return [a, b].sort((x, y) => x - y).join("-");
+}
+
+// All finished games between the two clubs, newest first
+function meetingsBetween(idA, idB) {
+  const all = [...(h2hData[pairKey(idA, idB)] || [])];
+
+  clubFixtures
+    .filter(m => m.status === "FINISHED"
+      && ((m.homeId === idA && m.awayId === idB) || (m.homeId === idB && m.awayId === idA)))
+    .forEach(m => {
+      // skip it if the saved history already has this game
+      if (!all.some(x => x.date.slice(0, 10) === m.date.slice(0, 10))) all.push(m);
+    });
+
+  return all.sort((a, b) => new Date(b.date) - new Date(a.date));
+}
+
+// Wins, draws and goals from the point of view of one club
+function h2hRecord(meetings, homeId) {
+  const r = { homeWins: 0, awayWins: 0, draws: 0, homeGoals: 0, awayGoals: 0 };
+  meetings.forEach(m => {
+    const mineIsHome = m.homeId === homeId;
+    const mine = mineIsHome ? m.homeGoals : m.awayGoals;
+    const theirs = mineIsHome ? m.awayGoals : m.homeGoals;
+    r.homeGoals += mine;
+    r.awayGoals += theirs;
+    if (mine > theirs) r.homeWins++;
+    else if (mine < theirs) r.awayWins++;
+    else r.draws++;
+  });
+  return r;
+}
+
+function recordHTML(match) {
+  const meetings = meetingsBetween(match.homeId, match.awayId);
+
+  if (meetings.length === 0) {
+    return `<div class="h2h-card h2h-record">
+      <h3>HEAD TO HEAD</h3>
+      <p class="h2h-note">No previous meetings in the data yet.</p>
+    </div>`;
+  }
+
+  const r = h2hRecord(meetings, match.homeId);
+  const pct = n => Math.round(n / meetings.length * 100);
+
+  const rows = meetings.slice(0, 5).map(m => `
+    <li>
+      <small>${new Date(m.date).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}</small>
+      <span>${m.home} <b>${m.homeGoals} - ${m.awayGoals}</b> ${m.away}</span>
+    </li>`).join("");
+
+  return `
+    <div class="h2h-card h2h-record">
+      <h3>HEAD TO HEAD · LAST ${meetings.length} ${meetings.length === 1 ? "MEETING" : "MEETINGS"}</h3>
+      <div class="h2h-record-nums">
+        <div><b class="h2h-home-name">${r.homeWins}</b><small>${match.home} wins</small></div>
+        <div><b>${r.draws}</b><small>Draws</small></div>
+        <div><b class="h2h-away-name">${r.awayWins}</b><small>${match.away} wins</small></div>
+      </div>
+      <div class="h2h-bar">
+        <div class="h2h-bar-home" style="width:${pct(r.homeWins)}%"></div>
+        <div class="h2h-bar-draw" style="width:${pct(r.draws)}%"></div>
+        <div class="h2h-bar-away" style="width:${pct(r.awayWins)}%"></div>
+      </div>
+      <p class="h2h-note">Goals: ${match.home} ${r.homeGoals} - ${r.awayGoals} ${match.away}</p>
+      <ul class="h2h-meetings">${rows}</ul>
+    </div>`;
+}
+
+function showH2H(match) {
+  const homeForm = formFor(match.homeId, match.date);
+  const awayForm = formFor(match.awayId, match.date);
+  const homeStar = topPlayerFor(match.home);
+  const awayStar = topPlayerFor(match.away);
+  const odds = estimateOdds(match, homeForm, awayForm);
+  const hs = seasonStats(match.homeId);
+  const aws = seasonStats(match.awayId);
+
+  const when = new Date(match.date).toLocaleString("en-GB", {
+    day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit"
+  });
+
+  const body = document.getElementById("h2h-body");
+  body.innerHTML = `
+    <div class="h2h-teams">
+      <div class="h2h-team home">
+        ${crestTag(match.homeCrest)}
+        <div><strong class="h2h-home-name">${match.home}</strong><small>HOME</small></div>
+      </div>
+      <div class="h2h-vs"><b>VS</b><br><small>${when}</small></div>
+      <div class="h2h-team away">
+        ${crestTag(match.awayCrest)}
+        <div><strong class="h2h-away-name">${match.away}</strong><small>AWAY</small></div>
+      </div>
+    </div>
+
+    <div class="h2h-win">
+      <div>${gauge(odds.home, "#04f5ff")}<small>HOME</small></div>
+      <div class="h2h-draw"><strong>${odds.draw}%</strong><small>DRAW</small></div>
+      <div>${gauge(odds.away, "#ff2882")}<small>AWAY</small></div>
+    </div>
+    <p class="h2h-note">Win probability is an estimate from league points, recent form and home advantage.</p>
+        ${recordHTML(match)}
+    <div class="h2h-grid">
+      <div class="h2h-card">
+        <div class="h2h-formrow">
+          <span>${formBoxes(homeForm)}</span><em>RECENT FORM</em><span>${formBoxes(awayForm)}</span>
+        </div>
+        ${statRow("Points per match", pointsPerGame(match.homeId), pointsPerGame(match.awayId), v => v.toFixed(2))}
+        ${statRow("Goals per match", hs.scored, aws.scored, v => v.toFixed(1))}
+        ${statRow("Conceded per match", hs.conceded, aws.conceded, v => v.toFixed(1))}
+        ${statRow("Squad value", squadValue(match.home), squadValue(match.away), millions)}
+      </div>
+
+      <div class="h2h-card">
+        <h3>MOST EXPENSIVE PLAYERS</h3>
+        <div class="h2h-players">
+          ${playerCard(homeStar, "home")}
+          ${playerCard(awayStar, "away")}
+        </div>
+      </div>
+    </div>
+  `;
+
+  // Photos need the fallback logic from loadPhoto, so set them after the HTML exists
+  [[".home", homeStar], [".away", awayStar]].forEach(([side, p]) => {
+    const img = body.querySelector(".h2h-player" + side + " .h2h-player-photo");
+    if (img && p) loadPhoto(p, img);
+  });
+
+  const panel = document.getElementById("h2h-panel");
+  panel.hidden = false;
+  panel.scrollIntoView({ behavior: "smooth" });
+}
