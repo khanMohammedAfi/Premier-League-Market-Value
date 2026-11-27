@@ -3937,6 +3937,16 @@
     "goals": 0
   },
   {
+    "apiId": 304337,
+    "name": "Joe Cowan",
+    "club": "Sunderland",
+    "crest": "https://crests.football-data.org/71.png",
+    "position": "-",
+    "age": 18,
+    "nationality": "England",
+    "goals": 0
+  },
+  {
     "apiId": 7914,
     "name": "Martin Dúbravka",
     "club": "Tottenham",
@@ -6383,6 +6393,16 @@
     "assists": 0
   },
   {
+    "apiId": 304343,
+    "name": "Charlie Walker-Smith",
+    "club": "Crystal Palace",
+    "crest": "https://crests.football-data.org/354.png",
+    "position": "-",
+    "age": 19,
+    "nationality": "Wales",
+    "goals": 0
+  },
+  {
     "apiId": 4040,
     "name": "Jason Steele",
     "club": "Brighton Hove",
@@ -7159,7 +7179,7 @@
     "club": "Brentford",
     "crest": "https://crests.football-data.org/402.png",
     "position": "FW",
-    "age": 24,
+    "age": 25,
     "nationality": "Germany",
     "value": 35000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p513418.png",

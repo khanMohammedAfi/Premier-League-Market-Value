@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T13:00:31.359Z",
+  "updated": "2026-11-27T12:57:47.803Z",
   "model": {
     "type": "ridge regression on log(market value)",
     "inputs": "age, position, goals per 90, assists per 90, minutes played, club strength",
@@ -791,7 +791,7 @@
       "club": "Man City",
       "position": "FW",
       "value": 80000000,
-      "fair": 71000000,
+      "fair": 71500000,
       "diffPct": -11,
       "label": "Fairly valued",
       "ageOutlook": "Down",
@@ -3123,11 +3123,11 @@
       "club": "Brentford",
       "position": "FW",
       "value": 35000000,
-      "fair": 35500000,
-      "diffPct": 1,
+      "fair": 35000000,
+      "diffPct": 0,
       "label": "Fairly valued",
-      "ageOutlook": "Flat",
-      "ageOutlookPct": -2
+      "ageOutlook": "Down",
+      "ageOutlookPct": -5
     },
     "124244": {
       "name": "Benjamin Šeško",
@@ -3145,8 +3145,8 @@
       "club": "Everton",
       "position": "FW",
       "value": 30000000,
-      "fair": 24000000,
-      "diffPct": -20,
+      "fair": 24500000,
+      "diffPct": -18,
       "label": null,
       "ageOutlook": "Down",
       "ageOutlookPct": -5
