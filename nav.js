@@ -19,6 +19,30 @@ document.addEventListener('click', function (e) {
 //   sourceId = the full list that app.js fills
 //   targetId = the small box on Home
 //   count    = how many items to copy
+// A grey silhouette drawn as an inline SVG, so it needs no extra file
+var SILHOUETTE = 'data:image/svg+xml,' + encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+  '<rect width="64" height="64" fill="#3b2447"/>' +
+  '<circle cx="32" cy="25" r="11" fill="#8f7a99"/>' +
+  '<path d="M10 64c0-14 10-22 22-22s22 8 22 22z" fill="#8f7a99"/>' +
+  '</svg>'
+);
+
+// If a player photo is missing or broken, swap in the silhouette
+function fixPhotos(container) {
+  container.querySelectorAll('img.player-photo').forEach(function (img) {
+    function useSilhouette() {
+      img.onerror = null;          // stops an endless loop if the silhouette fails
+      img.src = SILHOUETTE;
+    }
+    img.onerror = useSilhouette;   // photo fails to load later
+    var src = img.getAttribute('src');
+    if (!src || (img.complete && img.naturalWidth === 0)) {
+      useSilhouette();             // no photo at all, or it already failed
+    }
+  });
+}
+
 function mirror(sourceId, targetId, count) {
   var source = document.getElementById(sourceId);
   var target = document.getElementById(targetId);
@@ -29,10 +53,11 @@ function mirror(sourceId, targetId, count) {
     Array.from(source.children).slice(0, count).forEach(function (item) {
       target.appendChild(item.cloneNode(true));
     });
+    fixPhotos(target);             // new line: tidy up photos after copying
   }
 
-  copy();                                                        // copy now
-  new MutationObserver(copy).observe(source, { childList: true }); // and again whenever app.js changes it
+  copy();
+  new MutationObserver(copy).observe(source, { childList: true });
 }
 
 mirror('table-body',     'home-table',    5);
