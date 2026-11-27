@@ -51,7 +51,8 @@ async function main() {
 
   // 2. Refresh the data
   execSync("node scripts/update-table.js", { stdio: "inherit" });
-  execSync("node scripts/update-fixtures.js", { stdio: "inherit" });
+  try { execSync("node scripts/update-fixtures.js", { stdio: "inherit" }); }
+catch (error) { console.log("Fixtures skipped:", error.message); }
   execSync("node scripts/update-players.js", { stdio: "inherit" });
   execSync("node scripts/update-leaders.js", { stdio: "inherit" });
   execSync("node scripts/update-news.js", { stdio: "inherit" });
@@ -63,6 +64,13 @@ try { execSync("node scripts/update-fpl.js", { stdio: "inherit" }); }
 catch (error) { console.log("FPL stats skipped:", error.message); }
 try { execSync("node scripts/update-values.js", { stdio: "inherit" }); }
 catch (error) { console.log("Market values skipped:", error.message); }
+// Head-to-head history only changes when matches finish, so refresh it
+// on Mondays (or if the file is missing) instead of on every daily run
+const isMonday = new Date().getUTCDay() === 1;
+if (isMonday || !fs.existsSync("data/h2h.json")) {
+  try { execSync("node scripts/update-h2h.js", { stdio: "inherit" }); }
+  catch (error) { console.log("Head-to-head skipped:", error.message); }
+}
 try { execSync("node scripts/update-predictions.js", { stdio: "inherit" }); }
 catch (error) { console.log("Predictions skipped:", error.message); }
 

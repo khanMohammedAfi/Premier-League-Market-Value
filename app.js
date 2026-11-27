@@ -572,8 +572,18 @@ fetch("data/fixtures.json")
       match.appendChild(document.createTextNode(f.home + " v " + f.away + " "));
       if (awayImg) match.appendChild(awayImg);
 
-      li.appendChild(when);
+            li.appendChild(when);
       li.appendChild(match);
+
+      li.style.cursor = "pointer";
+      li.addEventListener("click", () => {
+        const full = clubFixtures.find(m =>
+          m.date === f.date && m.home === f.home && m.away === f.away)
+          || clubFixtures.find(m =>
+            m.status !== "FINISHED" && m.home === f.home && m.away === f.away);
+        if (full) showH2H(full);
+      });
+
       list.appendChild(li);
     });
   })
@@ -1022,3 +1032,7 @@ function showH2H(match) {
   panel.hidden = false;
   panel.scrollIntoView({ behavior: "smooth" });
 }
+
+document.getElementById("close-h2h").addEventListener("click", () => {
+  document.getElementById("h2h-panel").hidden = true;
+});
