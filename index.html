@@ -8,126 +8,207 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Premier League Table</h1>
 
-  <table class="league">
-    <thead>
-      <tr>
-        <th title="Position">Pos</th>
-        <th>Club</th>
-        <th title="Played">P</th>
-        <th title="Won">W</th>
-        <th title="Drawn">D</th>
-        <th title="Lost">L</th>
-        <th title="Goal difference">GD</th>
-        <th title="Points">Pts</th>
-      </tr>
-    </thead>
-    <tbody id="table-body">
-    </tbody>
-  </table>
+  <!-- ================= HOME (the main dashboard) ================= -->
+    <!-- ================= HOME (the main dashboard) ================= -->
+  <main id="view-home" class="view">
+    <header class="hero">
+      <h1>Premier League Hub</h1>
+      <p>Table, fixtures, form and market values, updated daily by an AI agent.</p>
+    </header>
 
-  <section id="club-fixtures" hidden>
-  <h3 id="club-fixtures-title"></h3>
-  <button id="close-club-fixtures">Close</button>
-  <h4>Previous 5</h4>
-  <ul id="club-previous"></ul>
-  <h4>Next 5</h4>
-  <ul id="club-next"></ul>
-</section>
+    <div class="hub-grid">
 
-<section id="h2h-panel" class="h2h" hidden>
-  <div class="h2h-top">
-    <h2>PREMIER LEAGUE <span>| HEAD-TO-HEAD</span></h2>
-    <button id="close-h2h">Close</button>
-  </div>
-  <div id="h2h-body"></div>
-</section>
+      <section class="hub-card wide" data-open="league">
+        <div class="hub-head"><h2>League Table</h2><span class="hub-more">View all →</span></div>
+        <table class="league mini-table">
+          <thead>
+            <tr>
+              <th>Pos</th><th>Club</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th>
+            </tr>
+          </thead>
+          <tbody id="home-table"></tbody>
+        </table>
+      </section>
 
-  <h2>Upcoming fixtures</h2>
-  <ul id="fixtures-list"></ul>
+      <section class="hub-card" data-open="league">
+        <div class="hub-head"><h2>Upcoming Fixtures</h2><span class="hub-more">View all →</span></div>
+        <ul class="mini-list" id="home-fixtures"></ul>
+      </section>
 
-  <h2>Top scorers</h2>
-  <h3>This week</h3>
-  <ul id="leaders-week"></ul>
-  <h3>This month</h3>
-  <ul id="leaders-month"></ul>
+      <section class="hub-card" data-open="leaders">
+        <div class="hub-head"><h2>Top Scorers</h2><span class="hub-more">View all →</span></div>
+        <p class="hub-sub">This week</p>
+        <ul class="mini-list" id="home-leaders"></ul>
+      </section>
 
-  <h2>Form-based nominees</h2>
-  <h3>Player of the Month</h3>
-  <ul id="awards-player"></ul>
-  <h3>Manager of the Month</h3>
-  <ul id="awards-manager"></ul>
-  <p class="credit" id="awards-note"></p>
+      <section class="hub-card" data-open="market">
+        <div class="hub-head"><h2>Market Movers</h2><span class="hub-more">View all →</span></div>
+        <div class="mini-clip" id="home-movers"></div>
+      </section>
 
-  <h2>Market Movers</h2>
-  <div id="market-movers">The agent's weekly summary will appear here.</div>
+      <section class="hub-card" data-open="market">
+        <div class="hub-head"><h2>Possibly Undervalued</h2><span class="hub-more">View all →</span></div>
+        <ul class="mini-list" id="home-value"></ul>
+      </section>
+
+      <section class="hub-card wide" data-open="newsfeed">
+        <div class="hub-head"><h2>Latest News</h2><span class="hub-more">View all →</span></div>
+        <ul class="mini-list news" id="home-news"></ul>
+      </section>
+
+      <section class="hub-card" data-open="players">
+        <div class="hub-head"><h2>Players</h2><span class="hub-more">View all →</span></div>
+        <p class="hub-sub">Trending players, every squad, search by name or club, and market values.</p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ================= VIEW: LEAGUE ================= -->
+  <main id="view-league" class="view" hidden>
+    <button class="back-btn" data-open="home">← Dashboard</button>
+    <h1>Premier League Table</h1>
+
+    <table class="league">
+      <thead>
+        <tr>
+          <th title="Position">Pos</th>
+          <th>Club</th>
+          <th title="Played">P</th>
+          <th title="Won">W</th>
+          <th title="Drawn">D</th>
+          <th title="Lost">L</th>
+          <th title="Goal difference">GD</th>
+          <th title="Points">Pts</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+      </tbody>
+    </table>
+
+    <section id="club-fixtures" hidden>
+      <h3 id="club-fixtures-title"></h3>
+      <button id="close-club-fixtures">Close</button>
+      <h4>Previous 5</h4>
+      <ul id="club-previous"></ul>
+      <h4>Next 5</h4>
+      <ul id="club-next"></ul>
+    </section>
+
+    <section id="h2h-panel" class="h2h" hidden>
+      <div class="h2h-top">
+        <h2>PREMIER LEAGUE <span>| HEAD-TO-HEAD</span></h2>
+        <button id="close-h2h">Close</button>
+      </div>
+      <div id="h2h-body"></div>
+    </section>
+
+    <h2>Upcoming fixtures</h2>
+    <ul id="fixtures-list"></ul>
+  </main>
+
+  <!-- ================= VIEW: LEADERS & AWARDS ================= -->
+  <main id="view-leaders" class="view" hidden>
+    <button class="back-btn" data-open="home">← Dashboard</button>
+
+    <h2>Top scorers</h2>
+    <h3>This week</h3>
+    <ul id="leaders-week"></ul>
+    <h3>This month</h3>
+    <ul id="leaders-month"></ul>
+
+    <h2>Form-based nominees</h2>
+    <h3>Player of the Month</h3>
+    <ul id="awards-player"></ul>
+    <h3>Manager of the Month</h3>
+    <ul id="awards-manager"></ul>
+    <p class="credit" id="awards-note"></p>
+  </main>
+
+  <!-- ================= VIEW: MARKET ================= -->
+  <main id="view-market" class="view" hidden>
+    <button class="back-btn" data-open="home">← Dashboard</button>
+
+    <h2>Market Movers</h2>
+    <div id="market-movers">The agent's weekly summary will appear here.</div>
 
     <h2>Value Watch</h2>
-  <p><small id="value-note"></small></p>
-  <h3>Possibly undervalued</h3>
-  <ul id="value-under"></ul>
-  <h3>Possibly overvalued</h3>
-  <ul id="value-over"></ul>
+    <p><small id="value-note"></small></p>
+    <h3>Possibly undervalued</h3>
+    <ul id="value-under"></ul>
+    <h3>Possibly overvalued</h3>
+    <ul id="value-over"></ul>
+  </main>
 
+  <!-- ================= VIEW: PLAYERS ================= -->
+  <main id="view-players" class="view" hidden>
+    <button class="back-btn" data-open="home">← Dashboard</button>
 
-  <h2>Trending Players</h2>
+    <h2>Trending Players</h2>
 
-<div class="tabs">
-  <button type="button" class="tab active" id="tab-btn-news">In the News</button>
-  <button type="button" class="tab" id="tab-btn-all">All Players</button>
-</div>
-
-<input type="search" id="player-search" placeholder="Search players or clubs…" autocomplete="off">
-
-<!-- Tab 1: only players with news (your existing table, moved inside) -->
-<div id="view-news">
-  <p id="news-empty" hidden>No players in the news right now.</p>
-  
-</div>
-
-<!-- Tab 2: every player, grouped by club -->
-<div id="view-all" hidden>
-  <p id="all-empty" hidden>No players match your search.</p>
-  <div id="clubs-container"></div>
-</div>
-  <table class="players">
-    <thead>
-      <tr>
-        <th></th>
-        <th>Name</th>
-        <th>Club</th>
-        <th>Position</th>
-        <th>Age</th>
-        <th>Starts</th>
-        <th>Goals</th>
-        <th id="value-header">Value ⇅</th>
-      </tr>
-    </thead>
-    <tbody id="players-body">
-    </tbody>
-  </table>
-
-  <section id="player-dashboard" hidden>
-    <button id="close-dashboard">Close</button>
-    <div class="dash-layout">
-      <img id="dash-photo" class="dash-photo" alt="">
-      <div class="dash-details">
-        <h2 id="dash-name"></h2>
-        <p id="dash-info"></p>
-        <ul id="dash-stats"></ul>
-        <h3>Latest events</h3>
-        <ul id="dash-latest"></ul>
-      </div>
+    <div class="tabs">
+      <button type="button" class="tab active" id="tab-btn-news">In the News</button>
+      <button type="button" class="tab" id="tab-btn-all">All Players</button>
     </div>
-  </section>
 
-  <p><small>Player photos from Wikipedia/Wikimedia Commons; see each image's page for its license.</small></p>
+    <input type="search" id="player-search" placeholder="Search players or clubs…" autocomplete="off">
 
-  <h2>Latest football news</h2>
-  <ul id="news-list"></ul>
-  <p class="credit">Headlines and images from BBC Sport and The Guardian. Click a headline to read the full story on their site.</p>
+    <!-- Tab 1: only players with news -->
+    <div id="view-news">
+      <p id="news-empty" hidden>No players in the news right now.</p>
+    </div>
+
+    <!-- Tab 2: every player, grouped by club -->
+    <div id="view-all" hidden>
+      <p id="all-empty" hidden>No players match your search.</p>
+      <div id="clubs-container"></div>
+    </div>
+
+    <table class="players">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Name</th>
+          <th>Club</th>
+          <th>Position</th>
+          <th>Age</th>
+          <th>Starts</th>
+          <th>Goals</th>
+          <th id="value-header">Value ⇅</th>
+        </tr>
+      </thead>
+      <tbody id="players-body">
+      </tbody>
+    </table>
+
+    <section id="player-dashboard" hidden>
+      <button id="close-dashboard">Close</button>
+      <div class="dash-layout">
+        <img id="dash-photo" class="dash-photo" alt="">
+        <div class="dash-details">
+          <h2 id="dash-name"></h2>
+          <p id="dash-info"></p>
+          <ul id="dash-stats"></ul>
+          <h3>Latest events</h3>
+          <ul id="dash-latest"></ul>
+        </div>
+      </div>
+    </section>
+
+    <p><small>Player photos from Wikipedia/Wikimedia Commons; see each image's page for its license.</small></p>
+  </main>
+
+  <!-- ================= VIEW: NEWS ================= -->
+  <main id="view-newsfeed" class="view" hidden>
+    <button class="back-btn" data-open="home">← Dashboard</button>
+
+    <h2>Latest football news</h2>
+    <ul id="news-list"></ul>
+    <p class="credit">Headlines and images from BBC Sport and The Guardian. Click a headline to read the full story on their site.</p>
+  </main>
 
   <script src="app.js"></script>
+  <script src="nav.js"></script>
 </body>
 </html>
