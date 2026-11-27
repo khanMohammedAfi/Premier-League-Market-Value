@@ -302,6 +302,11 @@ fetch("data/movers.json")
       box.appendChild(paragraph);
     }
 
+    // ---- Table moves ----
+    const tableHeading = document.createElement("h3");
+    tableHeading.textContent = "League table moves";
+    box.appendChild(tableHeading);
+
     const list = document.createElement("ul");
     movers.items.forEach(item => {
       const li = document.createElement("li");
@@ -310,8 +315,45 @@ fetch("data/movers.json")
     });
     box.appendChild(list);
 
+    if (movers.lastChange) {
+      const last = document.createElement("small");
+      last.textContent = "Last table change: " +
+        new Date(movers.lastChange).toLocaleDateString();
+      box.appendChild(last);
+    }
+
+    // ---- Player value moves ----
+    const players = movers.players || { risers: [], fallers: [] };
+    const money = n => "€" + (n / 1000000) + "M";
+
+    function addValueList(title, arrow, entries) {
+      const heading = document.createElement("h3");
+      heading.textContent = title;
+      box.appendChild(heading);
+
+      const ul = document.createElement("ul");
+      if (entries.length === 0) {
+        const li = document.createElement("li");
+        li.textContent = "No big value changes yet.";
+        ul.appendChild(li);
+      }
+      entries.forEach(m => {
+        const li = document.createElement("li");
+        li.textContent = arrow + " " + m.name + " (" + m.club + "): " +
+          money(m.before) + " → " + money(m.now) + " (" +
+          (m.pct > 0 ? "+" : "") + m.pct + "%)";
+        ul.appendChild(li);
+      });
+      box.appendChild(ul);
+    }
+
+    const days = players.windowDays || 0;
+    const windowText = days > 0 ? " (last " + days + " days)" : "";
+    addValueList("Value risers" + windowText, "▲", players.risers || []);
+    addValueList("Value fallers" + windowText, "▼", players.fallers || []);
+
     const stamp = document.createElement("small");
-    stamp.textContent = "Updated " + new Date(movers.updated).toLocaleString();
+    stamp.textContent = "Checked " + new Date(movers.updated).toLocaleString();
     box.appendChild(stamp);
   })
   .catch(error => console.error("Could not load market movers:", error));

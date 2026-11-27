@@ -44,9 +44,51 @@ async function summarise(items) {
   return data.choices[0].message.content;
 }
 
+function valueMovers(history, days = 30) {
+  if (history.length < 2) return { windowDays: 0, risers: [], fallers: [] };
+
+  const latest = history[history.length - 1];
+  const cutoff = new Date(latest.date).getTime() - days * 86400000;
+
+  // newest snapshot that is at least `days` old; if the history is
+  // younger than that, fall back to the oldest snapshot we have
+  const older = [...history].reverse()
+    .find(s => new Date(s.date).getTime() <= cutoff) || history[0];
+
+  const windowDays = Math.round(
+    (new Date(latest.date) - new Date(older.date)) / 86400000
+  );
+
+  const movers = [];
+  for (const [id, now] of Object.entries(latest.values)) {
+    const before = older.values[id];
+    if (!before) continue;
+    const change = now - before;
+    const pct = (change / before) * 100;
+    if (Math.abs(pct) >= 10 && Math.abs(change) >= 2000000) {
+      movers.push({ id, before, now, change, pct: Math.round(pct) });
+    }
+  }
+
+  movers.sort((a, b) => b.change - a.change);
+  return {
+    windowDays,
+    risers: movers.filter(m => m.change > 0).slice(0, 5),
+    fallers: movers.filter(m => m.change < 0).slice(-5).reverse()
+  };
+}
+
+function valueLines(movers) {
+  const fmt = n => "€" + (n / 1000000) + "M";
+  return [...movers.risers, ...movers.fallers].map(m =>
+    `${m.name} value went from ${fmt(m.before)} to ${fmt(m.now)} (${m.pct}%)`
+  );
+}
+
 async function main() {
   // 1. Remember how things looked before
   const oldTable = readJson("data/table.json");
+  const oldMovers = fs.existsSync("data/movers.json") ? readJson("data/movers.json") : null;
   const oldPlayers = readJson("data/players.json");
 
   // 2. Refresh the data
@@ -94,26 +136,49 @@ catch (error) { console.log("Predictions skipped:", error.message); }
     }
   }
 
-  // 4. Ask the AI to explain, but only if something changed
-  const hasChanges = items.length > 0;
-  if (!hasChanges) {
-    items.push("No changes since the last update.");
-  }
+  // 4. Player value movers (history was updated by update-predictions.js above)
+const playerMovers = valueMovers(readJson("data/values-history.json"), 30);
+const squads = readJson("data/squads.json");
+const byId = {};
+for (const p of squads) byId[p.apiId] = p;
 
-  let summary = null;
-  if (hasChanges) {
-    try {
-      summary = await summarise(items);
-    } catch (error) {
-      console.log("Summary skipped:", error.message);
-    }
-  }
+for (const m of [...playerMovers.risers, ...playerMovers.fallers]) {
+  const p = byId[m.id];
+  m.name = p ? p.name : "Unknown player";
+  m.club = p ? p.club : "";
+  m.photo = p ? p.photo : null;
+}
 
-  // 5. Write the result for the website
-  const movers = { updated: new Date().toISOString(), summary: summary, items: items };
-  fs.writeFileSync("data/movers.json", JSON.stringify(movers, null, 2));
-  console.log("Market movers:", items);
-  if (summary) console.log("Summary:", summary);
+const hasChanges = items.length > 0;
+let summary = null;
+let lastChange = null;
+
+if (hasChanges) {
+  lastChange = new Date().toISOString();
+  try {
+    summary = await summarise([...items, ...valueLines(playerMovers)]);
+  } catch (error) {
+    console.log("Summary skipped:", error.message);
+  }
+} else if (oldMovers && oldMovers.lastChange) {
+  // nothing new, so keep showing the last real changes
+  items.push(...oldMovers.items);
+  summary = oldMovers.summary;
+  lastChange = oldMovers.lastChange;
+} else {
+  items.push("No changes since the last update.");
+}
+
+// 5. Write the result for the website
+const movers = {
+  updated: new Date().toISOString(),
+  lastChange,
+  summary,
+  items,
+  players: playerMovers
+};
+fs.writeFileSync("data/movers.json", JSON.stringify(movers, null, 2));
+console.log("Market movers:", items);
 }
 
 main();
