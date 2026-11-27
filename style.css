@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
@@ -811,5 +811,52 @@ body {
 @media (min-width: 700px) {
   .hub-card.wide {
     grid-column: span 2;
+  }
+}
+/* ---------- Phone dashboard: two columns, compact cards ---------- */
+
+@media (max-width: 699px) {
+  .hub-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-flow: dense;   /* lets small cards fill gaps beside wide ones */
+  }
+
+  .hub-card {
+    padding: 12px;
+    min-width: 0;            /* stops long text from stretching a card */
+  }
+
+  /* Full-width cards: league table, fixtures, news */
+  .hub-card.wide,
+  .hub-grid > .hub-card:nth-child(2) {
+    grid-column: span 2;
+  }
+
+  .hub-head h2 {
+    font-size: 1rem;
+  }
+
+  /* Half-width cards: the whole card is tappable, so drop the text link */
+  .hub-card:not(.wide) .hub-more {
+    display: none;
+  }
+
+  /* Scorers and undervalued: only 2 rows, names + stat only */
+  #home-leaders li:nth-child(n+3),
+  #home-value li:nth-child(n+3) {
+    display: none;
+  }
+
+  #home-leaders .player-photo,
+  #home-value .player-photo,
+  #home-leaders small,
+  #home-value small {
+    display: none;
+  }
+
+  .mini-list li {
+    font-size: 0.85rem;
+    padding: 6px 0;
   }
 }
