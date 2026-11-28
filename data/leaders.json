@@ -1,16 +1,11 @@
 {
-  "updated": "2026-11-27T12:57:40.541Z",
+  "updated": "2026-11-28T12:10:53.374Z",
   "week": {
-    "since": "2026-11-20",
+    "since": "2026-11-21",
     "leaders": [
       {
         "name": "Keane Lewis-Potter",
         "team": "Brentford",
-        "goals": 2
-      },
-      {
-        "name": "Noah Okafor",
-        "team": "Leeds United",
         "goals": 2
       },
       {
@@ -19,14 +14,14 @@
         "goals": 2
       },
       {
-        "name": "Evanilson",
-        "team": "Bournemouth",
-        "goals": 1
+        "name": "Morgan Gibbs-White",
+        "team": "Nottingham",
+        "goals": 2
       },
       {
-        "name": "Dominic Calvert-Lewin",
-        "team": "Leeds United",
-        "goals": 1
+        "name": "Emanuel Emegha",
+        "team": "Chelsea",
+        "goals": 2
       },
       {
         "name": "Vitaly Janelt",
@@ -49,8 +44,13 @@
         "goals": 1
       },
       {
-        "name": "Jørgen Strand Larsen",
-        "team": "Crystal Palace",
+        "name": "Igor Jesus",
+        "team": "Nottingham",
+        "goals": 1
+      },
+      {
+        "name": "Fabio Carvalho",
+        "team": "Brentford",
         "goals": 1
       }
     ]
@@ -59,6 +59,11 @@
     "since": "2026-11-20",
     "leaders": [
       {
+        "name": "Emanuel Emegha",
+        "team": "Chelsea",
+        "goals": 3
+      },
+      {
         "name": "Keane Lewis-Potter",
         "team": "Brentford",
         "goals": 2
@@ -71,6 +76,11 @@
       {
         "name": "Oliver McBurnie",
         "team": "Hull City",
+        "goals": 2
+      },
+      {
+        "name": "Morgan Gibbs-White",
+        "team": "Nottingham",
         "goals": 2
       },
       {
@@ -96,16 +106,6 @@
       {
         "name": "Harvey Barnes",
         "team": "Newcastle",
-        "goals": 1
-      },
-      {
-        "name": "Dominik Szoboszlai",
-        "team": "Liverpool",
-        "goals": 1
-      },
-      {
-        "name": "Jørgen Strand Larsen",
-        "team": "Crystal Palace",
         "goals": 1
       }
     ]

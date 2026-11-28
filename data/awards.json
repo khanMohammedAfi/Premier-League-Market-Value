@@ -1,7 +1,12 @@
 {
-  "updated": "2026-11-27T12:57:41.995Z",
+  "updated": "2026-11-28T12:10:55.065Z",
   "note": "Form-based picks from the last 30 days, not the official awards",
   "playerNominees": [
+    {
+      "name": "Emanuel Emegha",
+      "team": "Chelsea",
+      "goals": 3
+    },
     {
       "name": "Keane Lewis-Potter",
       "team": "Brentford",
@@ -10,11 +15,6 @@
     {
       "name": "Noah Okafor",
       "team": "Leeds United",
-      "goals": 2
-    },
-    {
-      "name": "Oliver McBurnie",
-      "team": "Hull City",
       "goals": 2
     }
   ],

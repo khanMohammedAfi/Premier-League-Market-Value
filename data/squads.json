@@ -798,8 +798,8 @@
     "value": 12000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p98980.png",
     "goals": 0,
-    "appearances": 7,
-    "minutes": 614,
+    "appearances": 8,
+    "minutes": 704,
     "assists": 0
   },
   {
@@ -854,8 +854,8 @@
     "value": 28000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p444463.png",
     "goals": 0,
-    "appearances": 7,
-    "minutes": 582,
+    "appearances": 8,
+    "minutes": 637,
     "assists": 1
   },
   {
@@ -899,8 +899,8 @@
     "value": 10000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p498444.png",
     "goals": 0,
-    "appearances": 4,
-    "minutes": 464,
+    "appearances": 5,
+    "minutes": 554,
     "assists": 1
   },
   {
@@ -930,7 +930,7 @@
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p460028.png",
     "goals": 0,
     "appearances": 10,
-    "minutes": 836,
+    "minutes": 870,
     "assists": 0
   },
   {
@@ -960,7 +960,7 @@
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p620109.png",
     "goals": 0,
     "appearances": 2,
-    "minutes": 178,
+    "minutes": 183,
     "assists": 0
   },
   {
@@ -989,8 +989,8 @@
     "value": 25000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p577016.png",
     "goals": 0,
-    "appearances": 7,
-    "minutes": 653,
+    "appearances": 8,
+    "minutes": 737,
     "assists": 0
   },
   {
@@ -1003,10 +1003,10 @@
     "nationality": "England",
     "value": 1200000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p56979.png",
-    "appearances": 5,
+    "appearances": 6,
     "goals": 2,
     "assists": 1,
-    "minutes": 514
+    "minutes": 598
   },
   {
     "apiId": 82140,
@@ -1018,10 +1018,10 @@
     "nationality": "England",
     "value": 90000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p244850.png",
-    "appearances": 11,
+    "appearances": 12,
     "goals": 5,
     "assists": 2,
-    "minutes": 970
+    "minutes": 1060
   },
   {
     "apiId": 121103,
@@ -1034,8 +1034,8 @@
     "value": 100000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p486672.png",
     "goals": 0,
-    "appearances": 6,
-    "minutes": 461,
+    "appearances": 7,
+    "minutes": 551,
     "assists": 0
   },
   {
@@ -1048,10 +1048,10 @@
     "nationality": "England",
     "value": 100000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p244851.png",
-    "appearances": 11,
+    "appearances": 12,
     "goals": 3,
     "assists": 4,
-    "minutes": 968
+    "minutes": 1058
   },
   {
     "apiId": 170261,
@@ -1078,10 +1078,10 @@
     "nationality": "Belgium",
     "value": 22000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p514356.png",
-    "appearances": 7,
+    "appearances": 8,
     "goals": 1,
     "assists": 1,
-    "minutes": 547
+    "minutes": 637
   },
   {
     "apiId": 301113,
@@ -1107,10 +1107,10 @@
     "nationality": "Portugal",
     "value": 60000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p247632.png",
-    "appearances": 9,
+    "appearances": 10,
     "goals": 3,
-    "assists": 1,
-    "minutes": 764
+    "assists": 3,
+    "minutes": 854
   },
   {
     "apiId": 3328,
@@ -1123,8 +1123,8 @@
     "value": 3000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p50175.png",
     "goals": 0,
-    "appearances": 1,
-    "minutes": 152,
+    "appearances": 2,
+    "minutes": 197,
     "assists": 0
   },
   {
@@ -1153,9 +1153,9 @@
     "value": 25000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p503037.png",
     "appearances": 1,
-    "goals": 1,
+    "goals": 3,
     "assists": 0,
-    "minutes": 66
+    "minutes": 111
   },
   {
     "apiId": 179460,
@@ -1183,7 +1183,7 @@
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p593117.png",
     "goals": 0,
     "appearances": 1,
-    "minutes": 128,
+    "minutes": 133,
     "assists": 0
   },
   {
@@ -4102,7 +4102,7 @@
     "club": "Tottenham",
     "crest": "https://crests.football-data.org/73.png",
     "position": "DF",
-    "age": 23,
+    "age": 24,
     "nationality": "Italy",
     "value": 30000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p487053.png",
@@ -4371,7 +4371,7 @@
     "club": "Tottenham",
     "crest": "https://crests.football-data.org/73.png",
     "position": "FW",
-    "age": 21,
+    "age": 22,
     "nationality": "France",
     "value": 18000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p550839.png",
@@ -5644,8 +5644,8 @@
     "value": 3500000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p85633.png",
     "goals": 0,
-    "appearances": 11,
-    "minutes": 990,
+    "appearances": 12,
+    "minutes": 1080,
     "assists": 0
   },
   {
@@ -5674,8 +5674,8 @@
     "value": 28000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p227444.png",
     "goals": 0,
-    "appearances": 7,
-    "minutes": 630,
+    "appearances": 8,
+    "minutes": 720,
     "assists": 0
   },
   {
@@ -5704,9 +5704,9 @@
     "value": 22000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p247348.png",
     "goals": 0,
-    "appearances": 8,
-    "minutes": 717,
-    "assists": 1
+    "appearances": 9,
+    "minutes": 807,
+    "assists": 2
   },
   {
     "apiId": 133765,
@@ -5718,10 +5718,10 @@
     "nationality": "Wales",
     "value": 28000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p215136.png",
-    "appearances": 11,
+    "appearances": 12,
     "goals": 1,
     "assists": 1,
-    "minutes": 964
+    "minutes": 1054
   },
   {
     "apiId": 144361,
@@ -5747,10 +5747,10 @@
     "age": 21,
     "nationality": "Brazil",
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p575458.png",
-    "appearances": 9,
+    "appearances": 10,
     "goals": 1,
     "assists": 0,
-    "minutes": 804
+    "minutes": 894
   },
   {
     "apiId": 191730,
@@ -5778,8 +5778,8 @@
     "value": 50000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p575476.png",
     "goals": 0,
-    "appearances": 11,
-    "minutes": 989,
+    "appearances": 12,
+    "minutes": 1079,
     "assists": 1
   },
   {
@@ -5792,10 +5792,10 @@
     "nationality": "England",
     "value": 70000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p222531.png",
-    "appearances": 10,
-    "goals": 1,
+    "appearances": 11,
+    "goals": 3,
     "assists": 3,
-    "minutes": 900
+    "minutes": 990
   },
   {
     "apiId": 5435,
@@ -5809,7 +5809,7 @@
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p204968.png",
     "goals": 0,
     "appearances": 2,
-    "minutes": 168,
+    "minutes": 169,
     "assists": 0
   },
   {
@@ -5824,7 +5824,7 @@
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p210462.png",
     "goals": 0,
     "appearances": 1,
-    "minutes": 156,
+    "minutes": 162,
     "assists": 0
   },
   {
@@ -5838,9 +5838,9 @@
     "value": 10000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p204561.png",
     "goals": 0,
-    "appearances": 9,
-    "minutes": 801,
-    "assists": 1
+    "appearances": 10,
+    "minutes": 884,
+    "assists": 2
   },
   {
     "apiId": 46346,
@@ -5868,8 +5868,8 @@
     "value": 18000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p432714.png",
     "goals": 0,
-    "appearances": 11,
-    "minutes": 905,
+    "appearances": 12,
+    "minutes": 995,
     "assists": 0
   },
   {
@@ -5899,7 +5899,7 @@
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p60689.png",
     "goals": 0,
     "appearances": 0,
-    "minutes": 129,
+    "minutes": 135,
     "assists": 0
   },
   {
@@ -5915,7 +5915,7 @@
     "appearances": 10,
     "goals": 2,
     "assists": 0,
-    "minutes": 661
+    "minutes": 679
   },
   {
     "apiId": 130668,
@@ -5942,10 +5942,10 @@
     "nationality": "England",
     "value": 28000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p463034.png",
-    "appearances": 9,
+    "appearances": 10,
     "goals": 3,
-    "assists": 0,
-    "minutes": 768
+    "assists": 1,
+    "minutes": 851
   },
   {
     "apiId": 256339,
@@ -5957,10 +5957,10 @@
     "nationality": "Brazil",
     "value": 25000000,
     "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p482973.png",
-    "appearances": 2,
-    "goals": 1,
+    "appearances": 3,
+    "goals": 2,
     "assists": 0,
-    "minutes": 305
+    "minutes": 376
   },
   {
     "apiId": 5457,

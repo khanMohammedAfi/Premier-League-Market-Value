@@ -88,11 +88,11 @@
     "club": "Chelsea",
     "crest": "https://crests.football-data.org/61.png",
     "id": 61,
-    "played": 11,
+    "played": 12,
     "won": 5,
     "drawn": 1,
-    "lost": 5,
-    "gd": 0,
+    "lost": 6,
+    "gd": -1,
     "points": 16
   },
   {
@@ -157,6 +157,18 @@
   },
   {
     "position": 14,
+    "club": "Nottingham",
+    "crest": "https://crests.football-data.org/351.png",
+    "id": 351,
+    "played": 12,
+    "won": 3,
+    "drawn": 3,
+    "lost": 6,
+    "gd": -5,
+    "points": 12
+  },
+  {
+    "position": 15,
     "club": "Coventry City",
     "crest": "https://crests.football-data.org/1076.png",
     "id": 1076,
@@ -168,7 +180,7 @@
     "points": 12
   },
   {
-    "position": 15,
+    "position": 16,
     "club": "Fulham",
     "crest": "https://crests.football-data.org/63.png",
     "id": 63,
@@ -180,7 +192,7 @@
     "points": 11
   },
   {
-    "position": 16,
+    "position": 17,
     "club": "Ipswich Town",
     "crest": "https://crests.football-data.org/349.png",
     "id": 349,
@@ -190,18 +202,6 @@
     "lost": 6,
     "gd": -7,
     "points": 11
-  },
-  {
-    "position": 17,
-    "club": "Nottingham",
-    "crest": "https://crests.football-data.org/351.png",
-    "id": 351,
-    "played": 11,
-    "won": 2,
-    "drawn": 3,
-    "lost": 6,
-    "gd": -6,
-    "points": 9
   },
   {
     "position": 18,

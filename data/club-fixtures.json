@@ -1431,7 +1431,7 @@
   },
   {
     "date": "2026-11-27T20:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 12,
     "homeId": 351,
     "home": "Nottingham",
@@ -1439,8 +1439,8 @@
     "awayId": 61,
     "away": "Chelsea",
     "awayCrest": "https://crests.football-data.org/61.png",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 2
   },
   {
     "date": "2026-11-28T15:00:00Z",
