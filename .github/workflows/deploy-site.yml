@@ -14,7 +14,7 @@ jobs:
       - name: Assemble site files
         run: |
           mkdir _site
-          cp index.html app.js nav.js style.css _site/
+          cp index.html app.js nav.js transfers.js style.css _site/
           cp -r data _site/data
           rm -f _site/data/raw_standings.json
 
