@@ -863,3 +863,27 @@ body {
 
 .movers-list li { display: flex; align-items: center; gap: 10px; }
 .movers-list .reason { display: block; color: #b9a6c9; font-style: normal; }
+/* ---------- Transfers ---------- */
+.transfer { padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.08); list-style: none; }
+.transfer:last-child { border-bottom: none; }
+.transfer-top { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.transfer-route { opacity: 0.8; font-size: 0.9rem; margin: 2px 0 4px; }
+.transfer-summary { margin: 4px 0; font-size: 0.95rem; }
+.transfer a { color: #00ff85; }
+.transfer-list { padding: 0; }
+
+.badge {
+  font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em;
+  padding: 2px 8px; border-radius: 999px; font-weight: 700;
+  background: rgba(255,255,255,0.12);
+}
+.badge-permanent { background: rgba(0,255,133,0.18); color: #00ff85; }
+.badge-loan      { background: rgba(255,200,0,0.18);  color: #ffc800; }
+.badge-contract  { background: rgba(120,170,255,0.2); color: #8fb4ff; }
+
+.stage-interest { opacity: 0.7; }
+.stage-talks    { color: #ffc800; }
+.stage-advanced { color: #ff9f43; }
+.stage-agreed   { color: #00ff85; }
+
+.muted { opacity: 0.6; }

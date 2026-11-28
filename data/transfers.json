@@ -1,0 +1,89 @@
+{
+  "updated": "2026-11-28",
+  "items": [
+    {
+      "player": "Bruno Fernandes",
+      "from": "Man United",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/110x140/p141746.png",
+      "to": "Manchester United",
+      "type": "contract",
+      "stage": "agreed",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6d91j5geepqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United trigger Bruno Fernandes' contract extension until 2028.",
+      "date": "2026-11-28"
+    },
+    {
+      "player": "Antonio Nusa",
+      "from": "RB Leipzig",
+      "photo": null,
+      "to": "Arsenal",
+      "type": "permanent",
+      "stage": "interest",
+      "source": "Goal.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNV0NKNzVBemNWMm1yeHBSVGk1aWpsNWx5T2VzZjNWbVhTUTdBLWxUc1dMaHhvZ24tNVUwaXlwUmVnczJYNndKYVdYM1NqVVRENEtxd05DRC1CTWxMVnRPaXBDdG5CYVhjNkJ0cXFIWmpSd2VMVDB5QjhMdWYyeEFIUnJxcUFjbFBDTER0SzdvQjl4WWR0aThUcHhDbXp4XzNRT3diRzhVMnVURmQ0cWdr?oc=5",
+      "summary": "Arsenal step up pursuit of RB Leipzig's Antonio Nusa.",
+      "date": "2026-11-28"
+    },
+    {
+      "player": "Nico Paz",
+      "from": "Como",
+      "photo": null,
+      "to": "Manchester United",
+      "type": "permanent",
+      "stage": "interest",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg23jg6x78o?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United may lose chance to sign Nico Paz without Champions League qualification.",
+      "date": "2026-11-27"
+    },
+    {
+      "player": "Nico Paz",
+      "from": "Como",
+      "photo": null,
+      "to": "Arsenal",
+      "type": "permanent",
+      "stage": "interest",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg23jg6x78o?at_medium=RSS&at_campaign=rss",
+      "summary": "Arsenal also linked with Como midfielder Nico Paz.",
+      "date": "2026-11-27"
+    },
+    {
+      "player": "Lamine Camara",
+      "from": "Unknown club",
+      "photo": null,
+      "to": "Liverpool",
+      "type": "permanent",
+      "stage": "interest",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg23jg6x78o?at_medium=RSS&at_campaign=rss",
+      "summary": "Liverpool continue to eye Lamine Camara.",
+      "date": "2026-11-27"
+    },
+    {
+      "player": "Araújo",
+      "from": "Unknown club",
+      "photo": null,
+      "to": "Manchester United",
+      "type": "permanent",
+      "stage": "interest",
+      "source": "Transfermarkt",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVy14SkE2aHRkMWJ5U19JVl9aLWwyUEIwdkoxdnNncGFlV2JUdXp3MFdVeksyVVVLUkR2Z2VIdUlmRUJEcThKay1TcTRoM1RuOXpIcU9YLTJIb01TQ3R3c040akRzbHpjZmRNNTdjNTNYS2lPYmcySDFnVzRWcVJMcS1mM2ROZklBRTAyc1I1dFVqY1VoTWIwWEt4QXh0c0YyWjk3UTZyekFTeXh3VDVkQ3ZWWVJaUlZpbGxiSmJZbnNOcDl0Nm1EeThR?oc=5",
+      "summary": "Manchester United eye Araújo.",
+      "date": "2026-11-27"
+    },
+    {
+      "player": "Hudson-Odoi",
+      "from": "Chelsea",
+      "photo": null,
+      "to": "Roma",
+      "type": "loan",
+      "stage": "interest",
+      "source": "Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSWdCWGlBeDN6T3hnNUdEZ1BRRkxHdTBwQWJENjBQNWZUZmdDQmRJQ3NpeE9Eazg0M0NSSUo3OGtyVjE0YWdiUzBUNlNYdldpVG1WN1R3b2Y0d3RxaTR6WXVtbU51UlYyNFUwMGdJTVpvLVhiMXlZWm5tSFFRT2R2bUNoZ3VDSERlb0hpb0VB?oc=5",
+      "summary": "Roma inquire about Chelsea's Hudson-Odoi on loan.",
+      "date": "2026-11-27"
+    }
+  ]
+}

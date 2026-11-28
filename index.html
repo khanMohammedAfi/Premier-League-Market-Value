@@ -53,6 +53,12 @@
         <ul class="mini-list" id="home-value"></ul>
       </section>
 
+      <section class="hub-card" data-open="transfers">
+  <div class="hub-head"><h2>Transfer Rumours</h2><span class="hub-more">View all →</span></div>
+  <p class="hub-sub">Unconfirmed reports. Always check the source.</p>
+  <ul class="mini-list" id="home-transfers"></ul>
+</section>
+
       <section class="hub-card wide" data-open="newsfeed">
         <div class="hub-head"><h2>Latest News</h2><span class="hub-more">View all →</span></div>
         <ul class="mini-list news" id="home-news"></ul>
@@ -142,6 +148,27 @@
     <ul id="value-over"></ul>
   </main>
 
+  <!-- ================= VIEW: TRANSFERS ================= -->
+<main id="view-transfers" class="view" hidden>
+  <button class="back-btn" data-open="home">← Dashboard</button>
+
+  <h2>Transfer &amp; Loan Rumours</h2>
+  <p><small>Unconfirmed reports gathered by an AI agent from published sources. Always check the original link.</small></p>
+
+  <div class="tabs" id="transfer-filters">
+    <button type="button" class="tab active" data-filter="all">All</button>
+    <button type="button" class="tab" data-filter="permanent">Permanent</button>
+    <button type="button" class="tab" data-filter="loan">Loans</button>
+    <button type="button" class="tab" data-filter="contract">Contracts</button>
+  </div>
+
+  <input type="search" id="transfer-search" placeholder="Search player or club…" autocomplete="off">
+
+  <p id="transfers-empty" hidden>No credible rumours right now.</p>
+  <ul id="transfers-list" class="transfer-list"></ul>
+  <p class="credit" id="transfers-updated"></p>
+</main>
+
   <!-- ================= VIEW: PLAYERS ================= -->
   <main id="view-players" class="view" hidden>
     <button class="back-btn" data-open="home">← Dashboard</button>
@@ -200,6 +227,8 @@
     <p><small>Player photos from Wikipedia/Wikimedia Commons; see each image's page for its license.</small></p>
   </main>
 
+
+
   <!-- ================= VIEW: NEWS ================= -->
   <main id="view-newsfeed" class="view" hidden>
     <button class="back-btn" data-open="home">← Dashboard</button>
@@ -209,7 +238,8 @@
     <p class="credit">Headlines and images from BBC Sport and The Guardian. Click a headline to read the full story on their site.</p>
   </main>
 
-  <script src="app.js"></script>
-  <script src="nav.js"></script>
+<script src="app.js"></script>
+<script src="nav.js"></script>
+<script src="transfers.js"></script>
 </body>
 </html>

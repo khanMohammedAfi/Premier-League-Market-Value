@@ -140,6 +140,8 @@ if (isMonday || !fs.existsSync("data/h2h.json")) {
 }
 try { execSync("node scripts/update-predictions.js", { stdio: "inherit" }); }
 catch (error) { console.log("Predictions skipped:", error.message); }
+try { execSync("node scripts/update-transfers.js", { stdio: "inherit" }); }
+catch (error) { console.log("Transfers skipped:", error.message); }
 
   // 3. Compare before and after
   const newTable = readJson("data/table.json");
