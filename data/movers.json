@@ -1,12 +1,42 @@
 {
-  "updated": "2026-11-28T12:11:04.371Z",
-  "lastChange": "2026-11-28T12:11:00.721Z",
-  "summary": "Nottingham moved up three places to 14th. Coventry City, Fulham, and Ipswich Town moved down to 15th, 16th, and 17th respectively.",
+  "updated": "2026-11-28T13:58:58.724Z",
+  "lastChange": "2026-11-28T13:58:56.959Z",
+  "summary": "Nottingham climbed three places to 14th after a 3-2 home win over Chelsea. Coventry City, Fulham, and Ipswich Town each dropped one position to 15th, 16th, and 17th respectively.",
   "items": [
-    "Nottingham moved from 17 to 14",
+    "Nottingham moved from 17 to 14 (Beat Chelsea 3-2 at home)",
     "Coventry City moved from 14 to 15",
     "Fulham moved from 15 to 16",
     "Ipswich Town moved from 16 to 17"
+  ],
+  "moves": [
+    {
+      "club": "Nottingham",
+      "crest": "https://crests.football-data.org/351.png",
+      "from": 17,
+      "to": 14,
+      "reason": "Beat Chelsea 3-2 at home"
+    },
+    {
+      "club": "Coventry City",
+      "crest": "https://crests.football-data.org/1076.png",
+      "from": 14,
+      "to": 15,
+      "reason": null
+    },
+    {
+      "club": "Fulham",
+      "crest": "https://crests.football-data.org/63.png",
+      "from": 15,
+      "to": 16,
+      "reason": null
+    },
+    {
+      "club": "Ipswich Town",
+      "crest": "https://crests.football-data.org/349.png",
+      "from": 16,
+      "to": 17,
+      "reason": null
+    }
   ],
   "players": {
     "windowDays": 3,

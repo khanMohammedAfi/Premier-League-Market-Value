@@ -84,6 +84,31 @@ function valueLines(movers) {
     `${m.name} value went from ${fmt(m.before)} to ${fmt(m.now)} (${m.pct}%)`
   );
 }
+function reasonFor(clubId, fixtures, direction) {
+  // this club's finished matches, newest first
+  const played = fixtures
+    .filter(m => m.status === "FINISHED" &&
+                 (m.homeId === clubId || m.awayId === clubId))
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  const m = played[0];
+  if (!m) return null;
+
+  // ignore old matches: if it was over 4 days ago, it didn't cause this move
+  const ageDays = (Date.now() - new Date(m.date)) / 86400000;
+  if (ageDays > 4) return null;
+
+  const isHome = m.homeId === clubId;
+  const mine = isHome ? m.homeGoals : m.awayGoals;
+  const theirs = isHome ? m.awayGoals : m.homeGoals;
+  const opponent = isHome ? m.away : m.home;
+  const where = isHome ? "at home" : "away";
+  const score = mine + "-" + theirs;
+
+  if (mine > theirs) return `Beat ${opponent} ${score} ${where}`;
+  if (mine < theirs) return `Lost ${score} to ${opponent} ${where}`;
+  return `Drew ${score} with ${opponent} ${where}`;
+}
 
 async function main() {
   // 1. Remember how things looked before
@@ -121,10 +146,28 @@ catch (error) { console.log("Predictions skipped:", error.message); }
   const newPlayers = readJson("data/players.json");
   const items = [];
 
+    const fixtures = fs.existsSync("data/club-fixtures.json")
+    ? readJson("data/club-fixtures.json") : [];
+  const moves = [];
+
   for (const club of newTable) {
     const before = oldTable.find(c => c.club === club.club);
     if (before && before.position !== club.position) {
-      items.push(`${club.club} moved from ${before.position} to ${club.position}`);
+      const direction = club.position < before.position ? "up" : "down";
+      const reason = reasonFor(club.id, fixtures, direction);
+
+      moves.push({
+        club: club.club,
+        crest: club.crest,
+        from: before.position,
+        to: club.position,
+        reason
+      });
+
+      items.push(
+        `${club.club} moved from ${before.position} to ${club.position}` +
+        (reason ? ` (${reason})` : "")
+      );
     }
   }
 
@@ -152,6 +195,7 @@ for (const m of [...playerMovers.risers, ...playerMovers.fallers]) {
 const hasChanges = items.length > 0;
 let summary = null;
 let lastChange = null;
+let movesToSave = moves;
 
 if (hasChanges) {
   lastChange = new Date().toISOString();
@@ -163,6 +207,7 @@ if (hasChanges) {
 } else if (oldMovers && oldMovers.lastChange) {
   // nothing new, so keep showing the last real changes
   items.push(...oldMovers.items);
+    movesToSave = oldMovers.moves || [];
   summary = oldMovers.summary;
   lastChange = oldMovers.lastChange;
 } else {
@@ -175,6 +220,7 @@ const movers = {
   lastChange,
   summary,
   items,
+    moves: movesToSave,
   players: playerMovers
 };
 fs.writeFileSync("data/movers.json", JSON.stringify(movers, null, 2));

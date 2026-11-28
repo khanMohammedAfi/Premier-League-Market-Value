@@ -307,20 +307,40 @@ fetch("data/movers.json")
     tableHeading.textContent = "League table moves";
     box.appendChild(tableHeading);
 
-    const list = document.createElement("ul");
-    movers.items.forEach(item => {
-      const li = document.createElement("li");
-      li.textContent = item;
-      list.appendChild(li);
-    });
-    box.appendChild(list);
+       const list = document.createElement("ul");
+    list.className = "movers-list";
 
-    if (movers.lastChange) {
-      const last = document.createElement("small");
-      last.textContent = "Last table change: " +
-        new Date(movers.lastChange).toLocaleDateString();
-      box.appendChild(last);
+    if (movers.moves && movers.moves.length) {
+      movers.moves.forEach(m => {
+        const li = document.createElement("li");
+
+        const crest = crestImg(m.crest);   // you already have this function
+        if (crest) li.appendChild(crest);
+
+        const text = document.createElement("div");
+        const title = document.createElement("strong");
+        title.textContent = m.club + " moved from " + m.from + " to " + m.to;
+        text.appendChild(title);
+
+        if (m.reason) {
+          const why = document.createElement("small");
+          why.className = "reason";
+          why.textContent = m.reason;
+          text.appendChild(why);
+        }
+
+        li.appendChild(text);
+        list.appendChild(li);
+      });
+    } else {
+      // old movers.json without "moves": show the plain text lines
+      movers.items.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        list.appendChild(li);
+      });
     }
+    box.appendChild(list);
 
     // ---- Player value moves ----
     const players = movers.players || { risers: [], fallers: [] };

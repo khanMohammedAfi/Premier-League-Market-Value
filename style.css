@@ -860,3 +860,6 @@ body {
     padding: 6px 0;
   }
 }
+
+.movers-list li { display: flex; align-items: center; gap: 10px; }
+.movers-list .reason { display: block; color: #b9a6c9; font-style: normal; }
