@@ -2,7 +2,7 @@ name: Run agent
 
 on:
   schedule:
-    - cron: "30 3 * * *"   # 03:30 UTC = 09:00 IST, daily
+  - cron: "30 23 * * *"  #  05:00 AM IST, daily
   workflow_dispatch:        # lets you run it by hand to test
 
 permissions:
